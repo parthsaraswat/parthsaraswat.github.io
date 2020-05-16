@@ -1,6 +1,7 @@
 ---
 title: "About"
 layout: about
+permalink: /about
 ---
 
 I'm Parth, a Master's student at the Electrical and Computer Engineering department at Cornell University. I have a deep interest in computer architecture and the computer engineering stack. When I'm not 
