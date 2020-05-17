@@ -12,7 +12,7 @@ I'm about to start working as a hardware engineer in Massachussets.
 
 When I'm not working on meeting deadlines, I'm either working on [side projects](/projects), reading, making YouTube videos, or trying to record some music. 
 
-![image](/assets/images/me.jpg)
+![image](/assets/images/me2.jpg)
 
 ---------------------
 Here's some of what I'm doing these days:
