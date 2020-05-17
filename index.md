@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Hello! I'm [Parth](/about)
+title: Hello! I'm [Parth](/about) :wave:
 image: # https://cdn.photographylife.com/wp-content/uploads/2017/01/Landscape-photography-example.jpg
 ---
 ----------------------------
