@@ -9,7 +9,7 @@ tags:
   - lists
   - markup
 ---
-## Hey visitor! :wave:
+## Hey visitor!
 ### Thanks for visiting my website! This is my first post, and I want to outline what I'm trying to achieve with this website. 
 
 As I get closer and closer to finishing up my Master's degree, I want to ensure I keep learning new things and continue to keep the momentum that Cornell has helped me achieve over the past year.
