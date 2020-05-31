@@ -85,3 +85,6 @@ defaults:
       read_time: true
 
 google_analytics: UA-168019706-1
+
+disqus:
+   shortname: disqus_v040otT6d1
