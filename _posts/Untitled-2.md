@@ -1,13 +1,5 @@
 ---
-title: "Learn Something New Every Week"
-categories:
-  - general
-tags:
-  - content
-  - css
-  - edge case
-  - lists
-  - markup
+
 ---
 
 ## *My new side project(ish).*
