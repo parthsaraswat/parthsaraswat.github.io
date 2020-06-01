@@ -5,7 +5,8 @@ permalink: projects
 ---
 # Branch Predictors FL Models
 
-#### *[Find this project on GitHub](https://github.com/parthsaraswat/branch-pred-fl)* 
+#### [Find this project on GitHub](https://github.com/parthsaraswat/branch-pred-fl)
+#### [Project Report](/assets/pdfs/branch-pred-fl.pdf)
 ---
 
 In computer architecture, a branch predictor is a digital circuit that tries to guess which way a branch(e.g. an if–then–else structure) will go before this is known definitively. The purpose of the branch predictor is to improve the flow in the instruction pipeline. Branch predictors play a critical role in achieving high effective performance in many modern pipelined microprocessor architectures.
@@ -21,4 +22,4 @@ There are several methods to implement this branch prediction. This project incl
 This project also includes a Pintool (dynamic instrumentation tool) that can instrument binaries and measure the accuracy of different variations of the 3 predictor designs. 
 
 ---
-
+*This project is a starting point for a group project which involved the comparison of branch predictor ASICs in terms of area, energy, performance, and accuracy. The report for that project is available [here](/assets/pdfs/branch-pred-rtl.pdf)*.
