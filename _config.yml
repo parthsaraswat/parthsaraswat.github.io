@@ -94,3 +94,4 @@ defaults:
       read_time: true
 
 google_analytics: UA-168019706-1
+search: true;

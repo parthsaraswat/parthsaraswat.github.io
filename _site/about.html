@@ -14,18 +14,18 @@
   
     
     <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>About | Parth’s Website</title>
+<title>About | Parth Saraswat</title>
 <meta name="generator" content="Jekyll v3.8.5" />
 <meta property="og:title" content="About" />
 <meta name="author" content="Parth Saraswat" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="This is Parth’s site." />
-<meta property="og:description" content="This is Parth’s site." />
+<meta name="description" content="Website" />
+<meta property="og:description" content="Website" />
 <link rel="canonical" href="http://localhost:4000/about" />
 <meta property="og:url" content="http://localhost:4000/about" />
-<meta property="og:site_name" content="Parth’s Website" />
+<meta property="og:site_name" content="Parth Saraswat" />
 <script type="application/ld+json">
-{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/me.jpg"},"name":"Parth Saraswat"},"author":{"@type":"Person","name":"Parth Saraswat"},"description":"This is Parth’s site.","headline":"About","url":"http://localhost:4000/about","@type":"WebPage","@context":"https://schema.org"}</script>
+{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/me.jpg"},"name":"Parth Saraswat"},"author":{"@type":"Person","name":"Parth Saraswat"},"description":"Website","headline":"About","url":"http://localhost:4000/about","@type":"WebPage","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -44,7 +44,7 @@
 
   
     
-    <link rel="alternate" type="application/atom+xml" title="Parth&#39;s Website" href="/atom.xml">
+    <link rel="alternate" type="application/atom+xml" title="Parth Saraswat" href="/atom.xml">
   
 </head>
 
@@ -62,6 +62,13 @@
 
 
     <div class="sidebar-toggle-wrapper">
+      
+        <button class="search-toggle" type="button">
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <title>Search</title>
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
       
 
       <button class="toggle navicon-button larr" type="button">
@@ -162,7 +169,7 @@
         <p class="site-title">
           <a href="/">
             <img src="/assets/images/me.jpg" alt="" class="site-logo">
-            <span>Parth&#39;s Website</span>
+            <span>Parth Saraswat</span>
           </a>
         </p>
       
@@ -227,7 +234,9 @@
 
         <div class="search-content">
           <div class="inner">
-  
+  <label class="visually-hidden" for="search">Site Search</label>
+        <input type="text" id="search" class="search-input" aria-describedby="results-count" tabindex="-1" placeholder="Enter your search term..." />
+        <div id="results" class="results"></div>
 </div>
 
         </div>
@@ -238,7 +247,7 @@
   <div class="inner">
     <div class="copyright">
       
-        <p>&copy; 2020 Parth's Website.</p>
+        <p>&copy; 2020 Parth Saraswat.</p>
       
     </div>
   </div>
@@ -248,6 +257,67 @@
 
 <script async src="/assets/javascripts/main.js"></script>
 
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="http://localhost:4000/assets/javascripts/lunr/lunr.min.js"></script>
+  <script src="http://localhost:4000/assets/javascripts/lunr/lunr.store.js"></script>
+  <script>
+    var idx = lunr(function () {
+      
+      // the, the normal lunr index initialization
+      this.field('title')
+      this.field('excerpt')
+      this.field('categories')
+      this.field('tags')
+      this.ref('id')
+
+      this.pipeline.remove(lunr.trimmer)
+
+      // add documents to index
+      for (var item in store) {
+        this.add({
+          title: store[item].title,
+          excerpt: store[item].excerpt,
+          categories: store[item].categories,
+          tags: store[item].tags,
+          id: item
+        })
+      }
+    });
+
+    $(document).ready(function () {
+      $('input#search').on('keyup', function () {
+        var resultdiv = $('#results');
+        var query = $(this).val().toLowerCase();
+        var result =
+          idx.query(function (q) {
+            query.split(lunr.tokenizer.separator).forEach(function (term) {
+              q.term(term, { boost: 100 })
+              if (query.lastIndexOf(" ") != query.length - 1) {
+                q.term(term, { usePipeline: false, wildcard: lunr.Query.wildcard.TRAILING, boost: 10 })
+              }
+              if (term != "") {
+                q.term(term, { usePipeline: false, editDistance: 1, boost: 1 })
+              }
+            })
+          });
+        resultdiv.empty();
+        resultdiv.prepend('<p id="results-count" class="results-found">' + result.length + ' Result(s) found</p>');
+        for (var item in result) {
+          var ref = result[item].ref;
+          var searchitem =
+            '<article class="entry">' +
+              '<h3 class="entry-title">' +
+                '<a href="' + store[ref].url + '">' + store[ref].title + '</a>' +
+              '</h3>' +
+              '<div class="entry-excerpt">' +
+                '<p>' + store[ref].excerpt.split(" ").splice(0, 20).join(" ") + '...</p>' +
+              '</div>' +
+            '</article>';
+          resultdiv.append(searchitem);
+        }
+      });
+    });
+  </script>
 
 
 
