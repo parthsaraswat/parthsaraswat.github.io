@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 lang: en-US
-title: Parth's Website
+title: Parth Saraswat
 email: parthswat@gmail.com
-description: This is Parth's site. 
+description: Website
 baseurl: # the optional subpath of your site, e.g. "/blog"
 url: https://parthsaraswat.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
