@@ -1,0 +1,10 @@
+I"�<p>Basically Basic is a <a href="https://jekyllrb.com/docs/themes/">Jekyll theme</a> meant as a substitute for the default — <a href="https://github.com/jekyll/minima">Minima</a>. Conventions and features found there are fully supported by <strong>Basically Basic</strong>, with a few enhancements thrown in for good measure:</p>
+
+<ul>
+  <li>Clean responsive design with six customizable skins</li>
+  <li>Curriculum Vitæ/Resume layout powered by <a href="http://registry.jsonresume.org/">JSON data</a></li>
+  <li>About page layout</li>
+  <li>Disqus Comments and Google Analytics support</li>
+  <li>SEO best practices via <a href="https://github.com/jekyll/jekyll-seo-tag/">Jekyll SEO Tag</a></li>
+</ul>
+:ET

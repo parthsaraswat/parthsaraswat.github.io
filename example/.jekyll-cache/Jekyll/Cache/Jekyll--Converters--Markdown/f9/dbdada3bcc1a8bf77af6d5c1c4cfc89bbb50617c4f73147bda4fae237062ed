@@ -1,0 +1,13 @@
+I"ë<p>This post should display a large hero image at the top of a page.</p>
+
+<p>This post tests a horizontal image using the following YAML Front Matter:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">image</span><span class="pi">:</span> <span class="s">/assets/images/eder-oliveira-180877.jpg</span>
+</code></pre></div></div>
+
+<p>Hero images can also be assigned like this:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">image</span><span class="pi">:</span>
+  <span class="na">path</span><span class="pi">:</span> <span class="s">/assets/images/eder-oliveira-180877.jpg</span>
+</code></pre></div></div>
+:ET
