@@ -13,7 +13,7 @@ actions:
     icon: github
     url: "https://github.com/parthsaraswat/branch-pred-fl"
   - label: "Download report"
-    icon: download
+    icon: pdf
     url: "/assets/pdfs/branch-pred-fl.pdf"
 ---
 In computer architecture, a branch predictor is a digital circuit that tries to guess which way a branch (e.g. an if–then–else structure) will go before this is known definitively. The purpose of the branch predictor is to improve the flow in the instruction pipeline. Branch predictors play a critical role in achieving high effective performance in many modern pipelined microprocessor architectures.

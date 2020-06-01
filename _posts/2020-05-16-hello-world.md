@@ -2,6 +2,9 @@
 title: "Hello Website!"
 categories:
   - general
+image:
+  path: https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/socialmedia/apple/237/waving-hand-sign_1f44b.png
+  thumbnail: https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/socialmedia/apple/237/waving-hand-sign_1f44b.png
 tags:
   - content
   - css
