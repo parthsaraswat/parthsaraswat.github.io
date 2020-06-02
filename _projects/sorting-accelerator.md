@@ -2,7 +2,7 @@
 title: "Medium Grain Sorting Accelerator"
 layout: post
 sub_title:
-excerpt: 
+excerpt: Hardware accelerator
 
 image: 
   path: "/assets/images/projects/sort-xcel-header.jpg"
