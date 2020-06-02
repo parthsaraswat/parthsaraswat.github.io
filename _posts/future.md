@@ -2,8 +2,8 @@
 title: "Learn Something New Every Week"
 sub_title: "My new side project(ish)."
 image: 
-  path: /assets/images/posts/post2/header.jpg
-  thumbnail: /assets/images/posts/post2/header.jpg
+  path: /assets/images/posts/post2/header.png
+  thumbnail: /assets/images/posts/post2/1.jpg
 categories:
   - general
 excerpt: "How I learn"
@@ -52,19 +52,19 @@ Speaking of the mechanisms of how I like to work through the week, let's take a 
 
 The idea is to take a day 0 (Saturday?) and put together some thoughts that make learning much easier over the week. For me, this involves the following steps:
 
-1. **Pick the topic:** this is easy enough. I constantly find myself wanting to learn something or the other and I keep a running list. The list looks something like this right now:
+1. **Pick the topic:** this is easy enough. I constantly find myself wanting to learn something or the other and I keep a running list. The list looks something like this right now: ![list](/assets/images/posts/post2/list.png)
 
-![list](/assets/images/posts/post2/list.png)
 
-2. **Decide the outcomes:** what will you build? Be specific. Here's an example of outcomes from my web-dev week.
 
-![outcomes](/assets/images/posts/post2/outcomes.png)
+2. **Decide the outcomes:** what will you build? Be specific. Here's an example of outcomes from my web-dev week. ![outcomes](/assets/images/posts/post2/outcomes.png)
+
+
 
 3. **Collect resources:** learning something academic? Find blog posts or books. Learning how to cook? Pull up a list of recipes you will try. The idea is to make day 1 as easy as possible.
 
-4. **Make a road map:** a plan of how you will get to your outcome. This map is tentative and it's okay to change things as the week goes on. For me, that looked a little like this:
+4. **Make a road map:** a plan of how you will get to your outcome. This map is tentative and it's okay to change things as the week goes on. For me, that looked a little like this: ![plan](/assets/images/posts/post2/plan.png)
 
-![plan](/assets/images/posts/post2/plan.png)
+
 
 #### 2. Process (day 1 - day 7):
 
