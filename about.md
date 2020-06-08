@@ -14,7 +14,7 @@ When I'm not working on meeting deadlines, I'm either working on [side projects]
 
 ---------------------
 Here's some of what I'm doing these days:
-- **Current Academic Side Project:** Branch Predictors!
-- **Current Non-Academic Side Project:** Learning how to build static websites (like this one which I built using Jekyll!)
-- **Currently Reading**: _Pragmatic Thinking and Learning_ by Andy Hunt
+- **Current Academic Side Project:** Combining computer architecture and functional programming
+- **Current Non-Academic Side Project:** [Learning a new skill every week](https://parthsaraswat.github.io/general/2020/06/06/lsnew.html)
+- **Currently Reading**: _A Fine Balance_ by Rohinton Mistry
 - **Currently living** in Ithaca, NY. 
