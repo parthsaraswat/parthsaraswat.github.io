@@ -1,5 +1,6 @@
 ---
 layout: home
+permalink: /index
 alt_title: "Hi! I'm [Parth](/about)"
 image: /assets/images/header.jpg
 introduction: |

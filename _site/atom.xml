@@ -1,4 +1,207 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2020-06-02T12:55:05-04:00</updated><id>http://localhost:4000/atom.xml</id><title type="html">Parth Saraswat</title><subtitle>Website</subtitle><author><name>Parth Saraswat</name></author><entry><title type="html">Saying Goodbye To Cornell</title><link href="http://localhost:4000/general/2020/05/30/saying.html" rel="alternate" type="text/html" title="Saying Goodbye To Cornell" /><published>2020-05-30T00:00:00-04:00</published><updated>2020-05-30T00:00:00-04:00</updated><id>http://localhost:4000/general/2020/05/30/saying</id><content type="html" xml:base="http://localhost:4000/general/2020/05/30/saying.html">&lt;p&gt;It’s safe to say that there has always been a gap between the person I am and the person I want to be. I believe most people feel this way too. I am at point A, and I want to be at point B. There have always been guidelines on how to close this ‘gap’, but following those guidelines hasn’t helped me much.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2020-08-11T19:27:13-04:00</updated><id>http://localhost:4000/atom.xml</id><title type="html">Parth Saraswat</title><subtitle>Website</subtitle><author><name>Parth Saraswat</name></author><entry><title type="html">What do I do With My Life?</title><link href="http://localhost:4000/general/2020/08/11/what-do-i-do.html" rel="alternate" type="text/html" title="What do I do With My Life?" /><published>2020-08-11T00:00:00-04:00</published><updated>2020-08-11T00:00:00-04:00</updated><id>http://localhost:4000/general/2020/08/11/what-do-i-do</id><content type="html" xml:base="http://localhost:4000/general/2020/08/11/what-do-i-do.html">&lt;p&gt;One of the most common problems I have seen college students face is the anxiety and fear that comes with not knowing what it is that they want to do with their lives. For some reason, we are expected to know exactly what we want to do with our lives early on, and use this knowledge to motivate our decisions. When we don’t have this certainty, there is a sense of dread and anxiety that takes over. It seems like everyone else around you has the answer to this elusive question and you’re the only one who is clueless. If this sounds familiar, you are not alone! In fact, not knowing the answer to this question &lt;em&gt;is the norm&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Having experienced this problem first-hand and having spoken to other people who have felt the same way, I want to use this post to make a case for why uncertainty is okay. Not only this, but also why it is best to approach this situation with a mindset of curiosity and experimentation rather than allow it to bring us anxiety and a sense of dread.&lt;/p&gt;
+
+&lt;p&gt;The paradox of making big life choices early on in our lives is that we are required to make high stakes decisions at a time when we know very little about ourselves. We are poorly equipped to make these choices, and that’s what breeds the anxiety.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/post4/g1.png&quot; alt=&quot;graph1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ideally, we want to be making these decisions when we know a lot more about ourselves. There are 2 ways to do this:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;make these decisions much later:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/post4/g2.png&quot; alt=&quot;graph2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, this is impractical for obvious reasons. This brings us to option #2…&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;learn more about yourself right now:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/post4/g3.png&quot; alt=&quot;graph3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;An ideal situation! If you can learn more about yourself and arm yourself with the intel needed to make a string of well-informed decisions, that will be the end of painful ambiguity and cluelessness.&lt;/p&gt;
+
+&lt;p&gt;The question naturally arises: how does one go from the conventional situation to the ideal one? I’m glad you asked! Allow me to explain using an overly general, poorly illustrated, no-one-asked-for-this, unnecessary analogy. Welcome to the Life Choices Ice Cream Parlor!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/post4/ill1.png&quot; alt=&quot;ill1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Let’s say you walk into an ice cream parlor with one goal - buy a huge, huge bucket of ice cream that will last you several years. Here’s the catch: you don’t know how any of these flavors taste.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/post4/ill2.png&quot; alt=&quot;ill2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Picking one at random seems like a bad idea, what if you buy a bucket of “Web Designer” ice cream and hate it?&lt;/p&gt;
+
+&lt;p&gt;Instead, a much better idea is to ask for tasters. Experiment! Try some “Data Science” ice cream. Ask for a taste of the “Distributed Computing” special. Take a deep dive into the “Introduction to Econometrics” sundae. As you try more of these flavors, you begin to develop a sense of what you like, and equally importantly, what you &lt;em&gt;don’t&lt;/em&gt; like. What this translates to in real life is getting ‘tasters’ of your options. These tasters are in the form of courses, independent projects, online research, and reaching out to people who have been working in the field you are considering.&lt;/p&gt;
+
+&lt;p&gt;By asking for these ‘tasters’, you learn a lot more about yourself. Your likes, your dislikes, your interests, and a lot more. The end result is, you walk out with a tub of ice cream you know you will enjoy.&lt;/p&gt;
+
+&lt;p&gt;When I graduated with my Bachelor’s degree in 2019, I thought I was going to walk out with a tub of Embedded Systems ice cream. Instead, after taking a great Computer Architecture course during grad school, I realized I enjoyed it a lot more. Had I not taken this course, I wouldn’t have known what I was missing out on. This also leads to an equally important side point that I failed to see as a college freshman: “What do I do with my life” is a flawed question! It assumes that adulthood is this monolithic, long, monotonous journey containing one single activity or job, but it isn’t! If Julia Child can be an extraordinary chef while also being a US spy (this is true), you can do different things too! I am a hardware engineer by day and musician + writer by night. Let go of any fear that you are ‘locked in’ to your choices.&lt;/p&gt;
+
+&lt;p&gt;At the end of the day, if you find yourself feeling anxious about not knowing what you want to do and not knowing how to make the decision, please remember that you are not alone! This is the norm, and I’m a big fan of experimenting and broadening my horizons before I make a decision. Study broadly and without fear, and you will end up with multiple flavors of ice creams - all of which you know you enjoy.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;See you next week for a new post.&lt;/p&gt;
+
+&lt;p&gt;Thanks for reading! You can always &lt;a href=&quot;mailto:parthswat@gmail.com&quot;&gt;email me&lt;/a&gt; to chat about this post - or anything else.&lt;/p&gt;
+
+&lt;p&gt;As is true for any advice or counsel you ever receive: Y.M.M.V! Your mileage may vary. Some advice can be a vice. Feel free to take what you can use, and leave the rest. There are no rules.&lt;/p&gt;</content><author><name>Parth Saraswat</name></author><category term="career" /><category term="blog" /><category term="thoughts" /><category term="college" /><summary type="html">To anyone feeling anxious about not knowing what they want to do with their lives</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/posts/post4/header.png" /><media:content medium="image" url="http://localhost:4000/assets/images/posts/post4/header.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Getting Ready to Start a Career</title><link href="http://localhost:4000/general/2020/07/01/career.html" rel="alternate" type="text/html" title="Getting Ready to Start a Career" /><published>2020-07-01T00:00:00-04:00</published><updated>2020-07-01T00:00:00-04:00</updated><id>http://localhost:4000/general/2020/07/01/career</id><content type="html" xml:base="http://localhost:4000/general/2020/07/01/career.html">&lt;p&gt;I recently &lt;a href=&quot;https://parthsaraswat.github.io/general/2020/05/30/saying.html&quot;&gt;graduated&lt;/a&gt; from a Master’s program. This signals the end of my formal education (for now?)! At this age, most of my friends are also finishing up college and getting ready to enter the workforce. Given this trend of transitioning from formal education into beginning our careers, most of our conversations center around how starting a career is going to be different when compared to formal education. This is a post about what I think the key differences are between the worlds of formal education and career development, and how I plan on changing my approach to stay afloat.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Disclaimer&lt;/strong&gt;: I’m the least qualified person to be talking about this. This post is entirely speculative and I’m sure things don’t actually work this way. I just wanted to put my thoughts out there.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The way I see it, formal education is like being plopped into a river. You go where the river takes you. This is perfectly fine, because at the age where you enter formal education, you probably are not intelligent enough to make your own decisions. You probably aren’t intelligent enough to tell the difference between a spoonful of food headed your way and an airplane either (if you are a 2 year old who can do this, please &lt;a href=&quot;mailto:parthswat@gmail.com&quot;&gt;contact me&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/post3/ill1.png&quot; alt=&quot;The river&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This isn’t to say that you never get to make your own decisions: every now and then there will be a fork in the river, and you will need to make a decision. Think of situations where you had to decide what you wanted to go to college for, or when you had to declare your major. Although these are decisions you are making, they only lead you into another stream in the river, where you, once again, &lt;em&gt;follow the flow&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/post3/ill2.png&quot; alt=&quot;A fork&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The situation so far can be summarised this way: there was always an end goal in mind, (example: getting a degree, scoring an internship, etc) and you followed the flow of a river to get there. The river is the ‘template’ or a set of proven steps you could follow to achieve said goal.&lt;/p&gt;
+
+&lt;p&gt;Now that formal education is over, the situation is different. It’s as if the river has led me out to a massive open field. There is no real flow, I can go where I want, I can do what I like, and I have the power to make all my decisions.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/post3/ill3.png&quot; alt=&quot;The field&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I am not used to being in such a situation, and I’m beginning to realise that I now have to think critically about how I will approach this open field. In order to do this, I first need to understand the key differences between this situation and a &lt;em&gt;go with the flow&lt;/em&gt; situation I was in until a month ago.&lt;/p&gt;
+
+&lt;p&gt;So, how is this situation different?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. This is a long-haul thing&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Formal education lasts around 21-22 years, but is actually broken down into many 4-5 year blocks (primary school, high school, college). It’s a structured system. A career path, on the other hand, is (on average) a ~30 year stretch. The key takeaway here is that your ‘end goal’ will keep changing and shifting. Maybe after a year of being a mechanical engineer you realise that you enjoy management. Your goalposts will keep changing as you change, and as you learn more about yourself and the industry you’re in.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. You are in &lt;em&gt;full&lt;/em&gt; control&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Outside of ensuring your financial security, you now have very few obligations. You can choose to switch careers, you can choose to turn down a promotion, you could even choose to start your own company. The possibilities are endless, and this seems like an overwhelming amount of control,&lt;/p&gt;
+
+&lt;p&gt;Those are… major differences. How do I change my approach to deal with these characteristics?&lt;/p&gt;
+
+&lt;p&gt;Starting with the fact that this is a long-haul situation, I have 2 thoughts.&lt;/p&gt;
+
+&lt;p&gt;First, given that the end goal isn’t going to be fixed, it might be a good idea to switch from a goal-oriented mindset to a behavior-oriented one. Here’s what that means: there is nothing wrong in setting a &lt;em&gt;goal&lt;/em&gt; of scoring a promotion, but maybe after 6 months at the job I may realise that I simply do not want to continue working in the current team. Instead, setting the &lt;em&gt;intention&lt;/em&gt; of learning as much as possible from the people and industry around me makes much more sense. A few months down the line, I will gain skills, experience, and I will be in a much better position to set a goal.&lt;/p&gt;
+
+&lt;p&gt;Secondly, it’s probably a good idea to get comfortable with uncertainty. As I start a job, I know very little about the industry, the work, and whether I will enjoy it. I don’t want to be making any decisions at this stage. It makes much more sense to wait, get some more intel, and make decisions further down the line.&lt;/p&gt;
+
+&lt;p&gt;Next, the overwhelming amount of control. Yeesh. You can walk wherever you want in the open field that is career development. You can lock yourself into a job and rise up the ladder, you could sample many things and decide what you enjoy best, you could say ‘to hell with it’ and start your own venture. Having so much control and zero ‘default flow’ means it’s really important to be intentional. The field is huge, and you want to know &lt;em&gt;why&lt;/em&gt; you are heading in a certain direction rather than wander around aimlessly.&lt;/p&gt;
+
+&lt;p&gt;I also want to experiment. When I first joined Cornell, I came in with the intention of studying Embedded Systems. I thought I knew exactly what I wanted and I didn’t think I could enjoy anything more. I was (wait for it) wrong. I ended up taking a couple of courses in computer architecture that completely changed my mind. Embedded Systems never stood a chance. Point being, you don’t know what you really want until you’ve tried several things. Career development is a long road, and I do not wish to tie myself down until I’ve had the chance to experiment with options.&lt;/p&gt;
+
+&lt;p&gt;The idea is to try something, get feedback (from yourself and people around you), adjust course, and try again. The biggest thing I will do now is ask for advice. From friends who have been in this situation before, from people I will have the chance to work with, and of course, from my parents.&lt;/p&gt;
+
+&lt;p&gt;So, where does this leave us?&lt;/p&gt;
+
+&lt;p&gt;I’d like to state again that this is purely speculative. I have no idea what I’m talking about, and these are just thoughts. I will be taking my own advice on learning and getting constant feedback and changing how I perceive career development and my approach. This is just my initial mindset as I start my career, and things will change, but in my opinion, this is a good way to begin.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&quot;mailto:parthswat@gmail.com&quot;&gt;Let me know&lt;/a&gt; if you think this sounds familiar to you or if you think things are different (I am 100% sure that they are). Do you think I am over simplifying/over complicating the situation? I certainly think I am. &lt;a href=&quot;mailto:parthswat@gmail.com&quot;&gt;Let me know&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;This post is inspired by &lt;a href=&quot;https://waitbutwhy.com&quot;&gt;Tim Urban’s&lt;/a&gt; post about career paths.&lt;/em&gt;&lt;/p&gt;</content><author><name>Parth Saraswat</name></author><category term="career" /><category term="blog" /><category term="thoughts" /><summary type="html">A change in mindsets</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/posts/post3/thumb.png" /><media:content medium="image" url="http://localhost:4000/assets/images/posts/post3/thumb.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Learn Something New Every Week</title><link href="http://localhost:4000/general/2020/06/06/lsnew.html" rel="alternate" type="text/html" title="Learn Something New Every Week" /><published>2020-06-06T00:00:00-04:00</published><updated>2020-06-06T00:00:00-04:00</updated><id>http://localhost:4000/general/2020/06/06/lsnew</id><content type="html" xml:base="http://localhost:4000/general/2020/06/06/lsnew.html">&lt;p&gt;Colleges and universities are great environments to learn new skills and techniques in. Course instructors prepare learning goals, concepts and projects such that students get to learn a lot of information and develop strong skills in a short period of time. I’ve had many friends tell me that constant learning is quite difficult once you graduate and start working, which is why people stop. Can’t let that happen.&lt;/p&gt;
+
+&lt;p&gt;As I transition from &lt;a href=&quot;https://parthsaraswat.github.io/general/2020/05/30/saying.html&quot;&gt;graduating&lt;/a&gt; to working, I have put together a framework that allows me to sample and learn new skills and concepts quickly. The framework is titled ‘Learn Something New Every Week’ (I know, no points for creativity). That’s as self explanatory a title as any.&lt;/p&gt;
+
+&lt;p&gt;The concept is simple: I pick a topic or skill to learn (academic or nonacademic) every week, and learn as much as I can about it in a week (about an hour a day). I also have to &lt;em&gt;build&lt;/em&gt; something with what I’ve learnt. For instance, if I pick a particular form of dancing as a skill, I need to end the week with some sort of finished version of a choreographed dance. Don’t hold your breath, dancing isn’t very high on my list. For now. ;)&lt;/p&gt;
+
+&lt;p&gt;Given that there is such a wide variety of skills and concepts to pick from, what do you pick? The answer is simple… you pick anything you want to try. The idea is not to enhance your portfolio or learn shiny new skills that look good on resumés (although that may end up being a nice side effect). The idea isn’t even about picking something that is ‘useful’ to you in your daily life. The idea is to pick something &lt;em&gt;you’re excited about&lt;/em&gt;. Want to learn how to cook? Go ahead. Want to learn functional programming languages? Be my guest. Want to learn how to write well? Let’s do it. One of my favorite quotes from a &lt;a href=&quot;https://www.youtube.com/watch?v=s_L-fp8gDzY&quot;&gt;TED talk&lt;/a&gt; captures this idea perfectly. It goes something like this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We don’t learn or teach things because they might be useful tomorrow, we do it because they’re delightful today.&lt;/p&gt;
+
+  &lt;p&gt;&lt;em&gt;- &lt;strong&gt;Grant Sanderson&lt;/strong&gt; (the creator of &lt;a href=&quot;https://www.3blue1brown.com&quot;&gt;3blue1brown&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The principles/rules of LSNEW are simple:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;You have to make something&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You only have a week&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Why the strict week-long schedule?&lt;/p&gt;
+
+&lt;p&gt;Well, in my experience a week is short enough that trying something new does not need immense commitment, which makes starting easier. The short duration also allows you to ‘sample’ many things. Only by sampling many things will you find the things that you enjoy the most. Another advantage is that in case you don’t enjoy a particular skill much, you haven’t lost much time at all. At the same time, if done right, a week is also long enough to make progress and actually build something non-trivial in most cases.&lt;/p&gt;
+
+&lt;p&gt;Why do you have to make something?&lt;/p&gt;
+
+&lt;p&gt;Trying to learn a skill by making something is always better than trying to learn a skill with no goal. It’s always better to learn by synthesis rather than by analysis.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Don’t dissect the frog, build it.
+&lt;em&gt;- &lt;strong&gt;Seymour Papert&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The first week I tried this, I wanted to learn how to build a website. The ‘outcome’ or goal was to build a personal website within that week. Of course, I couldn’t implement everything I wanted to, but those things turn into follow-ups which I can work on in the future. The week is enough to get started and get upto speed. Any extra tasks turn into follow-ups, and follow-ups are much easier to tackle as compared to starting from scratch. In the case of my web-dev week, I was able to put together a bare-bones website within the week, and my follow ups looked something like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/post2/followups.png&quot; alt=&quot;follow-ups&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Speaking of the mechanisms of how I like to work through the week, let’s take a look at exactly how I like to do this. I break down the week into 3 parts: preparation, process, and termination.&lt;/p&gt;
+
+&lt;h4 id=&quot;1-preparation-day-0&quot;&gt;1. Preparation (day 0):&lt;/h4&gt;
+
+&lt;p&gt;The idea is to take a day 0 (Saturday?) and put together some thoughts that make learning much easier over the week. For me, this involves the following steps:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Pick the topic:&lt;/strong&gt; this is easy enough. I constantly find myself wanting to learn something or the other and I keep a running list. The list looks something like this right now: &lt;img src=&quot;/assets/images/posts/post2/list.png&quot; alt=&quot;list&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Decide the outcomes:&lt;/strong&gt; what will you build? Be specific. Here’s an example of outcomes from my web-dev week. &lt;img src=&quot;/assets/images/posts/post2/outcomes.png&quot; alt=&quot;outcomes&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Collect resources:&lt;/strong&gt; learning something academic? Find blog posts or books. Learning how to cook? Pull up a list of recipes you will try. The idea is to make day 1 as easy as possible.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Make a road map:&lt;/strong&gt; a plan of how you will get to your outcome. This map is tentative and it’s okay to change things as the week goes on. For me, that looked a little like this: &lt;img src=&quot;/assets/images/posts/post2/plan.png&quot; alt=&quot;plan&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;2-process-day-1---day-7&quot;&gt;2. Process (day 1 - day 7):&lt;/h4&gt;
+
+&lt;p&gt;Jump in and begin! I have noticed a few things that make this process easier:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Leave things slightly unfinished everyday so you can pick up right where you left off&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Keep a running log of notes and things you learn&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Try to stick to the roadmap as much as possible!&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;3-termination-day-7&quot;&gt;3. Termination (day 7):&lt;/h4&gt;
+
+&lt;p&gt;List your follow ups and summarize your learning.&lt;/p&gt;
+
+&lt;p&gt;A week is not enough for certain projects or skills. If you enjoyed anything you learnt in the week and you can see immediate follow ups, list them out! As for summaries, I like to make a &lt;a href=&quot;https://fs.blog/2012/04/feynman-technique/&quot;&gt;1-page write-up explaining exactly what I learnt in super easy to understand terms&lt;/a&gt;. The idea here is that you learn best by teaching. When you write a simplified summary, you’re forced to think about how you would describe everything you learnt to someone else, i.e, you’re teaching.&lt;/p&gt;
+
+&lt;p&gt;I also decide what I would have done differently to make learning easier. As you learn new things, you also get better &lt;em&gt;at learning&lt;/em&gt;. Answering this question improves how you will learn things the next week, and so on.&lt;/p&gt;
+
+&lt;p&gt;And that’s it! That’s how I like to learn and sample new skills and concepts.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Again, the idea is to simply learn something you &lt;em&gt;want to learn&lt;/em&gt; rather than what you think may be useful or will pay off professionally. Another quote to drive my point home…&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;People ask me, ‘What is the use of climbing Mount Everest?’ and my answer must at once be, ‘It is of no use.’ There is not the slightest prospect of any gain whatsoever. Oh, we may learn a little about the behavior of the human body at high altitudes, and possibly medical men may turn our observation to some account for the purposes of aviation. But otherwise nothing will come of it. We shall not bring back a single bit of gold or silver, not a gem, nor any coal or iron… If you cannot understand that there is something in man which responds to the challenge of this mountain and goes out to meet it, that the struggle is the struggle of life itself upward and forever upward, then you won’t see why we go. What we get from this adventure is just sheer joy. And joy is, after all, the end of life. We do not live to eat and make money. We eat and make money to be able to live. That is what life means and what life is for.&lt;/p&gt;
+
+  &lt;p&gt;&lt;em&gt;- &lt;strong&gt;George Mallory&lt;/strong&gt;&lt;/em&gt;, a mountaineer who led early British expeditions to Mount Everest in the 1920s, on the joy of climbing&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I have spent about 3 weeks trying this, and it’s been going okay so far. The process changes from week to week, and I know I’m definitely not doing things in the best way. Please &lt;a href=&quot;mailto:parthswat@gmail.com&quot;&gt;let me know&lt;/a&gt; if you have any suggestions or questions!&lt;/p&gt;
+
+&lt;p&gt;I do hope that one day I can do this with many people, where people learn things and share exactly what they learnt and the outcomes of what they learnt. This creates accountability and adds a community aspect to the whole process, and I would love to do this with other people. Again, &lt;a href=&quot;mailto:parthswat@gmail.com&quot;&gt;let me know&lt;/a&gt; if you want to try this!&lt;/p&gt;
+
+&lt;p&gt;Here’s hoping to many many more weeks of constant learning!&lt;/p&gt;</content><author><name>Parth Saraswat</name></author><category term="content" /><category term="project" /><category term="guide" /><summary type="html">How I learn</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/posts/post2/header.png" /><media:content medium="image" url="http://localhost:4000/assets/images/posts/post2/header.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Saying Goodbye To Cornell</title><link href="http://localhost:4000/general/2020/05/30/saying.html" rel="alternate" type="text/html" title="Saying Goodbye To Cornell" /><published>2020-05-30T00:00:00-04:00</published><updated>2020-05-30T00:00:00-04:00</updated><id>http://localhost:4000/general/2020/05/30/saying</id><content type="html" xml:base="http://localhost:4000/general/2020/05/30/saying.html">&lt;p&gt;It’s safe to say that there has always been a gap between the person I am and the person I want to be. I believe most people feel this way too. I am at point A, and I want to be at point B. There have always been guidelines on how to close this ‘gap’, but following those guidelines hasn’t helped me much.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/posts/post1/ill1.jpg&quot; alt=&quot;The gap&quot; /&gt;&lt;/p&gt;
 
