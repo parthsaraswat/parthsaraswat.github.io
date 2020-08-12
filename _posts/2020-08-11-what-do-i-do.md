@@ -54,8 +54,8 @@ At the end of the day, if you find yourself feeling anxious about not knowing wh
 
 ---
 
- See you next week for a new post.
+ *See you next week for a new post.*
 
- Thanks for reading! You can always [email me](mailto:parthswat@gmail.com) to chat about this post - or anything else.
+ *Thanks for reading! You can always [email me](mailto:parthswat@gmail.com) to chat about this post - or anything else.*
 
- As is true for any advice or counsel you ever receive: Y.M.M.V! Your mileage may vary. Some advice can be a vice. Feel free to take what you can use, and leave the rest. There are no rules.
+ ***As is true for any advice or counsel you ever receive: Y.M.M.V! Your mileage may vary. Some advice can be a vice. Feel free to take what you can use, and leave the rest. There are no rules.***
