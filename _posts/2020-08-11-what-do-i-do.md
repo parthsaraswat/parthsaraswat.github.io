@@ -25,25 +25,19 @@ The paradox of making big life choices early on in our lives is that we are requ
 
 Ideally, we want to be making these decisions when we know a lot more about ourselves. There are 2 ways to do this:
 
-1. make these decisions much later: 
+1. **make these decisions much later**: ![graph2](/assets/images/posts/post4/g2.png) Unfortunately, this is impractical for obvious reasons. This brings us to option #2...
 
-![graph2](/assets/images/posts/post4/g2.png)
-
-Unfortunately, this is impractical for obvious reasons. This brings us to option #2...
-2. learn more about yourself right now:
+2. **learn more about yourself right now**:
 
 ![graph3](/assets/images/posts/post4/g3.png)
 
 
 An ideal situation! If you can learn more about yourself and arm yourself with the intel needed to make a string of well-informed decisions, that will be the end of painful ambiguity and cluelessness. 
 
-The question naturally arises: how does one go from the conventional situation to the ideal one? I'm glad you asked! Allow me to explain using an overly general, poorly illustrated, no-one-asked-for-this, unnecessary analogy. Welcome to the Life Choices Ice Cream Parlor!
+The question naturally arises: how does one go from the conventional situation to the ideal one? I'm glad you asked! Allow me to explain using an overly general, poorly illustrated, no-one-asked-for-this, unnecessary analogy. Welcome to the Life Choices Ice Cream Parlor! ![ill1](/assets/images/posts/post4/ill1.png)
 
-![ill1](/assets/images/posts/post4/ill1.png)
 
-Let's say you walk into an ice cream parlor with one goal - buy a huge, huge bucket of ice cream that will last you several years. Here's the catch: you don't know how any of these flavors taste. 
-
-![ill2](/assets/images/posts/post4/ill2.png)
+Let's say you walk into an ice cream parlor with one goal - buy a huge, huge bucket of ice cream that will last you several years. Here's the catch: you don't know how any of these flavors taste. ![ill2](/assets/images/posts/post4/ill2.png)
 
 Picking one at random seems like a bad idea, what if you buy a bucket of "Web Designer" ice cream and hate it? 
 
@@ -52,7 +46,8 @@ Instead, a much better idea is to ask for tasters. Experiment! Try some "Data Sc
 By asking for these 'tasters', you learn a lot more about yourself. Your likes, your dislikes, your interests, and a lot more. The end result is, you walk out with a tub of ice cream you know you will enjoy. 
 
 > “Let go of certainty. The opposite isn't uncertainty. It's openness, curiosity and a willingness to embrace paradox, rather than choose up sides. The ultimate challenge is to accept ourselves exactly as we are, but never stop trying to learn and grow.”
-> ― Tony Schwartz
+>
+> *- **Tony Schwartz***
 
 When I graduated with my Bachelor's degree in 2019, I thought I was going to walk out with a tub of Embedded Systems ice cream. Instead, after taking a great Computer Architecture course during grad school, I realized I enjoyed it a lot more. Had I not taken this course, I wouldn't have known what I was missing out on. This also leads to an equally important side point that I failed to see as a college freshman: "What do I do with my life" is a flawed question! It assumes that adulthood is this monolithic, long, monotonous journey containing one single activity or job, but it isn't! If Julia Child can be an extraordinary chef while also being a US spy (this is true), you can do different things too! I am a hardware engineer by day and musician + writer by night. Let go of any fear that you are 'locked in' to your choices. 
 

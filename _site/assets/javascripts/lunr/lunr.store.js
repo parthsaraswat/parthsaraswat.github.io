@@ -1,4 +1,9 @@
 var store = [{
+        "title": "New post, illustration problems, daily dispatch",
+        "excerpt":"What I did: Writing Published a new postMusic Recorded the instrumental section for a cover of “Somewhere Only We Know” by KeaneParth Saraswat · SOWK - instrumental climax Made good progress on a jingle I’m writing with a friend for a secret project!Technical Set up this Daily Dispatch page to...","categories": ["daily"],
+        "tags": ["content","project","guide"],
+        "url": "http://localhost:4000/daily/daily1/"
+      },{
         "title": "Hello Website!",
         "excerpt":"Hey visitor! Thanks for visiting my website! This is my first post, and I want to outline what I’m trying to achieve with this website. As I get closer and closer to finishing up my Master’s degree, I want to ensure I keep learning new things and continue to keep...","categories": ["general"],
         "tags": ["content","css","edge case","lists","markup"],
