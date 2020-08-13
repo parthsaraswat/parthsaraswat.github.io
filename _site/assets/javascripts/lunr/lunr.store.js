@@ -4,6 +4,11 @@ var store = [{
         "tags": ["content","project","guide"],
         "url": "http://localhost:4000/daily/daily1/"
       },{
+        "title": "August 12, 2020",
+        "excerpt":"What I did: Writing Began writing the post for next week - it’s about my writing process!Music Recorded the vocals for my Somewhere Only We Know cover (I’m not a singer)Parth Saraswat · SOWK VocalTechnical Finally enabled sitewide commments using Disqus! The problem was with properly naming the site as...","categories": ["daily"],
+        "tags": ["daily","learninpublic","journal"],
+        "url": "http://localhost:4000/daily/daily2/"
+      },{
         "title": "Hello Website!",
         "excerpt":"Hey visitor! Thanks for visiting my website! This is my first post, and I want to outline what I’m trying to achieve with this website. As I get closer and closer to finishing up my Master’s degree, I want to ensure I keep learning new things and continue to keep...","categories": ["general"],
         "tags": ["content","css","edge case","lists","markup"],
