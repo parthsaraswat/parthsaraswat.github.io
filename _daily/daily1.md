@@ -1,13 +1,14 @@
 ---
-title: "New post, illustration problems, daily dispatch"
-sub_title:
+title: "August 11, 2020"
+sub_title: 
 categories:
   - daily
-excerpt: 
+excerpt: "New post, illustration problems, daily dispatch"
 tags:
   - content
   - project
   - guide
+author: Parth Saraswat
 ---
 
 ### What I did:
@@ -24,7 +25,7 @@ tags:
 #### Technical
 - Set up this Daily Dispatch page to document the work I do day-to-day using Jekyll collections 
 
-**What I struggled with:**
+### What I struggled with:
 - Illustrations for my [new post](https://parthsaraswat.github.io/general/2020/08/11/what-do-i-do.html). Considering using Figma or something quick and intuitive to make quick high quality illustrations.
 - Melody writing 
 
