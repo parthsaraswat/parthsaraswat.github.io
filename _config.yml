@@ -21,9 +21,9 @@ baseurl: # the optional subpath of your site, e.g. "/blog"
 url: https://parthsaraswat.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
   name: Parth Saraswat
-  twitter:
+  twitter: parthswat
   picture: /assets/images/me2_1_400x300.jpg
-twitter_username:
+twitter_username: parthswat
 github_username: parthsaraswat
 logo:  "/assets/images/me.jpg" # path of site logo, e.g. "/assets/images/logo.png"https://i.ibb.co/nn3SnJj/myAvatar.png
 search: # true, false (default)
@@ -106,5 +106,5 @@ defaults:
 
 google_analytics: UA-168019706-1
 search: true;
-# disqus:
- # shortname: disqus_v040otT6d1
+disqus:
+ shortname: disqus_v040otT6d1

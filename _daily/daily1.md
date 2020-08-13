@@ -9,6 +9,7 @@ tags:
   - project
   - guide
 author: Parth Saraswat
+read_time: true
 ---
 
 ### What I did:
