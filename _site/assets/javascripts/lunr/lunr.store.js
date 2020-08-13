@@ -1,5 +1,5 @@
 var store = [{
-        "title": "New post, illustration problems, daily dispatch",
+        "title": "August 11, 2020",
         "excerpt":"What I did: Writing Published a new postMusic Recorded the instrumental section for a cover of “Somewhere Only We Know” by KeaneParth Saraswat · SOWK - instrumental climax Made good progress on a jingle I’m writing with a friend for a secret project!Technical Set up this Daily Dispatch page to...","categories": ["daily"],
         "tags": ["content","project","guide"],
         "url": "http://localhost:4000/daily/daily1/"
