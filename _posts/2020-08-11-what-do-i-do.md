@@ -14,7 +14,6 @@ tags:
   - college
 comments: true
 ---
-
 One of the most common problems I have seen college students face is the anxiety and fear that comes with not knowing what it is that they want to do with their lives. For some reason, we are expected to know exactly what we want to do with our lives early on, and use this knowledge to motivate our decisions. When we don't have this certainty, there is a sense of dread and anxiety that takes over. It seems like everyone else around you has the answer to this elusive question and you're the only one who is clueless. If this sounds familiar, you are not alone! In fact, not knowing the answer to this question *is the norm*.
 
 Having experienced this problem first-hand and having spoken to other people who have felt the same way, I want to use this post to make a case for why uncertainty is okay. Not only this, but also why it is best to approach this situation with a mindset of curiosity and experimentation rather than allow it to bring us anxiety and a sense of dread. 
@@ -55,8 +54,8 @@ At the end of the day, if you find yourself feeling anxious about not knowing wh
 
 ---
 
- See you next week for a new post.
+ *See you next week for a new post.*
 
- Thanks for reading! You can always [email me](mailto:parthswat@gmail.com) to chat about this post - or anything else.
+ *Thanks for reading! You can always [email me](mailto:parthswat@gmail.com) to chat about this post - or anything else.*
 
- As is true for any advice or counsel you ever receive: Y.M.M.V! Your mileage may vary. Some advice can be a vice. Feel free to take what you can use, and leave the rest. There are no rules.
+ ***As is true for any advice or counsel you ever receive: Y.M.M.V! Your mileage may vary. Some advice can be a vice. Feel free to take what you can use, and leave the rest. There are no rules.***
