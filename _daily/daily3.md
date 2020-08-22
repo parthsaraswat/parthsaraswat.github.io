@@ -10,7 +10,7 @@ tags:
    - journal
 read_time: true
 ---
-
+Last week was full of moving and administration, but we're back now!
 ### What I did:
 
 #### Writing
