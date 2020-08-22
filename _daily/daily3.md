@@ -10,15 +10,21 @@ tags:
    - journal
 read_time: true
 ---
- ### What I did:
+### What I did:
 
- #### Writing
- 
+#### Writing
+
 1. Finished outlining a post about my writing process
- #### Music
+
+#### Music
+
 1. Uploaded the [final version of my Somewhere Only We Know cover](https://www.instagram.com/tv/CEGK-BVpNq1/)!
- #### Technical
+
+#### Technical
+
 1. Added a [tag archive](/tags) to the website. This should help separate posts by categories. :)
- ### What I struggled with:
+
+### What I struggled with:
+
 - Unable to correctly sort posts on this daily dispatch collection
 ---
