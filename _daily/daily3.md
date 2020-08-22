@@ -25,6 +25,7 @@ Last week was full of moving and administration, but we're back now!
 
 1. Added a [tag archive](/tags) to the website. This should help separate posts by categories. :)
 
-### What I struggled with:
- - Unable to correctly sort posts on this daily dispatch collection
+### What I struggled with
+- Unable to correctly sort posts on this daasdily dispatch collection
+
 ---
