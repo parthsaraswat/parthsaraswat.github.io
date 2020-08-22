@@ -5,12 +5,6 @@ categories:
 image:
   path: https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/socialmedia/apple/237/waving-hand-sign_1f44b.png
   thumbnail: https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/socialmedia/apple/237/waving-hand-sign_1f44b.png
-tags:
-  - content
-  - css
-  - edge case
-  - lists
-  - markup
 ---
 ## Hey visitor!
 ### Thanks for visiting my website! This is my first post, and I want to outline what I'm trying to achieve with this website. 
