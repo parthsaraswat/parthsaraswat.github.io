@@ -26,6 +26,5 @@ read_time: true
 1. Added a [tag archive](/tags) to the website. This should help separate posts by categories. :)
 
 ### What I struggled with:
-
-- Unable to correctly sort posts on this daily dispatch collection
+ - Unable to correctly sort posts on this daily dispatch collection
 ---
