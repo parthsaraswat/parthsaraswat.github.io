@@ -20,6 +20,6 @@ A bunch of admin work that was important, urgent, and mindnumbingly boring. Othe
 
 #### Other
 - Set up a Discord server I have big plans for. Exciting! I will open up the invite link to the public soon. :)
-- Posts are finally sorted correctly on the [daily dispatch!](/daily-dispatch). Special thanks to my friends [Ratik](ratiksharma.com) and [Aadway!](instagram.com/aadway)
+- Posts are finally sorted correctly on the [daily dispatch!](/daily-dispatch). Special thanks to my friends [Ratik](http://ratiksharma.com) and [Aadway!](http://instagram.com/aadway)
 
 ---
