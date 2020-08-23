@@ -10,9 +10,14 @@ var store = [{
         "url": "http://localhost:4000/daily/daily2/"
       },{
         "title": "August 21, 2020",
-        "excerpt":"What I did: Writing Finished outlining a post about my writing processMusic Uploaded the final version of my Somewhere Only We Know cover!Technical Added a tag archive to the website. This should help separate posts by categories. :)What I struggled with: Unable to correctly sort posts on this daily dispatch...","categories": ["daily"],
+        "excerpt":"Last week was full of moving and administration, but we’re back now! What I did: Writing Finished outlining a post about my writing processMusic Uploaded the final version of my Somewhere Only We Know cover!Technical Added a tag archive to the website. This should help separate posts by categories. :)What...","categories": ["daily"],
         "tags": ["daily","learninpublic","journal"],
         "url": "http://localhost:4000/daily/daily3/"
+      },{
+        "title": "August 22, 2020",
+        "excerpt":"What I did: A bunch of admin work that was important, urgent, and mindnumbingly boring. Other exciting things: Writing Successful recording session on a secret project I’m working on with a friendOther Set up a Discord server I have big plans for. Exciting! I will open up the invite link...","categories": ["daily"],
+        "tags": ["daily","learninpublic","journal"],
+        "url": "http://localhost:4000/daily/daily4/"
       },{
         "title": "Hello Website!",
         "excerpt":"Hey visitor! Thanks for visiting my website! This is my first post, and I want to outline what I’m trying to achieve with this website. As I get closer and closer to finishing up my Master’s degree, I want to ensure I keep learning new things and continue to keep...","categories": ["general"],
