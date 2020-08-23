@@ -16,7 +16,7 @@ read_time: true
 A bunch of admin work that was important, urgent, and mindnumbingly boring. Other exciting things:
 
 #### Writing
-- Successful recording session on a [secret project](frndshiptime.com) I'm working on with a friend 
+- Successful recording session on a [secret project](http://frndshiptime.com) I'm working on with a friend 
 
 #### Other
 - Set up a Discord server I have big plans for. Exciting! I will open up the invite link to the public soon. :)
