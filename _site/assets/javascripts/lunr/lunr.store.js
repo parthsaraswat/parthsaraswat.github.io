@@ -1,4 +1,14 @@
 var store = [{
+        "title": "August 23, 2020",
+        "excerpt":"What I did: Logistics Sundays are for logistics. I redid my entire project management system and got cleaned out some templates that help me with writing, music production and other projects. Discord I’m working on a Discord server that enhances how I interact with my friends and friends online. I...","categories": ["daily"],
+        "tags": ["daily","learninpublic","journal"],
+        "url": "http://localhost:4000/daily/2020-08-23/"
+      },{
+        "title": "August 24, 2020",
+        "excerpt":"What I did: Writing Considering a series of posts along a similar theme. We shall see. Music Trying to learn a song by ear. Also really challenging vocals for me. I always start with a feel for how much I enjoy the song and then record bits and pieces on...","categories": ["daily"],
+        "tags": ["daily","learninpublic","journal"],
+        "url": "http://localhost:4000/daily/2020-08-24/"
+      },{
         "title": "August 11, 2020",
         "excerpt":"What I did: Writing Published a new postMusic Recorded the instrumental section for a cover of “Somewhere Only We Know” by KeaneParth Saraswat · SOWK - instrumental climax Made good progress on a jingle I’m writing with a friend for a secret project!Technical Set up this Daily Dispatch page to...","categories": ["daily"],
         "tags": ["content","project","guide"],
