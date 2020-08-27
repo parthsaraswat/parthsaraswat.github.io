@@ -1,31 +1,31 @@
 ---
 title: "My Writing Process"
-sub_title: "A 5-step process"
+sub_title: "Conceptualize, populate, create links!"
 image: 
   path: /assets/images/posts/post5/header.png
   thumbnail: /assets/images/posts/post5/header.png
 categories:
   - general
-excerpt: "My silly and excessive process for going from a small idea to a 1000+ word post"
+excerpt: "A 5-step process"
 tags:
   - writing
   - guide
   - so you want to
 ---
 
-Writing blog posts / YouTube videos / anything creative can be a frustrating process. There are roadblocks and a lot of friction which can cause severe discouragement (trust me, I gave up doing YouTube videos because I just didn't have a fun time making them anymore — and this was mostly down to the writing process). Over time, though, I've come up with a writing process that helps me take an idea and turn it into a 1000+ word post without getting overwhelmed. My goal with this post is to walk you through this process in the hopes that you find some value in it and it helps you in your writing.
+Writing blog posts / YouTube videos / anything creative can be a frustrating process. There is a lot friction which can cause severe discouragement (trust me, I gave up doing YouTube videos because I just didn't have a fun time making them anymore — and this was mostly down to the writing process). Over time, though, I've come up with a writing process that helps me avoid the roadblocks of writing. It helps me take an idea and turn it into a 1000+ word post without getting overwhelmed. My goal with this post is to walk you through this process in the hopes that you find some value in it and it helps you in your writing.
 
-In a nutshell, my process takes an abstract idea, slowly adds context, and adds structure to the concepts until I end up with a final post that I'm happy with. The process pipeline looks a little like this:
+In a nutshell, my process takes an abstract idea, slowly adds context and structure until I end up with something I'm happy with. The process pipeline looks a little like this:
 
 ![pipeline](/assets/images/posts/post5/pipeline.png)
 
 The 5 steps I go through are the following:
 
-1. Idea conception (come up with ideas and remember them)
-2. Mind dump (flesh out ideas)
-3. Mind map (create links between your concepts so they make logical sense)
-4. Outline (create structure in a written form)
-5. Final post (editing and filling in the gaps)
+1. **Idea conception** (come up with ideas and remember them)
+2. **Mind dump** (flesh out ideas)
+3. **Mind map** (create links between your concepts so they make logical sense)
+4. **Outline** (create structure in a written form)
+5. **Final post** (editing and filling in the gaps)
 
 Let's do a deep dive into each step:
 
