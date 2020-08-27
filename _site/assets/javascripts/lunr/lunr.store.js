@@ -5,7 +5,7 @@ var store = [{
         "url": "http://localhost:4000/daily/2020-08-23/"
       },{
         "title": "August 24, 2020",
-        "excerpt":"What I did: Writing Considering a series of posts along a similar theme. We shall see. «««&lt; HEAD Music Trying to learn a song by ear. Also really challenging vocals for me. I always start with a feel for how much I enjoy the song and then record bits and...","categories": ["daily"],
+        "excerpt":"What I did: Writing Considering a series of posts along a similar theme. We shall see. Music Trying to learn a song by ear. Also really challenging vocals for me. I always start with a feel for how much I enjoy the song and then record bits and pieces on...","categories": ["daily"],
         "tags": ["daily","learninpublic","journal"],
         "url": "http://localhost:4000/daily/2020-08-24/"
       },{
@@ -53,6 +53,11 @@ var store = [{
         "excerpt":"One of the most common problems I have seen college students face is the anxiety and fear that comes with not knowing what it is that they want to do with their lives. For some reason, we are expected to know exactly what we want to do with our lives...","categories": ["general"],
         "tags": ["career","blog","thoughts","college"],
         "url": "http://localhost:4000/general/2020/08/11/what-do-i-do.html"
+      },{
+        "title": "My Writing Process",
+        "excerpt":"Writing blog posts / YouTube videos / anything creative can be a frustrating process. There is a lot friction which can cause severe discouragement which leads to people stopping (trust me, I gave up doing YouTube videos because I just didn’t have a fun time making them anymore — and...","categories": ["general"],
+        "tags": ["writing","guide","so you want to"],
+        "url": "http://localhost:4000/general/2020/08/27/writing-process.html"
       },{
         "title": "Branch Predictor FL models",
         "excerpt":"In computer architecture, a branch predictor is a digital circuit that tries to guess which way a branch (e.g. an if–then–else structure) will go before this is known definitively. The purpose of the branch predictor is to improve the flow in the instruction pipeline. Branch predictors play a critical role...","categories": [],
