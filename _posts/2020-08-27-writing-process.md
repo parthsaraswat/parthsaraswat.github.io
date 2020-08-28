@@ -15,9 +15,7 @@ tags:
 
 Writing blog posts / YouTube videos / anything creative can be a frustrating process. There is a lot of friction which can cause severe discouragement which leads to people stopping (trust me, I gave up doing YouTube videos because I just didn't have a fun time making them anymore — and this was mostly down to the writing process). Over time, though, I've come up with a writing process that helps me avoid these roadblocks. It helps me take an idea and turn it into a 1000+ word post without getting overwhelmed. My goal with this post is to walk you through this process in the hopes that you find some value in it and it helps you in your writing.
 
-In a nutshell, my process takes an abstract idea, slowly adds context and structure until I end up with something I'm happy with. The process pipeline looks a little like this:
-
-![pipeline](/assets/images/posts/post5/pipeline.png)
+In a nutshell, my process takes an abstract idea, slowly adds context and structure until I end up with something I'm happy with. 
 
 The 5 steps I go through are the following:
 

@@ -55,7 +55,7 @@ var store = [{
         "url": "http://localhost:4000/general/2020/08/11/what-do-i-do.html"
       },{
         "title": "My Writing Process",
-        "excerpt":"Writing blog posts / YouTube videos / anything creative can be a frustrating process. There is a lot friction which can cause severe discouragement which leads to people stopping (trust me, I gave up doing YouTube videos because I just didn’t have a fun time making them anymore — and...","categories": ["general"],
+        "excerpt":"Writing blog posts / YouTube videos / anything creative can be a frustrating process. There is a lot of friction which can cause severe discouragement which leads to people stopping (trust me, I gave up doing YouTube videos because I just didn’t have a fun time making them anymore —...","categories": ["general"],
         "tags": ["writing","guide","so you want to"],
         "url": "http://localhost:4000/general/2020/08/27/writing-process.html"
       },{
