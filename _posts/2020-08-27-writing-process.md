@@ -58,6 +58,8 @@ Time to add some sort of structure! A mind map is a great way to do this. I put 
 
 #### 4. Outline: 
 
+![proc](/assets/images/posts/post5/procedure.png)
+
 The post now has ideas and links between them, but is is still far from complete. Outlining is all about taking your mind-map and giving it procedural structure. I like to use a whiteboard and a classic intro-body-conclusion split. Here's a whiteboard outline of my last post. It's... messy to say the least.
 
 ![outline](/assets/images/posts/post5/outline.jpg)
@@ -65,6 +67,8 @@ The post now has ideas and links between them, but is is still far from complete
 A lot more can be said about what makes a good introduction and a good body, but I am in the very early stages of learning. At the end of this step, 90% of the work is done. The only thing that remains now is to write out the post in complete paragraphs and sentences. Enter step 5...
 
 #### 5. Final post:
+
+![proc](/assets/images/posts/post5/final.png)
 
 I usually spend the least amount of time in this step (I get impatient). There is a lot of value in doing this slowly, though — you pay more attention to 'cutting the fat' out of your post and you end up with something much more cohesive. One of my favorite quotes about writing:
 
