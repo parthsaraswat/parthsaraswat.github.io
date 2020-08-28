@@ -60,7 +60,7 @@ Time to add some sort of structure! A mind map is a great way to do this. I put 
 
 ![proc](/assets/images/posts/post5/procedural.png)
 
-The post now has ideas and links between them, but is is still far from complete. Outlining is all about taking your mind-map and giving it procedural structure. I like to use a whiteboard and a classic intro-body-conclusion split. Here's a whiteboard outline of my last post. It's... messy to say the least.
+The post now has ideas and links between them, but it is still far from complete. Outlining is all about taking your mind-map and giving it procedural structure. I like to use a whiteboard and a classic intro-body-conclusion split. Here's a whiteboard outline of my last post. It's... messy to say the least.
 
 ![outline](/assets/images/posts/post5/outline.jpg)
 
