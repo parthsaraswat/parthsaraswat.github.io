@@ -80,7 +80,7 @@ Editing turns a post from 'good' to great. Again, I'm guilty of not doing this w
     
 And that's it! The post is done! If there are any illustrations or images, they go in now. Happy publishing!
 
-My process is probably too extensive and unnecessary, but I don't have a natural knack for writing and a set process helps. The entire process starts with a small idea to which I iteratively add context and structure until I end up with something I'm happy with. Please remember that writing is a highly subjective process -- what works for me may not work for you. Regardless, the idea of slowly building out a post in tiny increments (thank you, [iterative development!](https://searchsoftwarequality.techtarget.com/definition/iterative-development)) 
+My process is probably too extensive and unnecessary, but I don't have a natural knack for writing and a set process helps. The entire process starts with a small idea to which I iteratively add context and structure until I end up with something I'm happy with. Please remember that writing is a highly subjective process -- what works for me may not work for you. Regardless, the idea of slowly building out a post in tiny increments (thank you, [iterative development!](https://searchsoftwarequality.techtarget.com/definition/iterative-development)) works really well for me. 
 
 There is also a lot more to talk about: the tools I use, the 'story' aspect of writing, language use and the completely fascinating world of writing fiction. I want to talk about these but that is simply out of the scope of this post, so I'm planning on doing a **live discussion and Q&A on Discord** where we can all talk about these things. Here's how you can attend:
 
