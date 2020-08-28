@@ -74,7 +74,7 @@ I usually spend the least amount of time in this step (I get impatient). There i
 
 > “I didn't have time to write a short letter, so I wrote a long one instead.” 
 > 
-> -- Mark Twain
+> **-- Mark Twain**
 
 Editing turns a post from 'good' to great. Again, I'm guilty of not doing this well. It helps to have someone else read through the post and help you cut down and polish your language (can you help me with this? [Please help!](mailto:parthswat@gmail.com)). When I can't get a hold of people to vet my language, I just use an online editor. It isn't great, but it helps.
     
