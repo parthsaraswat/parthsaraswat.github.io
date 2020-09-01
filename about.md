@@ -6,7 +6,7 @@ permalink: /about
 
 I'm Parth, a Master's student at the Electrical and Computer Engineering department at Cornell University. I have a deep interest in computer architecture and the computer engineering stack.
 
-I'm about to start working as a hardware engineer in Massachussets. 
+I work as a hardware engineer in Massachussets.
 
 ------------------
 
