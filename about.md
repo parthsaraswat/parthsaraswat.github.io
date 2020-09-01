@@ -15,6 +15,6 @@ When I'm not working on meeting deadlines, I'm either working on [side projects]
 ---------------------
 Here's some of what I'm doing these days:
 - **Current Academic Side Project:** Combining computer architecture and functional programming
-- **Current Non-Academic Side Project:** [Learning a new skill every week](https://parthsaraswat.github.io/general/2020/06/06/lsnew.html)
-- **Currently Reading**: _Shoe Dog_ by Phil Knight and _Becoming_ by Michelle Obama
-- **Currently living** in Ithaca, NY. 
+- **Current Non-Academic Side Project:** Covering 1 Song every Week
+- **Currently Reading**: _Grit_ by Angela Duckworth. Find my Goodreads [here](https://www.goodreads.com/user/show/18742914-parth).
+- **Currently living** in New Jersey. 
