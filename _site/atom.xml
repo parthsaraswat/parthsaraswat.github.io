@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2020-08-27T20:20:01-04:00</updated><id>http://localhost:4000/atom.xml</id><title type="html">Parth Saraswat</title><subtitle>Website</subtitle><author><name>Parth Saraswat</name></author><entry><title type="html">My Writing Process</title><link href="http://localhost:4000/general/2020/08/27/writing-process.html" rel="alternate" type="text/html" title="My Writing Process" /><published>2020-08-27T00:00:00-04:00</published><updated>2020-08-27T00:00:00-04:00</updated><id>http://localhost:4000/general/2020/08/27/writing-process</id><content type="html" xml:base="http://localhost:4000/general/2020/08/27/writing-process.html">&lt;p&gt;Writing blog posts / YouTube videos / anything creative can be a frustrating process. There is a lot of friction which can cause severe discouragement which leads to people stopping (trust me, I gave up doing YouTube videos because I just didn’t have a fun time making them anymore — and this was mostly down to the writing process). Over time, though, I’ve come up with a writing process that helps me avoid these roadblocks. It helps me take an idea and turn it into a 1000+ word post without getting overwhelmed. My goal with this post is to walk you through this process in the hopes that you find some value in it and it helps you in your writing.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2020-08-31T20:52:11-04:00</updated><id>http://localhost:4000/atom.xml</id><title type="html">Parth Saraswat</title><subtitle>Website</subtitle><author><name>Parth Saraswat</name></author><entry><title type="html">My Writing Process</title><link href="http://localhost:4000/general/2020/08/27/writing-process.html" rel="alternate" type="text/html" title="My Writing Process" /><published>2020-08-27T00:00:00-04:00</published><updated>2020-08-27T00:00:00-04:00</updated><id>http://localhost:4000/general/2020/08/27/writing-process</id><content type="html" xml:base="http://localhost:4000/general/2020/08/27/writing-process.html">&lt;p&gt;Writing blog posts / YouTube videos / anything creative can be a frustrating process. There is a lot of friction which can cause severe discouragement which leads to people stopping (trust me, I gave up doing YouTube videos because I just didn’t have a fun time making them anymore — and this was mostly down to the writing process). Over time, though, I’ve come up with a writing process that helps me avoid these roadblocks. It helps me take an idea and turn it into a 1000+ word post without getting overwhelmed. My goal with this post is to walk you through this process in the hopes that you find some value in it and it helps you in your writing.&lt;/p&gt;
 
 &lt;p&gt;In a nutshell, my process takes an abstract idea, slowly adds context and structure until I end up with something I’m happy with.&lt;/p&gt;
 
@@ -44,6 +44,8 @@
 
 &lt;h4 id=&quot;4-outline&quot;&gt;4. Outline:&lt;/h4&gt;
 
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/post5/procedural.png&quot; alt=&quot;proc&quot; /&gt;&lt;/p&gt;
+
 &lt;p&gt;The post now has ideas and links between them, but is is still far from complete. Outlining is all about taking your mind-map and giving it procedural structure. I like to use a whiteboard and a classic intro-body-conclusion split. Here’s a whiteboard outline of my last post. It’s… messy to say the least.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/posts/post5/outline.jpg&quot; alt=&quot;outline&quot; /&gt;&lt;/p&gt;
@@ -52,19 +54,21 @@
 
 &lt;h4 id=&quot;5-final-post&quot;&gt;5. Final post:&lt;/h4&gt;
 
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/post5/final.png&quot; alt=&quot;proc&quot; /&gt;&lt;/p&gt;
+
 &lt;p&gt;I usually spend the least amount of time in this step (I get impatient). There is a lot of value in doing this slowly, though — you pay more attention to ‘cutting the fat’ out of your post and you end up with something much more cohesive. One of my favorite quotes about writing:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;“I didn’t have time to write a short letter, so I wrote a long one instead.”&lt;/p&gt;
 
-  &lt;p&gt;– Mark Twain&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;– Mark Twain&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Editing turns a post from ‘good’ to great. Again, I’m guilty of not doing this well. It helps to have someone else read through the post and help you cut down and polish your language (can you help me with this? &lt;a href=&quot;mailto:parthswat@gmail.com&quot;&gt;Please help!&lt;/a&gt;). When I can’t get a hold of people to vet my language, I just use an online editor. It isn’t great, but it helps.&lt;/p&gt;
 
 &lt;p&gt;And that’s it! The post is done! If there are any illustrations or images, they go in now. Happy publishing!&lt;/p&gt;
 
-&lt;p&gt;My process is probably too extensive and unnecessary, but I don’t have a natural knack for writing and a set process helps. The entire process starts with a small idea to which I iteratively add context and structure until I end up with something I’m happy with. Please remember that writing is a highly subjective process – what works for me may not work for you. Regardless, the idea of slowly building out a post in tiny increments (thank you, &lt;a href=&quot;https://searchsoftwarequality.techtarget.com/definition/iterative-development&quot;&gt;iterative development!&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;My process is probably too extensive and unnecessary, but I don’t have a natural knack for writing and a set process helps. The entire process starts with a small idea to which I iteratively add context and structure until I end up with something I’m happy with. Please remember that writing is a highly subjective process – what works for me may not work for you. Regardless, the idea of slowly building out a post in tiny increments (thank you, &lt;a href=&quot;https://searchsoftwarequality.techtarget.com/definition/iterative-development&quot;&gt;iterative development!&lt;/a&gt;) works really well for me.&lt;/p&gt;
 
 &lt;p&gt;There is also a lot more to talk about: the tools I use, the ‘story’ aspect of writing, language use and the completely fascinating world of writing fiction. I want to talk about these but that is simply out of the scope of this post, so I’m planning on doing a &lt;strong&gt;live discussion and Q&amp;amp;A on Discord&lt;/strong&gt; where we can all talk about these things. Here’s how you can attend:&lt;/p&gt;
 
