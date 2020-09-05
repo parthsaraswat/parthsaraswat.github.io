@@ -31,7 +31,7 @@ Let's do a deep dive into each step:
 
 ![idea](/assets/images/posts/post5/idea.png)
 
-I don't think any of us have our best ideas when we sit down and actively try to come up with them. In my experiendce, ideas for posts/videos/podcasts come and go at all times throughout the day when I'm travelling, showering, talking to someone or reading. 
+I don't think any of us have our best ideas when we sit down and actively try to come up with them. In my experience, ideas for posts/videos/podcasts come and go at all times throughout the day when I'm travelling, showering, talking to someone or reading. 
 
 The key here is to record all your ideas and build an archive in a notes app or notebook. It's much easier to keep writing when you have an 'idea bank' than it is to come up with a new idea from scratch every time -- this way you never start from a blank sheet. 
 
