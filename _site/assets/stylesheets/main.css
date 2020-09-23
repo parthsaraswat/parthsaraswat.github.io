@@ -1,6 +1,7 @@
 /* ==========================================================================
-   Default theme skin
+   Sea theme skin
    ========================================================================== */
+/* Colors */
 /*!
  * Basically Basic Jekyll Theme 1.4.4
  * Copyright 2017-2018 Michael Rose - mademistakes | @mmistakes
@@ -540,12 +541,12 @@ html {
       font-size: 18px; } }
 
 body {
-  background: #fff;
-  color: #181c22; }
+  background: #263849;
+  color: #90f6d7; }
 
 blockquote,
 q {
-  color: #74777a;
+  color: #bcfae7;
   font-style: italic; }
   blockquote cite,
   q cite {
@@ -659,9 +660,9 @@ figcaption {
   font-size: 80%; }
 
 a {
-  color: #00838a; }
+  color: #35bcbf; }
   a:hover {
-    color: #006268; }
+    color: #288d8f; }
 
 /* ==========================================================================
    Layout
@@ -678,7 +679,7 @@ a {
   min-height: 100vh;
   transform: translateX(0);
   transition: all 0.4s ease;
-  background-color: #fff;
+  background-color: #263849;
   z-index: 100;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden; }
@@ -762,7 +763,7 @@ main section {
     float: right;
     width: 68.3544303797%; } }
 .layout--cv .entry a {
-  color: #00838a; }
+  color: #35bcbf; }
 .layout--cv .entry address {
   font-style: normal; }
 .layout--cv .entry .title,
@@ -772,7 +773,7 @@ main section {
   margin-bottom: 0; }
 .layout--cv .entry .date {
   margin-bottom: 1rem;
-  color: #74777a;
+  color: #bcfae7;
   font-family: Menlo, Consolas, Monaco, "Courier New", Courier, monospace;
   font-size: 80%; }
 .layout--cv .entry .courses-title,
@@ -812,7 +813,7 @@ table {
 
 th,
 td {
-  border-bottom: 1px solid #d7d8da; }
+  border-bottom: 1px solid rgba(144, 246, 215, 0.5); }
 
 th {
   padding: 0.5em;
@@ -861,7 +862,7 @@ th {
     -webkit-box-align: center;
     align-items: center;
     min-height: 50px;
-    color: #181c22;
+    color: #90f6d7;
     text-decoration: none; }
 
 .site-logo {
@@ -876,7 +877,7 @@ th {
 
 .back-to-top {
   display: block;
-  color: #8c99ad;
+  color: white;
   font-size: 0.75em;
   text-transform: uppercase;
   text-align: right;
@@ -886,13 +887,13 @@ th {
   margin-bottom: 2em;
   padding-bottom: 1em; }
   .taxonomy-section:not(:last-child) {
-    border-bottom: solid 1px #d7d8da; }
+    border-bottom: solid 1px rgba(144, 246, 215, 0.5); }
   .taxonomy-section + .taxonomy-section {
     margin-top: 2em; }
 
 .taxonomy-title {
   margin-bottom: 0.5em;
-  color: #a9b3c3;
+  color: white;
   font-family: "Jost", sans-serif; }
   .taxonomy-title {
     font-size: 28px; }
@@ -904,7 +905,7 @@ th {
         font-size: 32px; } }
 
 .taxonomy-count {
-  color: #8c99ad; }
+  color: white; }
 
 .taxonomy-index {
   display: grid;
@@ -928,9 +929,9 @@ th {
     justify-content: space-between;
     color: inherit;
     text-decoration: none;
-    border-bottom: 1px solid #d7d8da; }
+    border-bottom: 1px solid rgba(144, 246, 215, 0.5); }
     .taxonomy-index a:hover {
-      color: #00838a; }
+      color: #35bcbf; }
   .taxonomy-index + .taxonomy-section {
     margin-top: 3em; }
 
@@ -970,7 +971,7 @@ th {
       opacity: 1; }
     .sidebar li a {
       position: relative;
-      color: #393e46; }
+      color: #41506b; }
       .sidebar li a::before {
         display: block;
         position: absolute;
@@ -980,10 +981,10 @@ th {
         height: 1px;
         -webkit-transition: width 0.3s cubic-bezier(0, 0, 0.3, 1);
         transition: width 0.3s cubic-bezier(0, 0, 0.3, 1);
-        background-color: #393e46;
+        background-color: #41506b;
         content: ""; }
       .sidebar li a:hover {
-        color: #00838a; }
+        color: #35bcbf; }
       .sidebar li a:hover::before {
         width: 2.5rem; }
   .sidebar > .inner {
@@ -1019,7 +1020,7 @@ th {
       bottom: 0;
       width: 1.5em;
       height: 1px;
-      background-color: #393e46;
+      background-color: #41506b;
       content: ""; }
     .sidebar .menu li {
       margin-bottom: 1.5rem; }
@@ -1038,7 +1039,7 @@ th {
       margin-bottom: 0.5rem; }
     .sidebar .contact-list a {
       display: block;
-      color: #393e46;
+      color: #41506b;
       text-decoration: none; }
 
 .sidebar-toggle-wrapper {
@@ -1053,7 +1054,7 @@ th {
   right: 0;
   margin: 1.8125rem 0;
   padding-right: 1rem;
-  background-color: #fff;
+  background-color: #263849;
   z-index: 10000; }
   @media (min-width: 48em) {
     .sidebar-toggle-wrapper {
@@ -1073,7 +1074,7 @@ th {
 .sidebar-toggle-label {
   margin-left: 0.5rem;
   font-weight: bold;
-  color: #181c22; }
+  color: #90f6d7; }
 
 /* ==========================================================================
    Navigation
@@ -1120,13 +1121,13 @@ th {
     display: block;
     padding: 1em;
     border-radius: 0.25em;
-    background-color: #00838a;
+    background-color: #35bcbf;
     color: #fff;
     font-weight: bold;
     text-align: center;
     text-decoration: none; }
     .pager a:hover {
-      background-color: #339ca1; }
+      background-color: #5dc9cc; }
 
 /* ==========================================================================
    SEARCH
@@ -1141,7 +1142,7 @@ th {
   -webkit-transition: 0.2s;
   transition: 0.2s; }
   .search-toggle .icon {
-    fill: #181c22; }
+    fill: #90f6d7; }
     .search-toggle .icon {
       font-size: 20px; }
       @media screen and (min-width: 320px) {
@@ -1201,19 +1202,19 @@ th {
 
 /* Algolia search */
 .ais-hits .entry {
-  border-bottom: 1px solid #d7d8da; }
+  border-bottom: 1px solid rgba(144, 246, 215, 0.5); }
 
 .ais-search-box {
   max-width: 100% !important;
   margin-bottom: 2em; }
 
 .entry-title .ais-Highlight {
-  color: #00838a;
+  color: #35bcbf;
   font-style: normal;
   text-decoration: underline; }
 
 .entry-excerpt .ais-Highlight {
-  color: #00838a;
+  color: #35bcbf;
   font-style: normal;
   font-weight: bold; }
 
@@ -1222,7 +1223,7 @@ th {
    ========================================================================== */
 .site-footer {
   margin-top: 4rem;
-  color: #74777a;
+  color: #bcfae7;
   font-size: 80%; }
   .site-footer .inner {
     padding: 0 0.5rem; }
@@ -1257,13 +1258,13 @@ th {
     clear: both;
     content: ''; }
   .entry:not(:last-child) {
-    border-bottom: 1px solid #d7d8da; }
+    border-bottom: 1px solid rgba(144, 246, 215, 0.5); }
   .entry a {
     color: inherit; }
 
 .entry-title {
   margin-bottom: 0.5rem;
-  color: #525559;
+  color: #acf8e1;
   line-height: inherit; }
   .entry-title {
     font-size: 18px; }
@@ -1306,7 +1307,7 @@ th {
     margin-left: 1.5rem; }
   .entry-meta .icon {
     margin-right: 0.5em;
-    fill: #00838a; }
+    fill: #35bcbf; }
 
 /*
    Entry list
@@ -1315,7 +1316,7 @@ th {
   word-wrap: break-word;
   /* break long words that could overflow */ }
   .entries-list .entry-title a:hover {
-    color: #00838a; }
+    color: #35bcbf; }
 .entries-list .entry-excerpt {
   /* normalize font sizes */
   /* remove space after last child element */ }
@@ -1408,13 +1409,13 @@ th {
 .entry-content h4,
 .entry-content h5,
 .entry-content h6 {
-  color: #525559; }
+  color: #acf8e1; }
 
 /* Footnotes */
 .footnotes {
   margin: 2rem 0;
   padding-top: 1rem;
-  border-top: 1px solid #d7d8da;
+  border-top: 1px solid rgba(144, 246, 215, 0.5);
   font-size: 80%; }
 
 /* Read more link */
@@ -1431,7 +1432,7 @@ th {
   padding: 0.5em 1em;
   border: 0;
   border-radius: 0.25em;
-  background-color: #00838a;
+  background-color: #35bcbf;
   color: #fff;
   font-weight: bold;
   text-align: center;
@@ -1439,10 +1440,10 @@ th {
   cursor: pointer;
   /* block button fills width of parent container */ }
   .btn:hover {
-    background-color: #339ca1;
+    background-color: #5dc9cc;
     color: #fff; }
   .btn:focus {
-    background-color: #00696e; }
+    background-color: #2a9699; }
   .btn .icon {
     margin-right: 0.5em; }
   .btn--block {
@@ -1535,7 +1536,7 @@ th {
 
 .intro-title {
   margin-bottom: 1rem;
-  color: #525559;
+  color: #acf8e1;
   line-height: 1; }
   .intro-title {
     font-size: 26px; }
@@ -1611,7 +1612,7 @@ th {
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
   border-radius: 1.75em;
-  background: #181c22; }
+  background: #90f6d7; }
   .navicon::before, .navicon::after {
     display: block;
     position: absolute;
@@ -1620,7 +1621,7 @@ th {
     -webkit-transition-duration: 0.5s 0.25s;
     transition-duration: 0.5s 0.25s;
     border-radius: 1.75em;
-    background: #181c22;
+    background: #90f6d7;
     content: ""; }
   .navicon::before {
     top: 0.5em; }
@@ -1997,7 +1998,7 @@ figure.highlight {
     padding: 0.75em 1em;
     clip: auto !important;
     border-radius: 0.125em;
-    background-color: #393e46;
+    background-color: #41506b;
     color: #fff;
     font-weight: bold;
     line-height: normal;
