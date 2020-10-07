@@ -59,6 +59,11 @@ var store = [{
         "tags": ["writing","guide","so you want to"],
         "url": "http://localhost:4000/general/2020/08/27/writing-process.html"
       },{
+        "title": "The Best Way to Keep in Touch (Digitally)",
+        "excerpt":"Do I even need to mention why keeping in touch digitally is more important than ever today? With people moving across globes for education and work, being good at keeping in touch has been important even before the pandemic. There is a running joke among my friends about my ineptitude...","categories": ["general"],
+        "tags": ["guide"],
+        "url": "http://localhost:4000/general/2020/09/23/discord.html"
+      },{
         "title": "Branch Predictor FL models",
         "excerpt":"In computer architecture, a branch predictor is a digital circuit that tries to guess which way a branch (e.g. an if–then–else structure) will go before this is known definitively. The purpose of the branch predictor is to improve the flow in the instruction pipeline. Branch predictors play a critical role...","categories": [],
         "tags": [],
