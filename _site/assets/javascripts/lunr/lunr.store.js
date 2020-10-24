@@ -64,6 +64,11 @@ var store = [{
         "tags": ["guide"],
         "url": "http://localhost:4000/general/2020/09/23/discord.html"
       },{
+        "title": "Applying to Grad Schools in The US: a primer",
+        "excerpt":"Applying to the US for a Master’s degree in a STEM major can be daunting. It isn’t that there is a lack of information, but the opposite. The internet is flooded with information about this - all of which seems relevant. The process can be overwhelming and stressful. This post...","categories": ["general"],
+        "tags": ["guide","so you want to"],
+        "url": "http://localhost:4000/general/2020/10/23/masters.html"
+      },{
         "title": "Branch Predictor FL models",
         "excerpt":"In computer architecture, a branch predictor is a digital circuit that tries to guess which way a branch (e.g. an if–then–else structure) will go before this is known definitively. The purpose of the branch predictor is to improve the flow in the instruction pipeline. Branch predictors play a critical role...","categories": [],
         "tags": [],
