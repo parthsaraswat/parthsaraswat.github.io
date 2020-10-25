@@ -107,5 +107,3 @@ defaults:
 
 google_analytics: UA-168019706-1
 search: true;
-disqus:
- shortname: parthsaraswat-github-io
