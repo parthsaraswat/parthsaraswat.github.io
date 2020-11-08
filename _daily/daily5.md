@@ -3,7 +3,7 @@ title: "November 7, 2020"
 sub_title: An hour long project
 categories:
   - daily
-excerpt: ""
+excerpt: "A tiny project"
 tags:
   - daily
   - learninpublic
