@@ -15,6 +15,6 @@ Happy Saturday! Today I made a quick guitar chord progression and recorded rando
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PSBct5wqJVs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Not all projects and compositions need to be long and well thought out. This was fun just because how quick the trunaround time was. 
+Not all projects and compositions need to be long and well thought out. This was fun just because of how short the turnaround time was. 
 
 ---
