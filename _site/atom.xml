@@ -1,4 +1,191 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2020-10-24T09:37:46-04:00</updated><id>http://localhost:4000/atom.xml</id><title type="html">Parth Saraswat</title><subtitle>Website</subtitle><author><name>Parth Saraswat</name></author><entry><title type="html">Applying to Grad Schools in The US: a primer</title><link href="http://localhost:4000/general/2020/10/23/masters.html" rel="alternate" type="text/html" title="Applying to Grad Schools in The US: a primer" /><published>2020-10-23T00:00:00-04:00</published><updated>2020-10-23T00:00:00-04:00</updated><id>http://localhost:4000/general/2020/10/23/masters</id><content type="html" xml:base="http://localhost:4000/general/2020/10/23/masters.html">&lt;p&gt;Applying to the US for a Master’s degree in a STEM major can be daunting. It isn’t that there is a lack of information, but the opposite. The internet is flooded with information about this - all of which seems relevant. The process can be overwhelming and stressful. This post is meant to be a (very) gentle introduction to anyone considering further studies after finishing their undergraduate courses. It will walk you through the very basics and point you to resources that I found useful back when I was applying. Let’s get started!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2021-01-01T21:02:32-08:00</updated><id>http://localhost:4000/atom.xml</id><title type="html">Parth Saraswat</title><subtitle>Website</subtitle><author><name>Parth Saraswat</name></author><entry><title type="html">How to Approach Side Projects</title><link href="http://localhost:4000/general/2020/11/13/side-proj.html" rel="alternate" type="text/html" title="How to Approach Side Projects" /><published>2020-11-13T00:00:00-08:00</published><updated>2020-11-13T00:00:00-08:00</updated><id>http://localhost:4000/general/2020/11/13/side-proj</id><content type="html" xml:base="http://localhost:4000/general/2020/11/13/side-proj.html">&lt;p&gt;Almost everyone has great ideas for side projects. Over the past 3-4 years, I have had numerous good ideas, but have only started on a fraction of them, finished even fewer, and been happy with maybe 1 or 2 out of 20. This post is an attempt at crystallizing what I’ve learnt about making it easier to start on your side project ideas, making it more likely that you finish them, and how you can actually be happy with the end product. If you’ve been meaning to start on a side project for a while, maybe you can find some value in this!&lt;/p&gt;
+
+&lt;p&gt;At the heart of it, any side project is a 3-step process:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Understand what you’re making/doing&lt;/li&gt;
+  &lt;li&gt;Specify what constitutes a finished project&lt;/li&gt;
+  &lt;li&gt;Implement your idea&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I’m going to use 3 side projects to elaborate on each of those steps. The 3 projects are a &lt;a href=&quot;https://www.youtube.com/watch?v=PSBct5wqJVs&amp;amp;feature=emb_logo&quot;&gt;music and video project&lt;/a&gt; that took under an hour to make, a &lt;a href=&quot;https://psaraswat.com/projects/branch-pred-fl/&quot;&gt;semester long technical project&lt;/a&gt;, and an ongoing project: this website! Let’s get started.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;1-understanding-what-youre-making&quot;&gt;1. Understanding what you’re making&lt;/h3&gt;
+
+&lt;p&gt;This step is all about putting your abstract idea into words. You’re trying to answer the question &lt;em&gt;“what am I making?”&lt;/em&gt;. The goal is to add more clarity to your idea. I suggest putting this into writing. There have been multiple situations where I had an idea that made sense to me in my head but looked questionable when put onto paper. At this step, there is no need to be overly specific. Just answer the “what am I making” question. Here’s how I did it for 3 of my projects:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=PSBct5wqJVs&amp;amp;feature=emb_logo&quot;&gt;Tiny music project&lt;/a&gt;: a random video with some original piece of acoustic music&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://psaraswat.com/projects/branch-pred-fl/&quot;&gt;Branch predictor project&lt;/a&gt;: functional level models of 2/3 branch predictors in C++&lt;/li&gt;
+  &lt;li&gt;Personal website: a website that can be a home to all my work and also act as a blog&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;2-specification&quot;&gt;2. Specification:&lt;/h3&gt;
+
+&lt;p&gt;You have an idea of what you’re making. Now, specify details before you get started. Answer the question: &lt;em&gt;‘what constitutes a finished project?’&lt;/em&gt;. The goal here is to remove any vague descriptions and set concrete expectations from the project. I like to be as objective as possible here. ‘Specification’ calls for specificity (wow). Be specific! For my projects, I like to make a list of outcomes that need to be done to call the project ‘finished’. Here are some of my lists:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=PSBct5wqJVs&amp;amp;feature=emb_logo&quot;&gt;Tiny music project&lt;/a&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;A chord progression&lt;/li&gt;
+      &lt;li&gt;A video&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://psaraswat.com/projects/branch-pred-fl/&quot;&gt;Branch predictor project&lt;/a&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;1-level predictor functional level model&lt;/li&gt;
+      &lt;li&gt;2-level predictor functional level model&lt;/li&gt;
+      &lt;li&gt;Binary instrumentation tool&lt;/li&gt;
+      &lt;li&gt;Everything parameterized and extensible&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Personal website: a website that can be a home to all my work and also act as a blog
+    &lt;ul&gt;
+      &lt;li&gt;A main home/landing page that holds links to all my work&lt;/li&gt;
+      &lt;li&gt;A blog page with hero image support&lt;/li&gt;
+      &lt;li&gt;A first post with a vision for the website&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The point of making these specifications is so you know &lt;em&gt;exactly&lt;/em&gt; what you’re trying to build. In my experience this step also makes it more likely that you will be happy with your finished project, but your mileage may vary.&lt;/p&gt;
+
+&lt;h3 id=&quot;3-implementation&quot;&gt;3. Implementation&lt;/h3&gt;
+
+&lt;p&gt;You now have an exact idea of what your project involves. Time to work on it! You’re looking to answer the &lt;em&gt;‘how do I make this’&lt;/em&gt; question and then follow through. The goal is to start working on your project, deal with problems, and keep going until you finish. In my experience this step is made infinitely easier when I do steps 1 and 2 well. Otherwise, the lack of clarity is demotivating.&lt;/p&gt;
+
+&lt;p&gt;This is also about 80% of the total work of the project, and involves dealing with problems that you don’t foresee. For example, here are problems that came up when I implemented my projects:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=PSBct5wqJVs&amp;amp;feature=emb_logo&quot;&gt;Tiny music project&lt;/a&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;I’m very new to writing my own music. I got stuck many times and changed up the progression at least 3 times until I had something I was happy with.&lt;/li&gt;
+      &lt;li&gt;I had some technical difficulties with recording as my mic just stopped working. Did not see that coming.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://psaraswat.com/projects/branch-pred-fl/&quot;&gt;Branch predictor project&lt;/a&gt;): functional level models of 2/3 branch predictors in C++
+    &lt;ul&gt;
+      &lt;li&gt;There were parts of the code that required C++ tricks I hadn’t worked with before. Reinterpret casting, compiling Intel’s pintools, issues with huge Makefiles and writing and debugging code.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Personal website:
+    &lt;ul&gt;
+      &lt;li&gt;This was my first time being exposed to any sort of web development. Setting up and learning Jekyll was a big task.&lt;/li&gt;
+      &lt;li&gt;I also ran into issues with GitHub pages&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;And that’s mostly it! Here’s some final things to note:&lt;/p&gt;
+
+&lt;p&gt;It’s okay to abandon projects if you don’t think they’re working, but abandoning something because it’s too much work just doesn’t feel right (I’ve been guilty of this a lot: my YouTube channel still is a good idea in my head, but just too much work so I don’t get around to it).&lt;/p&gt;
+
+&lt;p&gt;The whole process is iterative! During implementation you may realise your spec needs to change a little bit. Do it! If you think something is too difficult and needs to be made easier so you can finish it, that’s a great call.&lt;/p&gt;
+
+&lt;p&gt;At the end of the day, side projects are voluntary. I abandon side projects if I stop enjoying the process and ‘finishing the project’ is the only motivator.&lt;/p&gt;
+
+&lt;p&gt;There are so many more details that I wanted to talk about in this post, but there just isn’t any room. If you want to talk about any of your side projects or if you have an approach that works well for you, &lt;a href=&quot;mailto:parthswat@gmail.com&quot;&gt;let me know!&lt;/a&gt; I’m always willing to talk.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;See you next week for a new post!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thanks for reading! You can always &lt;a href=&quot;mailto:parthswat@gmail.com&quot;&gt;email me&lt;/a&gt; to chat about this post - or anything else.&lt;/em&gt;&lt;/p&gt;</content><author><name>Parth Saraswat</name></author><category term="guide" /><category term="thoughts" /><summary type="html">Take your side project from an idea to a finished product you're happy with!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/posts/post9/header.png" /><media:content medium="image" url="http://localhost:4000/assets/images/posts/post9/header.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Contextual Book Recommendations 2020</title><link href="http://localhost:4000/general/2020/11/01/bookrecs.html" rel="alternate" type="text/html" title="Contextual Book Recommendations 2020" /><published>2020-11-01T00:00:00-07:00</published><updated>2020-11-01T00:00:00-07:00</updated><id>http://localhost:4000/general/2020/11/01/bookrecs</id><content type="html" xml:base="http://localhost:4000/general/2020/11/01/bookrecs.html">&lt;p&gt;Most book recommendations are along the lines of &lt;em&gt;‘If you liked (book 1), you will like (book 2)’&lt;/em&gt; or &lt;em&gt;‘this was a very well written book’&lt;/em&gt;. This is a perfectly good way to recommend books, but I also think the books people enjoy reading depends on what sort of mood/state of life they are in. In that spirit, here are my 8 contextual book recommendations for this year! I’ve also tried to grab my favorite snips from the books so you can sample them as you read this post. Happy reading for the rest of the year! Let’s get started.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;if-you-do-any-kind-of-creative-work--have-a-couple-of-hours-to-kill-read-show-your-work-by-austin-kleon&quot;&gt;If you do any kind of creative work &amp;amp; have a couple of hours to kill, read &lt;a href=&quot;https://www.goodreads.com/book/show/18290401-show-your-work?ac=1&amp;amp;from_search=true&amp;amp;qid=br9IetvZYg&amp;amp;rank=1&quot;&gt;Show Your Work by Austin Kleon&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://austinkleon.com/wp-content/uploads/2018/08/show_3D_wo_shadow-1-768x861.jpg&quot; alt=&quot;img1&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;An alternative, if you will, to self-promotion. I’m going to try to teach you how to think about your work as a never-ending process, how to share your process in a way that attracts people who might be interested in what you do, and how to deal with the ups and downs of putting yourself and your work out in the world.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I picked up this book on a Wednesday at 3pm and couldn’t out it away until I was done 2 hours later. This will change how you view your creative work and how you share it.&lt;/p&gt;
+
+&lt;h4 id=&quot;if-youre-looking-to-read-real-interesting-heart-warming-behind-the-scenes-stories-from-the-biggest-businesses-in-the-world-read&quot;&gt;If you’re looking to read real, interesting, heart warming behind-the-scenes stories from the biggest businesses in the world, read…&lt;/h4&gt;
+
+&lt;h4 id=&quot;ride-of-a-lifetime-by-bob-iger&quot;&gt;…&lt;a href=&quot;https://www.goodreads.com/book/show/44525305-the-ride-of-a-lifetime?ac=1&amp;amp;from_search=true&amp;amp;qid=8MWr47Vyyg&amp;amp;rank=2&quot;&gt;Ride of a Lifetime by Bob Iger&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images-na.ssl-images-amazon.com/images/I/81NM735KkyL.jpg&quot; alt=&quot;img2&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Don’t let ambition get ahead of opportunity. By fixating on a future job or project, you become impatient with where you are. You don’t tend enough to the responsibilities you do have, and so ambition can become counterproductive. It’s important to know how to find the balance—do the job you have well; be patient; look for opportunities to pitch in and expand and grow; and make yourself one of the people, through attitude and energy and focus, whom your bosses feel they have to turn to when an opportunity arises.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Can’t say enough nice things about the stories from this book. This isn’t a book about a business or advice, it’s a lot more valuable than that.&lt;/p&gt;
+
+&lt;h4 id=&quot;or-shoe-dog-by-phil-knight&quot;&gt;…or &lt;a href=&quot;https://www.goodreads.com/book/show/27220736-shoe-dog?from_search=true&amp;amp;from_srp=true&amp;amp;qid=6vwLttuzoL&amp;amp;rank=1&quot;&gt;Shoe Dog by Phil Knight&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images-na.ssl-images-amazon.com/images/I/71XziFlh4IL.jpg&quot; alt=&quot;img3&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Just before getting on the plane home we signed deals with two Chinese factories, and officially became the first American shoemaker in twenty-five years to be allowed to do business in China. It seems wrong to call it “business.” It seems wrong to throw all those hectic days and sleepless nights, all those magnificent triumphs and desperate struggles, under that bland, generic banner: business. What we were doing felt like so much more. Each new day brought fifty new problems, fifty tough decisions that needed to be made, right now, and we were always acutely aware that one rash move, one wrong decision could be the end. The margin for error was forever getting narrower, while the stakes were forever creeping higher—and none of us wavered in the belief that “stakes” didn’t mean “money.” For some, I realize, business is the all-out pursuit of profits, period, full stop, but for us business was no more about making money than being human is about making blood. Yes, the human body needs blood. It needs to manufacture red and white cells and platelets and redistribute them evenly, smoothly, to all the right places, on time, or else. But that day-to-day business of the human body isn’t our mission as human beings. It’s a basic process that enables our higher aims, and life always strives to transcend the basic processes of living—and at some point in the late 1970s, I did, too. I redefined winning, expanded it beyond my original definition of not losing, of merely staying alive. That was no longer enough to sustain me, or my company. We wanted, as all great businesses do, to create, to contribute, and we dared to say so aloud. When you make something, when you improve something, when you deliver something, when you add some new thing or service to the lives of strangers, making them happier, or healthier, or safer, or better, and when you do it all crisply and efficiently, smartly, the way everything should be done but so seldom is—you’re participating more fully in the whole grand human drama. More than simply alive, you’re helping others to live more fully, and if that’s business, all right, call me a businessman.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Possibly the one book that I would recommend you read no matter what. I struggled to pick one single highlight to include from this book, but the one above only does partial justice to the story of how Nike came to be.&lt;/p&gt;
+
+&lt;h4 id=&quot;if-you-have-just-graduated-from-collegeif-youre-starting-a-new-jobif-youre-generally-confused-about-the-what-do-i-do-with-my-life-question-read-designing-your-life-by-bill-burnett-and-dave-evans&quot;&gt;If you have just graduated from college/if you’re starting a new job/if you’re generally confused about the ‘&lt;a href=&quot;https://psaraswat.com/general/2020/08/11/what-do-i-do.html&quot;&gt;what do I do with my life&lt;/a&gt;’ question, read &lt;a href=&quot;https://www.goodreads.com/book/show/26046333-designing-your-life?ac=1&amp;amp;from_search=true&amp;amp;qid=kDlX90n2R0&amp;amp;rank=1&quot;&gt;Designing Your Life by Bill Burnett and Dave Evans&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images-na.ssl-images-amazon.com/images/I/81AE76v5odL.jpg&quot; alt=&quot;img4&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We all know how to worry about our lives. Analyze our lives. Even speculate about our lives. Worry, analysis, and speculation are not our best discovery tools, and most of us have, at one time or another, gotten incredibly lost and confused using them. They tend to keep us spinning in circles and spending weeks, months, or years sitting on that couch (or at a desk, or in a relationship) trying to figure out what to do next. It’s as if life were this great big DIY project, but only a select few actually got the instruction manual. This is not designing your life. This is obsessing about your life. We’re here to change that.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Even if you already have most of the insights this book talks about, some of the exercises and insights will be new to you.&lt;/p&gt;
+
+&lt;h4 id=&quot;if-youre-in-the-mood-for-a-fuzzy-cute-romantic-comedy-read&quot;&gt;If you’re in the mood for a fuzzy, cute, romantic-comedy, read…&lt;/h4&gt;
+
+&lt;h4 id=&quot;the-rosie-project-by-don-tillman&quot;&gt;…&lt;a href=&quot;https://www.goodreads.com/book/show/16181775-the-rosie-project?ac=1&amp;amp;from_search=true&amp;amp;qid=ySK1zQtyJj&amp;amp;rank=1&quot;&gt;The Rosie Project by Don Tillman&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images-na.ssl-images-amazon.com/images/I/61169zqSQ+L.jpg&quot; alt=&quot;img5&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Amazing. She retains a professor of genetics, an alien of extraordinary abilities, to help find her father, she travels for a week, spending almost every minute of the waking day with him, yet when she wants the answer to a question on genetics, she goes to the Internet.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;or-eleanor-oliphant-is-completely-fine-by-gail-honeyman&quot;&gt;…or &lt;a href=&quot;https://www.goodreads.com/book/show/31434883-eleanor-oliphant-is-completely-fine&quot;&gt;Eleanor Oliphant is Completely Fine by Gail Honeyman&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images-na.ssl-images-amazon.com/images/I/91mzfTQ1FKL.jpg&quot; alt=&quot;img6&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Eleanor, I said to myself, sometimes you’re too quick to judge people. There are all kinds of reasons why they might not look like the kind of person you’d want to sit next to on a bus, but you can’t sum someone up in a ten-second glance. That’s simply not enough time. The way you try not to sit next to fat people, for example. There’s nothing wrong with being overweight, is there? They could be eating because they’re sad, the same way you used to drink vodka. They could have had parents who never taught them how to cook or eat healthily. They could be disabled and unable to exercise, or else they could have an illness that contributes to weight gain despite their best efforts. You just don’t know, Eleanor, I said to myself.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;There are 2 kinds of people on this planet. People who enjoy the warm, fuzzy feeling that good romantic comedies give them, and liars. These books are just as good as they are advertised to be. Recommend!&lt;/p&gt;
+
+&lt;h4 id=&quot;if-youre-in-any-engineering-job-especially-software-engineering-or-if-youre-simply-trying-to-change-how-you-think-about-problems-and-solutions-read-pragmatic-thinking-and-learning-by-andy-hunt&quot;&gt;If you’re in any engineering job (especially software engineering) OR if you’re simply trying to change how you think about problems and solutions, read &lt;a href=&quot;https://www.goodreads.com/book/show/3063393-pragmatic-thinking-and-learning?ac=1&amp;amp;from_search=true&amp;amp;qid=OiVSxFu7Yg&amp;amp;rank=3&quot;&gt;Pragmatic Thinking and Learning by Andy Hunt&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images-na.ssl-images-amazon.com/images/I/51vzTtzCFmL._SX415_BO1,204,203,200_.jpg&quot; alt=&quot;img7&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This book is different when compared to the others on this list. Written a lot more in a textbook-style format, this isn’t a book you binge or read passively. This is a book you have on your bookshelf and keep going back to until you’re able to internalize everything it talks about. I have a bunch of unfinished notes from this book if you prefer to get a taster for what it’s actually like. &lt;a href=&quot;mailto:parthswat@gmail.com&quot;&gt;Email me&lt;/a&gt; if you’d like a pdf of the notes!&lt;/p&gt;
+
+&lt;h4 id=&quot;if-youre-not-the-happiest-about-your-day-to-day-habits-and-want-a-no-nonsense-self-help-book-read-atomic-habits-by-james-clear&quot;&gt;If you’re not the happiest about your day-to-day habits and want a no-nonsense self-help book, read &lt;a href=&quot;https://www.goodreads.com/book/show/40121378-atomic-habits?ac=1&amp;amp;from_search=true&amp;amp;qid=Euygx7QU8g&amp;amp;rank=1&quot;&gt;Atomic Habits by James Clear&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images-na.ssl-images-amazon.com/images/I/91pR9wKJ3zL.jpg&quot; alt=&quot;img8&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;You do not rise to the level of your goals. You fall to the level of your system&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The only real self-help book that I would recommend you read. Again, like any other self help book, this could have been much shorter, but James Clear keeps everthing concise and straight to the point. One of my favorites this year.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;I hope you find some value in these recommendations. If you have any books that you would like to put on this list, &lt;a href=&quot;mailto:parthswat@gmail.com&quot;&gt;let me know&lt;/a&gt;! As the recommendations keep coming in, I will include them below. Just make them contextual! For example, &lt;strong&gt;&lt;em&gt;“if you &amp;lt; mood or life event or other context &amp;gt;, you should read &amp;lt; book name &amp;gt;”&lt;/em&gt;&lt;/strong&gt;. I look forward to adding your recommendations in!&lt;/p&gt;
+
+&lt;p&gt;Happy reading!&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;em&gt;See you next week for a new post!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thanks for reading! You can always &lt;a href=&quot;mailto:parthswat@gmail.com&quot;&gt;email me&lt;/a&gt; to chat about this post - or anything else.&lt;/em&gt;&lt;/p&gt;</content><author><name>Parth Saraswat</name></author><summary type="html">Recommendations based on what you're in the mood for!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/posts/post8/header.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/posts/post8/header.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Applying to Grad Schools in The US: a primer</title><link href="http://localhost:4000/general/2020/10/23/masters.html" rel="alternate" type="text/html" title="Applying to Grad Schools in The US: a primer" /><published>2020-10-23T00:00:00-07:00</published><updated>2020-10-23T00:00:00-07:00</updated><id>http://localhost:4000/general/2020/10/23/masters</id><content type="html" xml:base="http://localhost:4000/general/2020/10/23/masters.html">&lt;p&gt;Applying to the US for a Master’s degree in a STEM major can be daunting. It isn’t that there is a lack of information, but the opposite. The internet is flooded with information about this - all of which seems relevant. The process can be overwhelming and stressful. This post is meant to be a (very) gentle introduction to anyone considering further studies after finishing their undergraduate courses. It will walk you through the very basics and point you to resources that I found useful back when I was applying. Let’s get started!&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -17,7 +204,7 @@
 
 &lt;h4 id=&quot;1-give-2-exams&quot;&gt;1. Give 2 exams:&lt;/h4&gt;
 
-&lt;p&gt;You have probably heard of the GRE oand the TOEFL. Almost all US universities require you to give these tests as part of your application.&lt;/p&gt;
+&lt;p&gt;You have probably heard of the GRE and the TOEFL. Almost all US universities require you to give these tests as part of your application.&lt;/p&gt;
 
 &lt;h5 id=&quot;what-are-these-tests&quot;&gt;What are these Tests?&lt;/h5&gt;
 
@@ -35,11 +222,10 @@
 
 &lt;ul&gt;
   &lt;li&gt;TOEFL: &lt;strong&gt;$180&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;GRE: &lt;strong&gt;$160&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Your scores are &lt;strong&gt;valid for 5 years.&lt;/strong&gt; This means you can give these tests whenever you have the time to prepare, and use the scores a few years later.&lt;/li&gt;
+  &lt;li&gt;GRE: &lt;strong&gt;$160&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;Your scores are &lt;strong&gt;valid for 5 (GRE) and 2 (TOEFL) years.&lt;/strong&gt; This means you can give these tests whenever you have the time to prepare, and use the scores a few years later.&lt;/p&gt;
 
 &lt;p&gt;A ‘good score’ for the GRE depends on where you choose to apply and to what program. Higher ranked universities will ask for higher scores. Some people prepare for a 1-2 months, some prepare for much longer. There is no single right way. Assess your personal situation and choose what works for you.&lt;/p&gt;
 
@@ -70,7 +256,7 @@
 
 &lt;h5 id=&quot;courses-offered&quot;&gt;Courses offered&lt;/h5&gt;
 
-&lt;p&gt;Once you know what you want to study, you can use that information to decide which courses you will want to study, and you can check whether a particular univeristy offers those courses and what the reputation of the course is.&lt;/p&gt;
+&lt;p&gt;Once you know what you want to study, you can use that information to decide which courses you will want to study, and you can check whether a particular university offers those courses and what the reputation of the course is.&lt;/p&gt;
 
 &lt;h5 id=&quot;cost&quot;&gt;Cost&lt;/h5&gt;
 
@@ -186,7 +372,7 @@
 
 &lt;p&gt;If you have any further questions, quick Google searches will get you a long way. For anything that Google cannot answer, I’d be willing to help. &lt;a href=&quot;mailto:parthswat@gmail.com&quot;&gt;Contact me here!&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Happy applying!&lt;/p&gt;</content><author><name>Parth Saraswat</name></author><category term="guide" /><category term="so you want to" /><summary type="html">A 4-step process</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/posts/post7/header.png" /><media:content medium="image" url="http://localhost:4000/assets/images/posts/post7/header.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The Best Way to Keep in Touch (Digitally)</title><link href="http://localhost:4000/general/2020/09/23/discord.html" rel="alternate" type="text/html" title="The Best Way to Keep in Touch (Digitally)" /><published>2020-09-23T00:00:00-04:00</published><updated>2020-09-23T00:00:00-04:00</updated><id>http://localhost:4000/general/2020/09/23/discord</id><content type="html" xml:base="http://localhost:4000/general/2020/09/23/discord.html">&lt;p&gt;Do I even need to mention why keeping in touch digitally is more important than ever today? With people moving across globes for education and work, being good at keeping in touch has been important even before the pandemic.&lt;/p&gt;
+&lt;p&gt;Happy applying!&lt;/p&gt;</content><author><name>Parth Saraswat</name></author><category term="guide" /><category term="so you want to" /><summary type="html">A 4-step process</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/posts/post7/header.png" /><media:content medium="image" url="http://localhost:4000/assets/images/posts/post7/header.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The Best Way to Keep in Touch (Digitally)</title><link href="http://localhost:4000/general/2020/09/23/discord.html" rel="alternate" type="text/html" title="The Best Way to Keep in Touch (Digitally)" /><published>2020-09-23T00:00:00-07:00</published><updated>2020-09-23T00:00:00-07:00</updated><id>http://localhost:4000/general/2020/09/23/discord</id><content type="html" xml:base="http://localhost:4000/general/2020/09/23/discord.html">&lt;p&gt;Do I even need to mention why keeping in touch digitally is more important than ever today? With people moving across globes for education and work, being good at keeping in touch has been important even before the pandemic.&lt;/p&gt;
 
 &lt;p&gt;There is a running joke among my friends about my ineptitude at keeping in touch. It may be an understatement to say that I was notoriously bad at keeping in touch. I’m not the best at texting back, and my ability to set up and commit to phone calls is… sigh. All of these are exact reasons why you should listen to me! I’ve made mistakes and experimented with different ways to keep in touch digitally and (I think) I finally have something that works very well.&lt;/p&gt;
 
@@ -222,7 +408,7 @@
 
 &lt;hr /&gt;
 
-&lt;p&gt;You can &lt;a href=&quot;mailto:parthwat@gmail.com&quot;&gt;contact me&lt;/a&gt; if you want to talk about this post (or anything else really).&lt;/p&gt;</content><author><name>Parth Saraswat</name></author><category term="guide" /><summary type="html">How and why I use Discord</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/posts/post6/header.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/posts/post6/header.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">My Writing Process</title><link href="http://localhost:4000/general/2020/08/27/writing-process.html" rel="alternate" type="text/html" title="My Writing Process" /><published>2020-08-27T00:00:00-04:00</published><updated>2020-08-27T00:00:00-04:00</updated><id>http://localhost:4000/general/2020/08/27/writing-process</id><content type="html" xml:base="http://localhost:4000/general/2020/08/27/writing-process.html">&lt;p&gt;Writing blog posts / YouTube videos / anything creative can be a frustrating process. There is a lot of friction which can cause severe discouragement which leads to people stopping (trust me, I gave up doing YouTube videos because I just didn’t have a fun time making them anymore — and this was mostly down to the writing process). Over time, though, I’ve come up with a writing process that helps me avoid these roadblocks. It helps me take an idea and turn it into a 1000+ word post without getting overwhelmed. My goal with this post is to walk you through this process in the hopes that you find some value in it and it helps you in your writing.&lt;/p&gt;
+&lt;p&gt;You can &lt;a href=&quot;mailto:parthwat@gmail.com&quot;&gt;contact me&lt;/a&gt; if you want to talk about this post (or anything else really).&lt;/p&gt;</content><author><name>Parth Saraswat</name></author><category term="guide" /><summary type="html">How and why I use Discord</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/posts/post6/header.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/posts/post6/header.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">My Writing Process</title><link href="http://localhost:4000/general/2020/08/27/writing-process.html" rel="alternate" type="text/html" title="My Writing Process" /><published>2020-08-27T00:00:00-07:00</published><updated>2020-08-27T00:00:00-07:00</updated><id>http://localhost:4000/general/2020/08/27/writing-process</id><content type="html" xml:base="http://localhost:4000/general/2020/08/27/writing-process.html">&lt;p&gt;Writing blog posts / YouTube videos / anything creative can be a frustrating process. There is a lot of friction which can cause severe discouragement which leads to people stopping (trust me, I gave up doing YouTube videos because I just didn’t have a fun time making them anymore — and this was mostly down to the writing process). Over time, though, I’ve come up with a writing process that helps me avoid these roadblocks. It helps me take an idea and turn it into a 1000+ word post without getting overwhelmed. My goal with this post is to walk you through this process in the hopes that you find some value in it and it helps you in your writing.&lt;/p&gt;
 
 &lt;p&gt;In a nutshell, my process takes an abstract idea, slowly adds context and structure until I end up with something I’m happy with.&lt;/p&gt;
 
@@ -303,7 +489,7 @@
 
 &lt;p&gt;I’m excited! Let’s get to writing.&lt;/p&gt;
 
-&lt;hr /&gt;</content><author><name>Parth Saraswat</name></author><category term="writing" /><category term="guide" /><category term="so you want to" /><summary type="html">A 5-step process</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/posts/post5/header.png" /><media:content medium="image" url="http://localhost:4000/assets/images/posts/post5/header.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">What do I do With My Life?</title><link href="http://localhost:4000/general/2020/08/11/what-do-i-do.html" rel="alternate" type="text/html" title="What do I do With My Life?" /><published>2020-08-11T00:00:00-04:00</published><updated>2020-08-11T00:00:00-04:00</updated><id>http://localhost:4000/general/2020/08/11/what-do-i-do</id><content type="html" xml:base="http://localhost:4000/general/2020/08/11/what-do-i-do.html">&lt;p&gt;One of the most common problems I have seen college students face is the anxiety and fear that comes with not knowing what it is that they want to do with their lives. For some reason, we are expected to know exactly what we want to do with our lives early on, and use this knowledge to motivate our decisions. When we don’t have this certainty, there is a sense of dread and anxiety that takes over. It seems like everyone else around you has the answer to this elusive question and you’re the only one who is clueless. If this sounds familiar, you are not alone! In fact, not knowing the answer to this question &lt;em&gt;is the norm&lt;/em&gt;.&lt;/p&gt;
+&lt;hr /&gt;</content><author><name>Parth Saraswat</name></author><category term="writing" /><category term="guide" /><category term="so you want to" /><summary type="html">A 5-step process</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/posts/post5/header.png" /><media:content medium="image" url="http://localhost:4000/assets/images/posts/post5/header.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">What do I do With My Life?</title><link href="http://localhost:4000/general/2020/08/11/what-do-i-do.html" rel="alternate" type="text/html" title="What do I do With My Life?" /><published>2020-08-11T00:00:00-07:00</published><updated>2020-08-11T00:00:00-07:00</updated><id>http://localhost:4000/general/2020/08/11/what-do-i-do</id><content type="html" xml:base="http://localhost:4000/general/2020/08/11/what-do-i-do.html">&lt;p&gt;One of the most common problems I have seen college students face is the anxiety and fear that comes with not knowing what it is that they want to do with their lives. For some reason, we are expected to know exactly what we want to do with our lives early on, and use this knowledge to motivate our decisions. When we don’t have this certainty, there is a sense of dread and anxiety that takes over. It seems like everyone else around you has the answer to this elusive question and you’re the only one who is clueless. If this sounds familiar, you are not alone! In fact, not knowing the answer to this question &lt;em&gt;is the norm&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;Having experienced this problem first-hand and having spoken to other people who have felt the same way, I want to use this post to make a case for why uncertainty is okay. Not only this, but also why it is best to approach this situation with a mindset of curiosity and experimentation rather than allow it to bring us anxiety and a sense of dread.&lt;/p&gt;
 
@@ -352,7 +538,7 @@
 
 &lt;p&gt;&lt;em&gt;Thanks for reading! You can always &lt;a href=&quot;mailto:parthswat@gmail.com&quot;&gt;email me&lt;/a&gt; to chat about this post - or anything else.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;As is true for any advice or counsel you ever receive: Y.M.M.V! Your mileage may vary. Some advice can be a vice. Feel free to take what you can use, and leave the rest. There are no rules.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name>Parth Saraswat</name></author><category term="career" /><category term="blog" /><category term="thoughts" /><category term="college" /><summary type="html">To anyone feeling anxious about not knowing what they want to do with their lives</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/posts/post4/header.png" /><media:content medium="image" url="http://localhost:4000/assets/images/posts/post4/header.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Getting Ready to Start a Career</title><link href="http://localhost:4000/general/2020/07/01/career.html" rel="alternate" type="text/html" title="Getting Ready to Start a Career" /><published>2020-07-01T00:00:00-04:00</published><updated>2020-07-01T00:00:00-04:00</updated><id>http://localhost:4000/general/2020/07/01/career</id><content type="html" xml:base="http://localhost:4000/general/2020/07/01/career.html">&lt;p&gt;I recently &lt;a href=&quot;https://parthsaraswat.github.io/general/2020/05/30/saying.html&quot;&gt;graduated&lt;/a&gt; from a Master’s program. This signals the end of my formal education (for now?)! At this age, most of my friends are also finishing up college and getting ready to enter the workforce. Given this trend of transitioning from formal education into beginning our careers, most of our conversations center around how starting a career is going to be different when compared to formal education. This is a post about what I think the key differences are between the worlds of formal education and career development, and how I plan on changing my approach to stay afloat.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;As is true for any advice or counsel you ever receive: Y.M.M.V! Your mileage may vary. Some advice can be a vice. Feel free to take what you can use, and leave the rest. There are no rules.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name>Parth Saraswat</name></author><category term="career" /><category term="blog" /><category term="thoughts" /><category term="college" /><summary type="html">To anyone feeling anxious about not knowing what they want to do with their lives</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/posts/post4/header.png" /><media:content medium="image" url="http://localhost:4000/assets/images/posts/post4/header.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Getting Ready to Start a Career</title><link href="http://localhost:4000/general/2020/07/01/career.html" rel="alternate" type="text/html" title="Getting Ready to Start a Career" /><published>2020-07-01T00:00:00-07:00</published><updated>2020-07-01T00:00:00-07:00</updated><id>http://localhost:4000/general/2020/07/01/career</id><content type="html" xml:base="http://localhost:4000/general/2020/07/01/career.html">&lt;p&gt;I recently &lt;a href=&quot;https://parthsaraswat.github.io/general/2020/05/30/saying.html&quot;&gt;graduated&lt;/a&gt; from a Master’s program. This signals the end of my formal education (for now?)! At this age, most of my friends are also finishing up college and getting ready to enter the workforce. Given this trend of transitioning from formal education into beginning our careers, most of our conversations center around how starting a career is going to be different when compared to formal education. This is a post about what I think the key differences are between the worlds of formal education and career development, and how I plan on changing my approach to stay afloat.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Disclaimer&lt;/strong&gt;: I’m the least qualified person to be talking about this. This post is entirely speculative and I’m sure things don’t actually work this way. I just wanted to put my thoughts out there.&lt;/em&gt;&lt;/p&gt;
 
@@ -403,7 +589,7 @@
 &lt;hr /&gt;
 &lt;p&gt;&lt;em&gt;&lt;a href=&quot;mailto:parthswat@gmail.com&quot;&gt;Let me know&lt;/a&gt; if you think this sounds familiar to you or if you think things are different (I am 100% sure that they are). Do you think I am over simplifying/over complicating the situation? I certainly think I am. &lt;a href=&quot;mailto:parthswat@gmail.com&quot;&gt;Let me know&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;This post is inspired by &lt;a href=&quot;https://waitbutwhy.com&quot;&gt;Tim Urban’s&lt;/a&gt; post about career paths.&lt;/em&gt;&lt;/p&gt;</content><author><name>Parth Saraswat</name></author><category term="career" /><category term="blog" /><category term="thoughts" /><summary type="html">A change in mindsets</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/posts/post3/thumb.png" /><media:content medium="image" url="http://localhost:4000/assets/images/posts/post3/thumb.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Learn Something New Every Week</title><link href="http://localhost:4000/general/2020/06/06/lsnew.html" rel="alternate" type="text/html" title="Learn Something New Every Week" /><published>2020-06-06T00:00:00-04:00</published><updated>2020-06-06T00:00:00-04:00</updated><id>http://localhost:4000/general/2020/06/06/lsnew</id><content type="html" xml:base="http://localhost:4000/general/2020/06/06/lsnew.html">&lt;p&gt;Colleges and universities are great environments to learn new skills and techniques in. Course instructors prepare learning goals, concepts and projects such that students get to learn a lot of information and develop strong skills in a short period of time. I’ve had many friends tell me that constant learning is quite difficult once you graduate and start working, which is why people stop. Can’t let that happen.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This post is inspired by &lt;a href=&quot;https://waitbutwhy.com&quot;&gt;Tim Urban’s&lt;/a&gt; post about career paths.&lt;/em&gt;&lt;/p&gt;</content><author><name>Parth Saraswat</name></author><category term="career" /><category term="blog" /><category term="thoughts" /><summary type="html">A change in mindsets</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/posts/post3/thumb.png" /><media:content medium="image" url="http://localhost:4000/assets/images/posts/post3/thumb.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Learn Something New Every Week</title><link href="http://localhost:4000/general/2020/06/06/lsnew.html" rel="alternate" type="text/html" title="Learn Something New Every Week" /><published>2020-06-06T00:00:00-07:00</published><updated>2020-06-06T00:00:00-07:00</updated><id>http://localhost:4000/general/2020/06/06/lsnew</id><content type="html" xml:base="http://localhost:4000/general/2020/06/06/lsnew.html">&lt;p&gt;Colleges and universities are great environments to learn new skills and techniques in. Course instructors prepare learning goals, concepts and projects such that students get to learn a lot of information and develop strong skills in a short period of time. I’ve had many friends tell me that constant learning is quite difficult once you graduate and start working, which is why people stop. Can’t let that happen.&lt;/p&gt;
 
 &lt;p&gt;As I transition from &lt;a href=&quot;https://parthsaraswat.github.io/general/2020/05/30/saying.html&quot;&gt;graduating&lt;/a&gt; to working, I have put together a framework that allows me to sample and learn new skills and concepts quickly. The framework is titled ‘Learn Something New Every Week’ (I know, no points for creativity). That’s as self explanatory a title as any.&lt;/p&gt;
 
@@ -506,7 +692,7 @@
 
 &lt;p&gt;I do hope that one day I can do this with many people, where people learn things and share exactly what they learnt and the outcomes of what they learnt. This creates accountability and adds a community aspect to the whole process, and I would love to do this with other people. Again, &lt;a href=&quot;mailto:parthswat@gmail.com&quot;&gt;let me know&lt;/a&gt; if you want to try this!&lt;/p&gt;
 
-&lt;p&gt;Here’s hoping to many many more weeks of constant learning!&lt;/p&gt;</content><author><name>Parth Saraswat</name></author><category term="content" /><category term="project" /><category term="guide" /><summary type="html">How I learn</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/posts/post2/header.png" /><media:content medium="image" url="http://localhost:4000/assets/images/posts/post2/header.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Saying Goodbye To Cornell</title><link href="http://localhost:4000/general/2020/05/30/saying.html" rel="alternate" type="text/html" title="Saying Goodbye To Cornell" /><published>2020-05-30T00:00:00-04:00</published><updated>2020-05-30T00:00:00-04:00</updated><id>http://localhost:4000/general/2020/05/30/saying</id><content type="html" xml:base="http://localhost:4000/general/2020/05/30/saying.html">&lt;p&gt;It’s safe to say that there has always been a gap between the person I am and the person I want to be. I believe most people feel this way too. I am at point A, and I want to be at point B. There have always been guidelines on how to close this ‘gap’, but following those guidelines hasn’t helped me much.&lt;/p&gt;
+&lt;p&gt;Here’s hoping to many many more weeks of constant learning!&lt;/p&gt;</content><author><name>Parth Saraswat</name></author><category term="content" /><category term="project" /><category term="guide" /><summary type="html">How I learn</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/posts/post2/header.png" /><media:content medium="image" url="http://localhost:4000/assets/images/posts/post2/header.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Saying Goodbye To Cornell</title><link href="http://localhost:4000/general/2020/05/30/saying.html" rel="alternate" type="text/html" title="Saying Goodbye To Cornell" /><published>2020-05-30T00:00:00-07:00</published><updated>2020-05-30T00:00:00-07:00</updated><id>http://localhost:4000/general/2020/05/30/saying</id><content type="html" xml:base="http://localhost:4000/general/2020/05/30/saying.html">&lt;p&gt;It’s safe to say that there has always been a gap between the person I am and the person I want to be. I believe most people feel this way too. I am at point A, and I want to be at point B. There have always been guidelines on how to close this ‘gap’, but following those guidelines hasn’t helped me much.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/posts/post1/ill1.jpg&quot; alt=&quot;The gap&quot; /&gt;&lt;/p&gt;
 
@@ -547,7 +733,7 @@
 &lt;p&gt;Those two pictures are from my first and last day at Cornell. Sure, they look like ordinary pictures, but when I look at them all I notice is the change that happened over the year. Go Big Red!&lt;/p&gt;
 
 &lt;hr /&gt;
-&lt;p&gt;&lt;em&gt;Thanks to Rashi Singh for her editorial feedback!&lt;/em&gt;&lt;/p&gt;</content><author><name>Parth Saraswat</name></author><category term="thoughts" /><category term="college" /><category term="personal" /><summary type="html">My experience at Cornell University</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/posts/post1/header.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/posts/post1/header.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Hello Website!</title><link href="http://localhost:4000/general/2020/05/16/hello-world.html" rel="alternate" type="text/html" title="Hello Website!" /><published>2020-05-16T00:00:00-04:00</published><updated>2020-05-16T00:00:00-04:00</updated><id>http://localhost:4000/general/2020/05/16/hello-world</id><content type="html" xml:base="http://localhost:4000/general/2020/05/16/hello-world.html">&lt;h2 id=&quot;hey-visitor&quot;&gt;Hey visitor!&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Thanks to Rashi Singh for her editorial feedback!&lt;/em&gt;&lt;/p&gt;</content><author><name>Parth Saraswat</name></author><category term="thoughts" /><category term="college" /><category term="personal" /><summary type="html">My experience at Cornell University</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/posts/post1/header.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/posts/post1/header.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Hello Website!</title><link href="http://localhost:4000/general/2020/05/16/hello-world.html" rel="alternate" type="text/html" title="Hello Website!" /><published>2020-05-16T00:00:00-07:00</published><updated>2020-05-16T00:00:00-07:00</updated><id>http://localhost:4000/general/2020/05/16/hello-world</id><content type="html" xml:base="http://localhost:4000/general/2020/05/16/hello-world.html">&lt;h2 id=&quot;hey-visitor&quot;&gt;Hey visitor!&lt;/h2&gt;
 &lt;h3 id=&quot;thanks-for-visiting-my-website-this-is-my-first-post-and-i-want-to-outline-what-im-trying-to-achieve-with-this-website&quot;&gt;Thanks for visiting my website! This is my first post, and I want to outline what I’m trying to achieve with this website.&lt;/h3&gt;
 
 &lt;p&gt;As I get closer and closer to finishing up my Master’s degree, I want to ensure I keep learning new things and continue to keep the momentum that Cornell has helped me achieve over the past year.&lt;/p&gt;
