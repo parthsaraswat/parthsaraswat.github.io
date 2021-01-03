@@ -1,6 +1,5 @@
 ---
 title: "January 1, 2021"
-date: "01012021"
 sub_title: 
 categories:
   - daily
