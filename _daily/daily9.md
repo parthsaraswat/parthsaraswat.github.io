@@ -1,6 +1,7 @@
 ---
 title: "August 24, 2020"
 sub_title: 
+number: 9
 categories:
   - daily
 excerpt: "Voicenotes, Discord, new series of posts?"

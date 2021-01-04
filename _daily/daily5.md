@@ -1,6 +1,7 @@
 ---
 title: "November 7, 2020"
 sub_title: "Entry 0000005"
+number: 5
 categories:
   - daily
 excerpt: "A tiny project"

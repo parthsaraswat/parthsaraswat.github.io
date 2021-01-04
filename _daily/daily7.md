@@ -1,6 +1,7 @@
 ---
 title: "January 1, 2021"
 sub_title: "Entry 0000007"
+number: 7
 categories:
   - daily
 excerpt: "Podcast launch day!"

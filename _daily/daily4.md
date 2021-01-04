@@ -1,6 +1,7 @@
 ---
 title: "August 22, 2020"
 sub_title: "Entry 0000004"
+number: 4
 categories:
   - daily
 excerpt: "Secret project, Discord, admin work"
