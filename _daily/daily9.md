@@ -1,11 +1,7 @@
 ---
 title: "August 24, 2020"
 sub_title: 
-<<<<<<< HEAD
 number: 8
-=======
-number: 9
->>>>>>> 18b4d966b2aa21b0a9b93d4acc2a0a0ad2ed7787
 categories:
   - daily
 excerpt: "Voicenotes, Discord, new series of posts?"
