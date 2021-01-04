@@ -1,7 +1,7 @@
 ---
 title: "November 9, 2020"
 sub_title: "Entry 0000006"
-number: 6
+number: 8
 categories:
   - daily
 excerpt: "Mundane stuff"
