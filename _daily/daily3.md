@@ -1,6 +1,6 @@
 ---
 title: "August 21, 2020"
-sub_title: 
+sub_title: "Entry 0000003"
 categories:
    - daily
 excerpt: "We're back!"

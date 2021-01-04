@@ -1,6 +1,6 @@
 ---
 title: "August 12, 2020"
-sub_title: 
+sub_title: "Entry 0000002"
 categories:
   - daily
 excerpt: "Comments, vocals, writing process post"

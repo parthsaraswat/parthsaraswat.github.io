@@ -1,6 +1,6 @@
 ---
 title: "November 9, 2020"
-sub_title: Writing, harmonic analysis, 
+sub_title: "Entry 0000006"
 categories:
   - daily
 excerpt: "Mundane stuff"

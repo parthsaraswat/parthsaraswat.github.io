@@ -1,5 +1,6 @@
 ---
 title: "August 11, 2020"
+number: 1
 sub_title: 
 categories:
   - daily

@@ -1,6 +1,6 @@
 ---
 title: "August 22, 2020"
-sub_title: I hate admin work
+sub_title: "Entry 0000004"
 categories:
   - daily
 excerpt: "Secret project, Discord, admin work"

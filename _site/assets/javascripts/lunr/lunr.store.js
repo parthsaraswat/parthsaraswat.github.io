@@ -1,18 +1,13 @@
 var store = [{
-        "title": "August 23, 2020",
-        "excerpt":"What I did: Logistics Sundays are for logistics. I redid my entire project management system and cleaned out some templates that help me with writing, music production and other projects. Discord I’m working on a Discord server that enhances how I interact with my friends and how I share and...","categories": ["daily"],
+        "title": "January 2, 2021",
+        "excerpt":"Writing What I did: Finished draft 1! It is… okay. Lots of run on sentences and needs editing.What comes next: Some serious editing. I’ve been lazy with editing in the past, but I think doing it for real is going to help me become a better writer. IllustrationsMusic What I...","categories": ["daily"],
         "tags": ["daily","learninpublic","journal"],
-        "url": "http://localhost:4000/daily/2020-08-23/"
+        "url": "http://localhost:4000/daily/2jan2021/"
       },{
-        "title": "August 24, 2020",
-        "excerpt":"What I did: Writing Considering a series of posts along a similar theme. We shall see. Music Trying to learn a song by ear. Also really challenging vocals for me. I always start with a feel for how much I enjoy the song and then record bits and pieces on...","categories": ["daily"],
+        "title": "January 3, 2021",
+        "excerpt":"Writing What I did: finished editing the post!What comes next: illustrations. There’s 5, and I think I can knock those out as soon as tomorrow. New post on Tuesday!What I struggled with: editing sucks when the raw material isn’t good. Here’s some ideas on making the raw material better: Trust...","categories": ["daily"],
         "tags": ["daily","learninpublic","journal"],
-        "url": "http://localhost:4000/daily/2020-08-24/"
-      },{
-        "title": "January 1, 2021",
-        "excerpt":"Announcement! I just released a new podcast I have been working on with my friend! We are super excited about it, and you can find the first episode and trailer here! A good way to start the year. Writing What I did: Typed out the outline for the next post...","categories": ["daily"],
-        "tags": ["daily","learninpublic","journal"],
-        "url": "http://localhost:4000/daily/2021-01-01/"
+        "url": "http://localhost:4000/daily/3jan2021/"
       },{
         "title": "August 11, 2020",
         "excerpt":"What I did: Writing Published a new postMusic Recorded the instrumental section for a cover of “Somewhere Only We Know” by KeaneParth Saraswat · SOWK - instrumental climax Made good progress on a jingle I’m writing with a friend for a secret project!Technical Set up this Daily Dispatch page to...","categories": ["daily"],
@@ -48,6 +43,16 @@ var store = [{
         "excerpt":"Announcement! I just released a new podcast I have been working on with my friend! We are super excited about it, and you can find the first episode and trailer here! A good way to start the year. Writing What I did: Typed out the outline for the next post...","categories": ["daily"],
         "tags": ["daily","learninpublic","journal"],
         "url": "http://localhost:4000/daily/daily7/"
+      },{
+        "title": "August 23, 2020",
+        "excerpt":"What I did: Logistics Sundays are for logistics. I redid my entire project management system and cleaned out some templates that help me with writing, music production and other projects. Discord I’m working on a Discord server that enhances how I interact with my friends and how I share and...","categories": ["daily"],
+        "tags": ["daily","learninpublic","journal"],
+        "url": "http://localhost:4000/daily/daily8/"
+      },{
+        "title": "August 24, 2020",
+        "excerpt":"What I did: Writing Considering a series of posts along a similar theme. We shall see. Music Trying to learn a song by ear. Also really challenging vocals for me. I always start with a feel for how much I enjoy the song and then record bits and pieces on...","categories": ["daily"],
+        "tags": ["daily","learninpublic","journal"],
+        "url": "http://localhost:4000/daily/daily9/"
       },{
         "title": "Hello Website!",
         "excerpt":"Hey visitor! Thanks for visiting my website! This is my first post, and I want to outline what I’m trying to achieve with this website. As I get closer and closer to finishing up my Master’s degree, I want to ensure I keep learning new things and continue to keep...","categories": ["general"],
