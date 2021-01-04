@@ -1,7 +1,11 @@
 ---
 title: "January 1, 2021"
 sub_title: "Entry 0000007"
+<<<<<<< HEAD
 number: 9
+=======
+number: 7
+>>>>>>> 18b4d966b2aa21b0a9b93d4acc2a0a0ad2ed7787
 categories:
   - daily
 excerpt: "Podcast launch day!"

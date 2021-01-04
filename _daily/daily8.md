@@ -1,7 +1,11 @@
 ---
 title: "August 23, 2020"
 sub_title: "Sunday!"
+<<<<<<< HEAD
 number: 7
+=======
+number: 8
+>>>>>>> 18b4d966b2aa21b0a9b93d4acc2a0a0ad2ed7787
 categories:
   - daily
 excerpt: "Logistics"
