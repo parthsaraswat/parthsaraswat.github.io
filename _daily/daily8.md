@@ -1,6 +1,7 @@
 ---
 title: "August 23, 2020"
 sub_title: "Sunday!"
+number: 7
 categories:
   - daily
 excerpt: "Logistics"
