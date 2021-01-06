@@ -24,7 +24,7 @@ This is a quick post about everything I have learn from blogging for the past 7 
 
 ...the 'blog' started as I was about to graduate from Cornell. Putting two and two together, I put together a [piece about my time in Ithaca](https://psaraswat.com/general/2020/05/30/saying.html). The post was about everything I had learnt, my experience with imposter syndrome and how it had changed me. The *intention* of the piece was simple: document my experience. It wasn't meant to do anything other than act as a time capsule of my time as a Master's student. However, writing the post had another unintended effect: offering solidarity! As the post went out, reader responses started coming in. A few readers reached out sharing how they also dealt with similar circumstances. This was the first of many experiences where a blog post's *effect* was different (and much more fulfilling) from the *intention* of the post. 
 
-![ill2](/assets/images/posts/post10/ill2.jpeg)
+![ill3](/assets/images/posts/post10/ill3.jpeg)
 
 This is not to say that the original intention was lost. Over time, the post did act as a fantastic way of storing ideas and thoughts for the long term. Who knew writing = documentation?!
 
