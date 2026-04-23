@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>How to Approach Side Projects &mdash; Parth Saraswat</title>
+<meta name="description" content="Three steps to side-project success: understand the idea, define what done means, and execute with clarity." />
+<link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <div class="c-root">
+    <div class="c-col">
+      <nav class="c-nav">
+        <a href="../index.html" class="c-mark">P.<span class="c-slash">/</span>Saraswat</a>
+        <div class="c-nav-links">
+          <a href="../index.html">Home</a>
+          <a href="../about.html">About</a>
+          <a href="../blog.html" class="active">Blog</a>
+          <button class="c-theme-toggle" aria-label="Toggle theme"></button>
+        </div>
+      </nav>
+
+      <article class="c-postpage">
+        <a class="c-back" href="../blog.html">&larr; Back to the notebook</a>
+        <div class="c-postpage-meta">November 13, 2020</div>
+        <h1 class="c-postpage-h1">How to Approach <span class="c-hl">Side Projects</span></h1>
+
+        <div class="c-postpage-body">
+          <p>Almost everyone has great ideas for side projects. Over the past 3-4 years, I have had numerous good ideas, but have only started on a fraction of them, finished even fewer, and been happy with maybe 1 or 2 out of 20. This post is an attempt at crystallizing what I&rsquo;ve learnt about making it easier to start on your side project ideas, making it more likely that you finish them, and how you can actually be happy with the end product. If you&rsquo;ve been meaning to start on a side project for a while, maybe you can find some value in this!</p>
+
+          <p>At the heart of it, any side project is a 3-step process:</p>
+
+          <ol style="margin: 0 0 20px 24px;">
+            <li>Understand what you&rsquo;re making/doing</li>
+            <li>Specify what constitutes a finished project</li>
+            <li>Implement your idea</li>
+          </ol>
+
+          <p>I&rsquo;m going to use 3 side projects to elaborate on each of those steps. The 3 projects are a music and video project that took under an hour to make, a semester long technical project, and an ongoing project: this website! Let&rsquo;s get started.</p>
+
+          <h2>1. Understanding what you&rsquo;re making</h2>
+          <p>This step is all about putting your abstract idea into words. You&rsquo;re trying to answer the question <em>&ldquo;what am I making?&rdquo;</em>. The goal is to add more clarity to your idea. I suggest putting this into writing. There have been multiple situations where I had an idea that made sense to me in my head but looked questionable when put onto paper. At this step, there is no need to be overly specific. Just answer the &ldquo;what am I making&rdquo; question. Here&rsquo;s how I did it for 3 of my projects:</p>
+
+          <ol style="margin: 0 0 20px 24px;">
+            <li>Tiny music project: a random video with some original piece of acoustic music</li>
+            <li>Branch predictor project: functional level models of 2/3 branch predictors in C++</li>
+            <li>Personal website: a website that can be a home to all my work and also act as a blog</li>
+          </ol>
+
+          <h2>2. Specification:</h2>
+          <p>You have an idea of what you&rsquo;re making. Now, specify details before you get started. Answer the question: <em>&lsquo;what constitutes a finished project?&rsquo;</em>. The goal here is to remove any vague descriptions and set concrete expectations from the project. I like to be as objective as possible here. &lsquo;Specification&rsquo; calls for specificity (wow). Be specific! For my projects, I like to make a list of outcomes that need to be done to call the project &lsquo;finished&rsquo;. Here are some of my lists:</p>
+
+          <ol style="margin: 0 0 20px 24px;">
+            <li>Tiny music project:
+              <ul>
+                <li>A chord progression</li>
+                <li>A video</li>
+              </ul>
+            </li>
+            <li>Branch predictor project:
+              <ul>
+                <li>1-level predictor functional level model</li>
+                <li>2-level predictor functional level model</li>
+                <li>Binary instrumentation tool</li>
+                <li>Everything parameterized and extensible</li>
+              </ul>
+            </li>
+            <li>Personal website: a website that can be a home to all my work and also act as a blog
+              <ul>
+                <li>A main home/landing page that holds links to all my work</li>
+                <li>A blog page with hero image support</li>
+                <li>A first post with a vision for the website</li>
+              </ul>
+            </li>
+          </ol>
+
+          <p>The point of making these specifications is so you know <em>exactly</em> what you&rsquo;re trying to build. In my experience this step also makes it more likely that you will be happy with your finished project, but your mileage may vary.</p>
+
+          <h2>3. Implementation</h2>
+          <p>You now have an exact idea of what your project involves. Time to work on it! You&rsquo;re looking to answer the <em>&lsquo;how do I make this&rsquo;</em> question and then follow through. The goal is to start working on your project, deal with problems, and keep going until you finish. In my experience this step is made infinitely easier when I do steps 1 and 2 well. Otherwise, the lack of clarity is demotivating.</p>
+
+          <p>This is also about 80% of the total work of the project, and involves dealing with problems that you don&rsquo;t foresee. For example, here are problems that came up when I implemented my projects:</p>
+
+          <ol style="margin: 0 0 20px 24px;">
+            <li>Tiny music project:
+              <ul>
+                <li>I&rsquo;m very new to writing my own music. I got stuck many times and changed up the progression at least 3 times until I had something I was happy with.</li>
+                <li>I had some technical difficulties with recording as my mic just stopped working. Did not see that coming.</li>
+              </ul>
+            </li>
+            <li>Branch predictor project: functional level models of 2/3 branch predictors in C++
+              <ul>
+                <li>There were parts of the code that required C++ tricks I hadn&rsquo;t worked with before. Reinterpret casting, compiling Intel&rsquo;s pintools, issues with huge Makefiles and writing and debugging code.</li>
+              </ul>
+            </li>
+            <li>Personal website:
+              <ul>
+                <li>This was my first time being exposed to any sort of web development. Setting up and learning Jekyll was a big task.</li>
+                <li>I also ran into issues with GitHub pages</li>
+              </ul>
+            </li>
+          </ol>
+
+          <p>And that&rsquo;s mostly it! Here&rsquo;s some final things to note:</p>
+
+          <p>It&rsquo;s okay to abandon projects if you don&rsquo;t think they&rsquo;re working, but abandoning something because it&rsquo;s too much work just doesn&rsquo;t feel right (I&rsquo;ve been guilty of this a lot: my YouTube channel still is a good idea in my head, but just too much work so I don&rsquo;t get around to it).</p>
+
+          <p>The whole process is iterative! During implementation you may realise your spec needs to change a little bit. Do it! If you think something is too difficult and needs to be made easier so you can finish it, that&rsquo;s a great call.</p>
+
+          <p>At the end of the day, side projects are voluntary. I abandon side projects if I stop enjoying the process and &lsquo;finishing the project&rsquo; is the only motivator.</p>
+
+          <p>There are so many more details that I wanted to talk about in this post, but there just isn&rsquo;t any room. If you want to talk about any of your side projects or if you have an approach that works well for you, let me know! I&rsquo;m always willing to talk.</p>
+
+          <p><em>See you next week for a new post!</em></p>
+
+          <p><em>Thanks for reading! You can always email me to chat about this post - or anything else.</em></p>
+        </div>
+
+        <div class="c-postpage-foot">&sect;</div>
+      </article>
+    </div>
+  </div>
+  <script src="../script.js"></script>
+</body>
+</html>

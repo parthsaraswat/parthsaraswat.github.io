@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Parth Saraswat</title>
+    <link>https://psaraswat.com/</link>
+    <description>Writing about tech, life, and the things I learn along the way.</description>
+    <language>en-us</language>
+    <atom:link href="https://psaraswat.com/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Apr 2026 04:58:13 GMT</lastBuildDate>
+    <item>
+      <title>Example Post</title>
+      <link>https://psaraswat.com/posts/example-post.html</link>
+      <guid isPermaLink="true">https://psaraswat.com/posts/example-post.html</guid>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+      <description>A long-form test post exercising every markdown element — headings, lists, links, images, blockquotes, code, tables, and more.</description>
+    </item>
+    <item>
+      <title>Looking Forward to 2023</title>
+      <link>https://psaraswat.com/posts/looking-forward-to-2023.html</link>
+      <guid isPermaLink="true">https://psaraswat.com/posts/looking-forward-to-2023.html</guid>
+      <pubDate>Sun, 08 Jan 2023 00:00:00 GMT</pubDate>
+      <description>Three areas of focus, concrete goals, and the day-to-day changes I want to make this year.</description>
+    </item>
+    <item>
+      <title>2022 Recap and Reflections</title>
+      <link>https://psaraswat.com/posts/2022-recap-and-reflections.html</link>
+      <guid isPermaLink="true">https://psaraswat.com/posts/2022-recap-and-reflections.html</guid>
+      <pubDate>Thu, 22 Dec 2022 00:00:00 GMT</pubDate>
+      <description>A year of travel, podcasting, and personal growth — with procrastination as the biggest obstacle.</description>
+    </item>
+    <item>
+      <title>Refactoring and Clean Code</title>
+      <link>https://psaraswat.com/posts/refactoring-and-clean-code.html</link>
+      <guid isPermaLink="true">https://psaraswat.com/posts/refactoring-and-clean-code.html</guid>
+      <pubDate>Thu, 30 Jun 2022 00:00:00 GMT</pubDate>
+      <description>Method composition, data organization, and simplifying conditionals — everything I learned about refactoring.</description>
+    </item>
+    <item>
+      <title>How I Edit Podcast Episodes</title>
+      <link>https://psaraswat.com/posts/how-i-edit-podcast-episodes.html</link>
+      <guid isPermaLink="true">https://psaraswat.com/posts/how-i-edit-podcast-episodes.html</guid>
+      <pubDate>Mon, 10 May 2021 00:00:00 GMT</pubDate>
+      <description>A streamlined Logic Pro workflow that cuts editing time from 4–5 hours down to under 2.5.</description>
+    </item>
+    <item>
+      <title>A New Approach to The Blog</title>
+      <link>https://psaraswat.com/posts/a-new-approach-to-the-blog.html</link>
+      <guid isPermaLink="true">https://psaraswat.com/posts/a-new-approach-to-the-blog.html</guid>
+      <pubDate>Thu, 22 Apr 2021 00:00:00 GMT</pubDate>
+      <description>Shorter guides, daily updates, and a “document don’t create” philosophy for consistency.</description>
+    </item>
+    <item>
+      <title>Quantity vs Quality</title>
+      <link>https://psaraswat.com/posts/quantity-vs-quality.html</link>
+      <guid isPermaLink="true">https://psaraswat.com/posts/quantity-vs-quality.html</guid>
+      <pubDate>Tue, 12 Jan 2021 00:00:00 GMT</pubDate>
+      <description>Why a beginner creator should prioritize consistent output over perfection — practice and feedback come first.</description>
+    </item>
+    <item>
+      <title>What I Learnt from Blogging</title>
+      <link>https://psaraswat.com/posts/what-i-learnt-from-blogging.html</link>
+      <guid isPermaLink="true">https://psaraswat.com/posts/what-i-learnt-from-blogging.html</guid>
+      <pubDate>Tue, 05 Jan 2021 00:00:00 GMT</pubDate>
+      <description>Starting a blog reveals unexpected benefits — human connection and solidarity beyond the original intent.</description>
+    </item>
+    <item>
+      <title>How to Approach Side Projects</title>
+      <link>https://psaraswat.com/posts/how-to-approach-side-projects.html</link>
+      <guid isPermaLink="true">https://psaraswat.com/posts/how-to-approach-side-projects.html</guid>
+      <pubDate>Fri, 13 Nov 2020 00:00:00 GMT</pubDate>
+      <description>Three steps to side-project success: understand the idea, define what done means, and execute with clarity.</description>
+    </item>
+    <item>
+      <title>Contextual Book Recommendations 2020</title>
+      <link>https://psaraswat.com/posts/contextual-book-recommendations-2020.html</link>
+      <guid isPermaLink="true">https://psaraswat.com/posts/contextual-book-recommendations-2020.html</guid>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 GMT</pubDate>
+      <description>Eight curated book picks tailored to different life situations and moods throughout the year.</description>
+    </item>
+    <item>
+      <title>Applying to Grad Schools in The US: a primer</title>
+      <link>https://psaraswat.com/posts/applying-to-grad-schools-in-the-us-a-primer.html</link>
+      <guid isPermaLink="true">https://psaraswat.com/posts/applying-to-grad-schools-in-the-us-a-primer.html</guid>
+      <pubDate>Fri, 23 Oct 2020 00:00:00 GMT</pubDate>
+      <description>A four-step guide: standardized tests, university selection, application prep, and submission deadlines.</description>
+    </item>
+    <item>
+      <title>The Best Way to Keep in Touch (Digitally)</title>
+      <link>https://psaraswat.com/posts/the-best-way-to-keep-in-touch-digitally.html</link>
+      <guid isPermaLink="true">https://psaraswat.com/posts/the-best-way-to-keep-in-touch-digitally.html</guid>
+      <pubDate>Wed, 23 Sep 2020 00:00:00 GMT</pubDate>
+      <description>Discord removes friction from digital communication by emulating real-life interaction through audio and shared activities.</description>
+    </item>
+    <item>
+      <title>My Writing Process</title>
+      <link>https://psaraswat.com/posts/my-writing-process.html</link>
+      <guid isPermaLink="true">https://psaraswat.com/posts/my-writing-process.html</guid>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 GMT</pubDate>
+      <description>A five-step approach to turning abstract ideas into polished blog posts through progressive structuring.</description>
+    </item>
+    <item>
+      <title>What do I do With My Life?</title>
+      <link>https://psaraswat.com/posts/what-do-i-do-with-my-life.html</link>
+      <guid isPermaLink="true">https://psaraswat.com/posts/what-do-i-do-with-my-life.html</guid>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 GMT</pubDate>
+      <description>Uncertainty about your future is normal — experiment to learn about yourself before making major decisions.</description>
+    </item>
+    <item>
+      <title>Getting Ready To Start A Career</title>
+      <link>https://psaraswat.com/posts/getting-ready-to-start-a-career.html</link>
+      <guid isPermaLink="true">https://psaraswat.com/posts/getting-ready-to-start-a-career.html</guid>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 GMT</pubDate>
+      <description>Transitioning from structured education to a career means shifting from goal-oriented to behavior-oriented thinking.</description>
+    </item>
+  </channel>
+</rss>

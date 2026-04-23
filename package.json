@@ -1,0 +1,16 @@
+{
+  "name": "personal-website",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.js",
+    "new": "node build.js new"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "highlight.js": "^11.11.1",
+    "marked": "^15.0.0",
+    "marked-highlight": "^2.2.4",
+    "marked-smartypants": "^1.1.10"
+  }
+}

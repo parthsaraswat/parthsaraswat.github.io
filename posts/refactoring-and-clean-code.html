@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Refactoring and Clean Code &mdash; Parth Saraswat</title>
+<meta name="description" content="Everything I learned about refactoring &mdash; method composition, data organization, and simplifying conditionals." />
+<link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <div class="c-root">
+    <div class="c-col">
+      <nav class="c-nav">
+        <a href="../index.html" class="c-mark">P.<span class="c-slash">/</span>Saraswat</a>
+        <div class="c-nav-links">
+          <a href="../index.html">Home</a>
+          <a href="../about.html">About</a>
+          <a href="../blog.html" class="active">Blog</a>
+          <button class="c-theme-toggle" aria-label="Toggle theme"></button>
+        </div>
+      </nav>
+
+      <article class="c-postpage">
+        <a class="c-back" href="../blog.html">&larr; Back to the notebook</a>
+        <div class="c-postpage-meta">June 30, 2022 &middot; Tech</div>
+        <h1 class="c-postpage-h1">Refactoring and <span class="c-hl">Clean Code</span></h1>
+
+        <div class="c-postpage-body">
+          <h2>Everything I Learned</h2>
+
+          <p><strong>What is refactoring?</strong></p>
+
+          <p>Refactoring is a process of improving the readability, modifiability and ease of debug of existing code. It is not about adding new functionality. Refactoring transforms a mess into clean code and simple design.</p>
+
+          <p>Here are some of the basic categories of refactoring techniques:</p>
+
+          <img src="images/refactoring-and-clean-code/refactoring-techniques.png" alt="Refactoring techniques diagram" />
+
+          <h2>Quick summary of each category</h2>
+
+          <p><strong>Method composition:</strong></p>
+
+          <p>Much of refactoring is dedicated to how we write methods. In most cases, &ldquo;excessively long functions are the root of evil&rdquo;. All techniques in this category aim to streamline methods, improve readability, remove duplication, and increase ease of future modifications.</p>
+
+          <p><em>Favorite techniques:</em></p>
+
+          <ol style="margin: 0 0 20px 24px;">
+            <li><strong>Extract method</strong>
+              <ul>
+                <li>The more lines found in a method, the harder it&rsquo;s to figure out what the method does. This is the main reason for this refactoring.</li>
+                <li>Besides eliminating rough edges in your code, extracting methods is also a step in more readable code. It reduces duplication and isolates parts of the code for easier debugging.</li>
+              </ul>
+            </li>
+          </ol>
+
+          <div class="c-code-pair">
+            <div>
+              <span class="c-code-label">Before</span>
+              <figure class="c-code">
+                <div class="c-code-bar">
+                  <span class="c-code-lang">python</span>
+                  <span class="c-code-file">before-extract-method.py</span>
+                </div>
+<pre><code><span class="ln">1</span><span class="tok-k">def</span> <span class="tok-fn">printOwing</span><span class="tok-p">(</span>self<span class="tok-p">):</span>
+<span class="ln">2</span>    self.<span class="tok-fn">printBanner</span><span class="tok-p">()</span>
+<span class="ln">3</span>
+<span class="ln">4</span>    <span class="tok-c"># print details</span>
+<span class="ln">5</span>    <span class="tok-fn">print</span><span class="tok-p">(</span><span class="tok-s">"name:"</span>, self.name<span class="tok-p">)</span>
+<span class="ln">6</span>    <span class="tok-fn">print</span><span class="tok-p">(</span><span class="tok-s">"amount:"</span>, self.<span class="tok-fn">getOutstanding</span><span class="tok-p">())</span>
+</code></pre>
+              </figure>
+            </div>
+            <div>
+              <span class="c-code-label is-after">After</span>
+              <figure class="c-code">
+                <div class="c-code-bar">
+                  <span class="c-code-lang">python</span>
+                  <span class="c-code-file">after-extract-method.py</span>
+                </div>
+<pre><code><span class="ln">1</span><span class="tok-k">def</span> <span class="tok-fn">printOwing</span><span class="tok-p">(</span>self<span class="tok-p">):</span>
+<span class="ln">2</span>    self.<span class="tok-fn">printBanner</span><span class="tok-p">()</span>
+<span class="ln">3</span>    self.<span class="tok-fn">printDetails</span><span class="tok-p">(</span>self.<span class="tok-fn">getOutstanding</span><span class="tok-p">())</span>
+<span class="ln">4</span>
+<span class="ln">5</span><span class="tok-k">def</span> <span class="tok-fn">printDetails</span><span class="tok-p">(</span>self, outstanding<span class="tok-p">):</span>
+<span class="ln">6</span>    <span class="tok-fn">print</span><span class="tok-p">(</span><span class="tok-s">"name:"</span>, self.name<span class="tok-p">)</span>
+<span class="ln">7</span>    <span class="tok-fn">print</span><span class="tok-p">(</span><span class="tok-s">"amount:"</span>, outstanding<span class="tok-p">)</span>
+</code></pre>
+              </figure>
+            </div>
+          </div>
+
+          <p><strong>Data organization</strong></p>
+
+          <p>All of code is about data and the operations you perform on it. It is possible to write functional code without thinking too hard about the data you are handling. The techniques in this category help with &ldquo;replacing primitive data types with rich class functionality&rdquo;. Pieces of data that should be looked at together become members of a class rather than independent primitives. Proper data organization and method composition alone can bring major improvements in your code.</p>
+
+          <p><em>Favorite techniques:</em></p>
+
+          <ol style="margin: 0 0 20px 24px;">
+            <li><strong>Replace Data Value with Object</strong>
+              <ul>
+                <li>With replacement of a data value with an object, we have a primitive field (number, string, etc.) that&rsquo;s no longer so simple due to growth of the program and now has associated data and behaviors. On the one hand, there&rsquo;s nothing scary about these fields in and of themselves. However, this fields-and-behaviors family can be present in several classes simultaneously, creating duplicate code.</li>
+                <li>Therefore, for all this we create a new class and move both the field and the related data and behaviors to it.</li>
+              </ul>
+            </li>
+          </ol>
+
+          <div class="c-fig-pair">
+            <figure>
+              <img src="images/refactoring-and-clean-code/replace-data-before.png" alt="Order class with primitive customer field" />
+              <figcaption>Before</figcaption>
+            </figure>
+            <figure>
+              <img src="images/refactoring-and-clean-code/replace-data-after.png" alt="Order class with associated Customer class" />
+              <figcaption class="is-after">After</figcaption>
+            </figure>
+          </div>
+
+          <p><strong>Simplifying conditionals</strong></p>
+
+          <p>Conditionals have a tendency to get more complicated over time. In my experience, trying to untangle a conditional can be a frustrating experience. The techniques in this category help you write conditionals that are easier to follow, more expressive and robust.</p>
+
+          <p><em>Favorite techniques:</em></p>
+
+          <ol style="margin: 0 0 20px 24px;">
+            <li><strong>Replace Nested Conditional with Guard Clauses</strong>
+              <ul>
+                <li>When you have a group of nested conditionals and it&rsquo;s hard to determine the normal flow of code execution, this refactoring comes in handy.</li>
+                <li>We isolate all the special checks and edge cases into separate clauses and place them before the main checks.</li>
+              </ul>
+            </li>
+          </ol>
+
+          <div class="c-code-pair">
+            <div>
+              <span class="c-code-label">Before</span>
+              <figure class="c-code">
+                <div class="c-code-bar">
+                  <span class="c-code-lang">cpp</span>
+                  <span class="c-code-file">before-replace-nested-cond-w-guard-clauses.cpp</span>
+                </div>
+<pre><code><span class="ln"> 1</span><span class="tok-k">public</span> <span class="tok-k">double</span> <span class="tok-fn">GetPayAmount</span><span class="tok-p">()</span>
+<span class="ln"> 2</span><span class="tok-p">{</span>
+<span class="ln"> 3</span>  <span class="tok-k">double</span> result<span class="tok-p">;</span>
+<span class="ln"> 4</span>
+<span class="ln"> 5</span>  <span class="tok-k">if</span> <span class="tok-p">(</span>isDead<span class="tok-p">)</span>
+<span class="ln"> 6</span>  <span class="tok-p">{</span>
+<span class="ln"> 7</span>    result <span class="tok-p">=</span> <span class="tok-fn">DeadAmount</span><span class="tok-p">();</span>
+<span class="ln"> 8</span>  <span class="tok-p">}</span>
+<span class="ln"> 9</span>  <span class="tok-k">else</span>
+<span class="ln">10</span>  <span class="tok-p">{</span>
+<span class="ln">11</span>    <span class="tok-k">if</span> <span class="tok-p">(</span>isSeparated<span class="tok-p">)</span>
+<span class="ln">12</span>    <span class="tok-p">{</span>
+<span class="ln">13</span>      result <span class="tok-p">=</span> <span class="tok-fn">SeparatedAmount</span><span class="tok-p">();</span>
+<span class="ln">14</span>    <span class="tok-p">}</span>
+<span class="ln">15</span>    <span class="tok-k">else</span>
+<span class="ln">16</span>    <span class="tok-p">{</span>
+<span class="ln">17</span>      <span class="tok-k">if</span> <span class="tok-p">(</span>isRetired<span class="tok-p">)</span>
+<span class="ln">18</span>      <span class="tok-p">{</span>
+<span class="ln">19</span>        result <span class="tok-p">=</span> <span class="tok-fn">RetiredAmount</span><span class="tok-p">();</span>
+<span class="ln">20</span>      <span class="tok-p">}</span>
+<span class="ln">21</span>      <span class="tok-k">else</span>
+<span class="ln">22</span>      <span class="tok-p">{</span>
+<span class="ln">23</span>        result <span class="tok-p">=</span> <span class="tok-fn">NormalPayAmount</span><span class="tok-p">();</span>
+<span class="ln">24</span>      <span class="tok-p">}</span>
+<span class="ln">25</span>    <span class="tok-p">}</span>
+<span class="ln">26</span>  <span class="tok-p">}</span>
+<span class="ln">27</span>
+<span class="ln">28</span>  <span class="tok-k">return</span> result<span class="tok-p">;</span>
+<span class="ln">29</span><span class="tok-p">}</span>
+</code></pre>
+              </figure>
+            </div>
+            <div>
+              <span class="c-code-label is-after">After</span>
+              <figure class="c-code">
+                <div class="c-code-bar">
+                  <span class="c-code-lang">cpp</span>
+                  <span class="c-code-file">after-replace-nested-cond-w-guard-clauses.cpp</span>
+                </div>
+<pre><code><span class="ln"> 1</span><span class="tok-k">public</span> <span class="tok-k">double</span> <span class="tok-fn">GetPayAmount</span><span class="tok-p">()</span>
+<span class="ln"> 2</span><span class="tok-p">{</span>
+<span class="ln"> 3</span>  <span class="tok-k">if</span> <span class="tok-p">(</span>isDead<span class="tok-p">)</span>
+<span class="ln"> 4</span>  <span class="tok-p">{</span>
+<span class="ln"> 5</span>    <span class="tok-k">return</span> <span class="tok-fn">DeadAmount</span><span class="tok-p">();</span>
+<span class="ln"> 6</span>  <span class="tok-p">}</span>
+<span class="ln"> 7</span>  <span class="tok-k">if</span> <span class="tok-p">(</span>isSeparated<span class="tok-p">)</span>
+<span class="ln"> 8</span>  <span class="tok-p">{</span>
+<span class="ln"> 9</span>    <span class="tok-k">return</span> <span class="tok-fn">SeparatedAmount</span><span class="tok-p">();</span>
+<span class="ln">10</span>  <span class="tok-p">}</span>
+<span class="ln">11</span>  <span class="tok-k">if</span> <span class="tok-p">(</span>isRetired<span class="tok-p">)</span>
+<span class="ln">12</span>  <span class="tok-p">{</span>
+<span class="ln">13</span>    <span class="tok-k">return</span> <span class="tok-fn">RetiredAmount</span><span class="tok-p">();</span>
+<span class="ln">14</span>  <span class="tok-p">}</span>
+<span class="ln">15</span>  <span class="tok-k">return</span> <span class="tok-fn">NormalPayAmount</span><span class="tok-p">();</span>
+<span class="ln">16</span><span class="tok-p">}</span>
+</code></pre>
+              </figure>
+            </div>
+          </div>
+
+          <ol start="2" style="margin: 0 0 20px 24px;">
+            <li><strong>Introduce Assertion</strong>
+              <ul>
+                <li>In the case where certain conditions must be true for a portion of code to work correctly, this refactoring technique comes in handy. We replace all our assumptions with specific assertion checks.</li>
+              </ul>
+            </li>
+          </ol>
+
+          <div class="c-code-pair">
+            <div>
+              <span class="c-code-label">Before</span>
+              <figure class="c-code">
+                <div class="c-code-bar">
+                  <span class="c-code-lang">python</span>
+                  <span class="c-code-file">before-introduce-assertion.py</span>
+                </div>
+<pre><code><span class="ln">1</span><span class="tok-k">def</span> <span class="tok-fn">getExpenseLimit</span><span class="tok-p">(</span>self<span class="tok-p">):</span>
+<span class="ln">2</span>    <span class="tok-c"># Should have either expense limit or</span>
+<span class="ln">3</span>    <span class="tok-c"># a primary project.</span>
+<span class="ln">4</span>    <span class="tok-k">return</span> self.expenseLimit <span class="tok-k">if</span> self.expenseLimit <span class="tok-p">!=</span> NULL_EXPENSE <span class="tok-k">else</span> \
+<span class="ln">5</span>        self.primaryProject.<span class="tok-fn">getMemberExpenseLimit</span><span class="tok-p">()</span>
+</code></pre>
+              </figure>
+            </div>
+            <div>
+              <span class="c-code-label is-after">After</span>
+              <figure class="c-code">
+                <div class="c-code-bar">
+                  <span class="c-code-lang">python</span>
+                  <span class="c-code-file">after-introduce-assertion.py</span>
+                </div>
+<pre><code><span class="ln">1</span><span class="tok-k">def</span> <span class="tok-fn">getExpenseLimit</span><span class="tok-p">(</span>self<span class="tok-p">):</span>
+<span class="ln">2</span>    <span class="tok-k">assert</span> <span class="tok-p">(</span>self.expenseLimit <span class="tok-p">!=</span> NULL_EXPENSE<span class="tok-p">)</span> <span class="tok-k">or</span> <span class="tok-p">(</span>self.primaryProject <span class="tok-k">is not</span> <span class="tok-n">None</span><span class="tok-p">)</span>
+<span class="ln">3</span>
+<span class="ln">4</span>    <span class="tok-k">return</span> self.expenseLimit <span class="tok-k">if</span> <span class="tok-p">(</span>self.expenseLimit <span class="tok-p">!=</span> NULL_EXPENSE<span class="tok-p">)</span> <span class="tok-k">else</span> \
+<span class="ln">5</span>        self.primaryProject.<span class="tok-fn">getMemberExpenseLimit</span><span class="tok-p">()</span>
+</code></pre>
+              </figure>
+            </div>
+          </div>
+
+          <h2>My experience</h2>
+
+          <p>I want to talk about my experience from 3 different angles. How my behavior changed, how I look at coding differently now, and the best practices I&rsquo;m taking forward with myself.</p>
+
+          <ol style="margin: 0 0 20px 24px;">
+            <li><strong>How my behavior changed</strong>
+              <ul>
+                <li>Almost everything I learned made me respect OOP concepts more.</li>
+                <li>I started using multiple files more, I used classes, data structures and functions more intentionally and &ldquo;really <em>thought</em> about what code should look&rdquo; like before jumping into the mechanical side of coding.</li>
+                <li>Once code was refactored, it reduces the cognitive effort required from a future reader/owner. This made me a lot more productive - I was spending much less time and mental effort trying to figure out what code was doing. It was all in front of me.</li>
+              </ul>
+            </li>
+            <li><strong>How I look at coding differently now</strong>
+              <ul>
+                <li>Coding became fun again.</li>
+                <li>Over time, I have learnt that I enjoy making things. Podcasts, music, blog posts, or new features. I enjoy making high-quality things even more. I could feel a tangible improvement in my code quality and code health. I enjoyed looking at and writing new code once I refactored it or wrote it more intentionally.</li>
+                <li>&ldquo;Thinking, planning and implementing code at the same time is a great feeling.&rdquo; As I started writing more and more code, my process evolved. My current process is to think about what I&rsquo;m coding using quick drawings on my whiteboard, then type out some pseudocode, and finally move pieces of the pseudocode around and write syntactically correct and complete code. The whole process leaves me more energized - I always feel like I&rsquo;m in control. Bugs are caught quickly and easily. Harsh boundaries between different modules and methods take out any frustrations I would have felt from working with spaghetti code.</li>
+                <li>I have realized that writing code <em>is</em> an art and <em>is</em> about style. For example, consider the trade-off you need to make when writing function calls upon function calls. More functions and boundaries lead to more expressive code (which is good!) but might cause the reader to jump around different parts of a file in order to get to a particular function definition (which is not good). Performance aside, I will always prefer to write more functions in order to write more expressive code. I trust that readers and modern IDEs will make code navigation easy. That is <em>my</em> style. Someone else might write less functions, which makes the end result less expressive but slightly easier to navigate. That would be <em>their</em> style. Writing code <em>is</em> about style.</li>
+              </ul>
+            </li>
+            <li><strong>Best practices</strong>
+              <ol style="margin: 8px 0 0 24px;">
+                <li>Code can keep improving, settle for good enough
+                  <ul>
+                    <li>Your code can almost always be improved. Settle for &lsquo;good enough&rsquo; and move on.</li>
+                    <li>You need to move to other things, and constantly cleaning up old code is not an option. Once you think a piece of code is expressive, easily modifiable, understandable, and will be easy to debug in the future, move on. This brings me to my next best practice&hellip;</li>
+                  </ul>
+                </li>
+                <li>Keep a wishlist
+                  <ul>
+                    <li>I keep coming across code that frustrates me. I keep a track of such code and return to it when I have some downtime or I feel like cleaning up code.</li>
+                  </ul>
+                </li>
+                <li>For best results, know your editor well.
+                  <ul>
+                    <li>The quicker you are able to implement the changes you want, the quicker you can move. You do not want the tool to become a source of friction between you and clean code.</li>
+                  </ul>
+                </li>
+                <li>There are 2 golden rules to keep writing clean code without getting lost in the details:
+                  <ol style="margin: 8px 0 0 24px;">
+                    <li><strong>The broken windows rule</strong>
+                      <ul>
+                        <li>Don&rsquo;t leave any &lsquo;broken windows&rsquo; in your code. Broken windows are messy pieces in an otherwise clean file. If someone (you included) looks at a &lsquo;broken window&rsquo; in code, you&rsquo;re more likely to feel okay with making a further mess.</li>
+                        <li>On the other hand, if you see a well formatted, well written file, you simply do not want to be the one who adds the first bit of mess into the clean file. Don&rsquo;t leave broken windows in your code, and maintenance becomes natural.</li>
+                      </ul>
+                    </li>
+                    <li><strong>The campsite rule</strong>
+                      <ul>
+                        <li>Always leave the campsite cleaner than you found it. If you make any change to a file, make sure you&rsquo;re leaving it in a healthier, cleaner state than you last found it. Even if the change is as small as deleting old commented out code or adding proper formatting, constant cleaning up can add up to big results.</li>
+                      </ul>
+                    </li>
+                  </ol>
+                </li>
+              </ol>
+            </li>
+          </ol>
+
+          <h2>Follow ups</h2>
+
+          <p>I want to make refactoring a habit. All my follow ups circle around this objective.</p>
+
+          <ol style="margin: 0 0 20px 24px;">
+            <li>Keep a running &lsquo;Refactoring Opportunities&rsquo; list
+              <ul>
+                <li>I have a Notion page where I track code I&rsquo;d like to clean up. I keep a track of what the current problem is, my initial ideas on how I&rsquo;d change it, as well as the refactoring techniques I see myself using. I return to this list once/week and work on one of the entries in the list.</li>
+              </ul>
+            </li>
+            <li>Share everything I learn
+              <ul>
+                <li>If I make a constant effort to share a change I made, I&rsquo;m likely to hear other people&rsquo;s opinions on it. More dialogue = more learning!</li>
+              </ul>
+            </li>
+          </ol>
+        </div>
+
+        <div class="c-postpage-foot">&sect;</div>
+      </article>
+    </div>
+  </div>
+  <script src="../script.js"></script>
+</body>
+</html>
