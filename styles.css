@@ -281,6 +281,11 @@ details[open] > .c-blog-year .c-year-caret { transform: rotate(0deg); }
 }
 .c-postpage-body tbody tr:last-child td { border-bottom: 0; }
 .c-postpage-foot { margin-top: 64px; padding-top: 32px; border-top: 1px solid var(--rule); text-align: center; font-family: var(--serif); font-size: 28px; color: var(--accent); }
+.c-postpage-nav { display: flex; justify-content: space-between; margin-top: 40px; font-size: 14px; gap: 16px; }
+.c-postpage-nav a { color: var(--ink-2); border-bottom: 1px solid transparent; text-decoration: none; transition: color 0.15s, border-color 0.15s; max-width: 48%; }
+.c-postpage-nav a:hover { color: var(--ink); border-bottom-color: currentColor; }
+.c-postpage-nav-prev { text-align: left; }
+.c-postpage-nav-next { text-align: right; margin-left: auto; }
 
 /* Footnotes */
 .c-postpage-body sup.c-fn-ref { font-size: 0.72em; line-height: 0; vertical-align: super; margin-left: 1px; }

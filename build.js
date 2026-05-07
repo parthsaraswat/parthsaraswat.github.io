@@ -480,7 +480,7 @@ function renderTagPages(merged, allTags) {
 // suffix, and tag chips inferred from blog.html's data-tags. This way the
 // HTML-authored posts (no markdown source) stay in sync with the build.
 
-function enrichPostHtml(htmlPath, tagsForSlug) {
+function enrichPostHtml(htmlPath, tagsForSlug, prevPost, nextPost) {
   let html = readFileSync(htmlPath, "utf8");
   const before = html;
 
@@ -492,15 +492,18 @@ function enrichPostHtml(htmlPath, tagsForSlug) {
     );
   }
 
-  // 2) Reading time — append "· N min read" to the postpage-meta line
+  // 2) Reading time — rebuild postpage-meta as "Month DD, YYYY · N min read",
+  //    stripping any pre-existing category text (e.g. "· Tech") between the date
+  //    and the reading time, since the tag chips already convey the category.
   const bodyMatch = /<div class="c-postpage-body">([\s\S]*?)<div class="c-postpage-foot">/.exec(html);
   if (bodyMatch) {
     const minutes = readingTimeMinutes(bodyMatch[1]);
     html = html.replace(
       /<div class="c-postpage-meta">([\s\S]*?)<\/div>/,
       (m, content) => {
-        if (/min read/.test(content)) return m;
-        return `<div class="c-postpage-meta">${content.trim()} &middot; ${minutes} min read</div>`;
+        const dateMatch = content.match(/[A-Za-z]+ \d+, \d{4}/);
+        if (!dateMatch) return m;
+        return `<div class="c-postpage-meta">${dateMatch[0]} &middot; ${minutes} min read</div>`;
       }
     );
   }
@@ -519,6 +522,18 @@ function enrichPostHtml(htmlPath, tagsForSlug) {
     );
   }
 
+  // 4) Prev/next navigation — strip any prior c-postpage-nav block, then
+  //    re-insert after c-postpage-foot based on chronological order.
+  html = html.replace(/\n\s*<nav class="c-postpage-nav">[\s\S]*?<\/nav>/, "");
+  const prevLink = prevPost
+    ? `<a class="c-postpage-nav-prev" href="../posts/${prevPost.slug}.html">&larr; ${escapeHtml(prevPost.title)}</a>`
+    : `<span class="c-postpage-nav-prev"></span>`;
+  const nextLink = nextPost
+    ? `<a class="c-postpage-nav-next" href="../posts/${nextPost.slug}.html">${escapeHtml(nextPost.title)} &rarr;</a>`
+    : `<span class="c-postpage-nav-next"></span>`;
+  const navBlock = `\n        <nav class="c-postpage-nav">${prevLink}${nextLink}</nav>`;
+  html = html.replace(/(<div class="c-postpage-foot">[\s\S]*?<\/div>)/, `$1${navBlock}`);
+
   if (html !== before) {
     writeFileSync(htmlPath, html);
     console.log(`  patched ${basename(htmlPath)}`);
@@ -527,11 +542,17 @@ function enrichPostHtml(htmlPath, tagsForSlug) {
 
 function enrichExistingPosts(merged) {
   const tagBySlug = new Map(merged.map(e => [e.slug, e.tags || []]));
+  // merged is sorted newest-first; build a slug→index map for O(1) prev/next lookup
+  const slugIndex = new Map(merged.map((e, i) => [e.slug, i]));
   if (!existsSync(POSTS_HTML)) return;
   for (const f of readdirSync(POSTS_HTML)) {
     if (!f.endsWith(".html")) continue;
     const slug = basename(f, ".html");
-    enrichPostHtml(join(POSTS_HTML, f), tagBySlug.get(slug) || []);
+    const idx = slugIndex.get(slug);
+    // In newest-first order: idx-1 is chronologically newer, idx+1 is older.
+    const prevPost = (idx != null && idx < merged.length - 1) ? merged[idx + 1] : null;
+    const nextPost = (idx != null && idx > 0) ? merged[idx - 1] : null;
+    enrichPostHtml(join(POSTS_HTML, f), tagBySlug.get(slug) || [], prevPost, nextPost);
   }
 }
 
@@ -572,6 +593,35 @@ ${items}
 `;
   writeFileSync(join(ROOT, "feed.xml"), xml);
   console.log(`  wrote feed.xml (${merged.length} items)`);
+}
+
+// --- sitemap.xml + robots.txt ----------------------------------------------
+
+function renderSitemap(merged) {
+  const now = new Date().toISOString().slice(0, 10);
+  const staticUrls = [
+    { loc: `${SITE_URL}/`, priority: "1.0" },
+    { loc: `${SITE_URL}/blog.html`, priority: "0.9" },
+  ];
+  const postUrls = merged.map(e => ({
+    loc: `${SITE_URL}/posts/${e.slug}.html`,
+    lastmod: e.date.toISOString().slice(0, 10),
+    priority: "0.7",
+  }));
+  const allUrls = [...staticUrls, ...postUrls];
+  const items = allUrls.map(u => {
+    const lastmod = u.lastmod ? `\n    <lastmod>${u.lastmod}</lastmod>` : "";
+    return `  <url>\n    <loc>${u.loc}</loc>${lastmod}\n    <priority>${u.priority}</priority>\n  </url>`;
+  }).join("\n");
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${items}\n</urlset>\n`;
+  writeFileSync(join(ROOT, "sitemap.xml"), xml);
+  console.log(`  wrote sitemap.xml (${allUrls.length} URLs)`);
+}
+
+function renderRobots() {
+  const txt = `User-agent: *\nAllow: /\nSitemap: ${SITE_URL}/sitemap.xml\n`;
+  writeFileSync(join(ROOT, "robots.txt"), txt);
+  console.log("  wrote robots.txt");
 }
 
 // --- `new` subcommand ------------------------------------------------------
@@ -639,6 +689,8 @@ function main() {
   renderTagPages(merged, allTags);
   enrichExistingPosts(merged);
   renderRssFeed(merged);
+  renderSitemap(merged);
+  renderRobots();
 }
 
 main();
