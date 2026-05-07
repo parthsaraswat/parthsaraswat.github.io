@@ -5,7 +5,7 @@
 //   npm run build             Render posts-md/*.md -> posts/*.html, rebuild blog.html
 //   npm run new "Post Title"  Scaffold a new posts-md/<slug>.md file
 
-import { readFileSync, writeFileSync, readdirSync, mkdirSync, existsSync } from "node:fs";
+import { readFileSync, writeFileSync, readdirSync, mkdirSync, existsSync, rmSync } from "node:fs";
 import { join, basename, extname, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import matter from "gray-matter";
@@ -17,6 +17,7 @@ const ROOT = dirname(fileURLToPath(import.meta.url));
 const POSTS_MD = join(ROOT, "posts-md");
 const POSTS_HTML = join(ROOT, "posts");
 const TEMPLATES = join(ROOT, "templates");
+const TAGS_DIR = join(ROOT, "tags");
 
 const SITE_URL = "https://psaraswat.com";
 const SITE_TITLE = "Parth Saraswat";
@@ -102,10 +103,10 @@ function escapeHtml(s) {
 
 function unescapeHtml(s) {
   return String(s)
-    .replaceAll("&mdash;", "\u2014").replaceAll("&ndash;", "\u2013")
-    .replaceAll("&lsquo;", "\u2018").replaceAll("&rsquo;", "\u2019")
-    .replaceAll("&ldquo;", "\u201C").replaceAll("&rdquo;", "\u201D")
-    .replaceAll("&hellip;", "\u2026")
+    .replaceAll("&mdash;", "—").replaceAll("&ndash;", "–")
+    .replaceAll("&lsquo;", "‘").replaceAll("&rsquo;", "’")
+    .replaceAll("&ldquo;", "“").replaceAll("&rdquo;", "”")
+    .replaceAll("&hellip;", "…")
     .replaceAll("&#39;", "'")
     .replaceAll("&quot;", '"')
     .replaceAll("&gt;", ">")
@@ -119,6 +120,10 @@ function slugify(title) {
     .replace(/\s+/g, "-")
     .replace(/-+/g, "-")
     .replace(/^-|-$/g, "");
+}
+
+function tagSlug(tag) {
+  return slugify(String(tag).trim());
 }
 
 function parseDate(raw) {
@@ -159,6 +164,62 @@ function indent(text, pad) {
   return out.join("\n");
 }
 
+// --- footnotes -------------------------------------------------------------
+// Pandoc-style footnotes: `[^id]` inline references with `[^id]: body` blocks.
+// Pre-process markdown to extract definitions and replace refs with <sup>
+// anchors, then append a numbered <section class="c-footnotes"> at the end of
+// the rendered HTML.
+
+function preprocessFootnotes(md) {
+  const defs = new Map();
+  // Collect definitions: `[^id]: text` (continuation lines indented).
+  md = md.replace(/^\[\^([^\]\s]+)\]:[ \t]+([^\n]+(?:\n[ \t]+[^\n]+)*)/gm, (_, id, body) => {
+    defs.set(id, body.replace(/\n[ \t]+/g, " ").trim());
+    return "";
+  });
+  // Replace inline references in order of appearance.
+  const order = [];
+  md = md.replace(/\[\^([^\]\s]+)\]/g, (m, id) => {
+    if (!defs.has(id)) return m;
+    let n = order.indexOf(id) + 1;
+    if (n === 0) { order.push(id); n = order.length; }
+    return `<sup class="c-fn-ref" id="fnref-${n}"><a href="#fn-${n}">${n}</a></sup>`;
+  });
+  return { md, defs, order };
+}
+
+function renderFootnoteSection(defs, order) {
+  if (!order.length) return "";
+  const items = order.map((id, i) => {
+    const n = i + 1;
+    const body = marked.parseInline(defs.get(id) || "").trim();
+    return `<li id="fn-${n}">${body} <a class="c-fn-back" href="#fnref-${n}" aria-label="Back to text">&#x21A9;</a></li>`;
+  }).join("\n  ");
+  return `\n<section class="c-footnotes">
+<div class="c-footnotes-label">Footnotes</div>
+<ol>
+  ${items}
+</ol>
+</section>`;
+}
+
+// --- reading time ----------------------------------------------------------
+
+function plainTextFromHtml(html) {
+  return String(html)
+    .replace(/<style[\s\S]*?<\/style>/gi, " ")
+    .replace(/<script[\s\S]*?<\/script>/gi, " ")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&[a-z]+;|&#\d+;/gi, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function readingTimeMinutes(html) {
+  const words = plainTextFromHtml(html).split(/\s+/).filter(Boolean).length;
+  return Math.max(1, Math.round(words / 220));
+}
+
 // --- markdown -> post.html -------------------------------------------------
 
 function renderMarkdownPost(mdPath) {
@@ -170,7 +231,14 @@ function renderMarkdownPost(mdPath) {
 
   const slug = basename(mdPath, extname(mdPath));
   const date = parseDate(meta.date);
-  const bodyHtml = indent(marked.parse(content).trim(), "          ");
+  const tags = normalizeTags(meta.tags);
+
+  const { md: mdProcessed, defs, order } = preprocessFootnotes(content);
+  const rendered = marked.parse(mdProcessed).trim() + renderFootnoteSection(defs, order);
+  const readMin = readingTimeMinutes(rendered);
+  const bodyHtml = indent(rendered, "          ");
+
+  const tagsHtml = tags.length ? indent(renderPostpageTags(tags), "        ") + "\n" : "";
 
   const tmpl = readFileSync(join(TEMPLATES, "post.html"), "utf8");
   const out = tmpl
@@ -178,11 +246,26 @@ function renderMarkdownPost(mdPath) {
     .replaceAll("{{title_html}}", highlightTitle(meta.title, meta.highlight))
     .replaceAll("{{description}}", escapeHtml(meta.description))
     .replaceAll("{{date_long}}", dateLong(date))
+    .replaceAll("{{read_time}}", String(readMin))
+    .replaceAll("{{tags_html}}", tagsHtml)
     .replaceAll("{{body}}", bodyHtml);
 
   writeFileSync(join(POSTS_HTML, `${slug}.html`), out);
   console.log(`  wrote posts/${slug}.html`);
-  return { slug, title: meta.title, date, description: meta.description };
+  return { slug, title: meta.title, date, description: meta.description, tags };
+}
+
+function normalizeTags(t) {
+  if (!t) return [];
+  if (Array.isArray(t)) return t.map(x => String(x).trim()).filter(Boolean);
+  return String(t).split(",").map(x => x.trim()).filter(Boolean);
+}
+
+function renderPostpageTags(tags) {
+  const chips = tags.map(t =>
+    `<a class="c-postpage-tag" href="/tags/${tagSlug(t)}.html">${escapeHtml(t)}</a>`
+  ).join("");
+  return `<div class="c-postpage-tags">${chips}</div>`;
 }
 
 // --- blog.html index merge -------------------------------------------------
@@ -191,15 +274,16 @@ function renderMarkdownPost(mdPath) {
 // entry for a slug that has a markdown source, or INSERT new entries.
 
 function parseExistingEntries(html) {
-  // Extract the body of <div>...entries...</div> inside <section class="c-blog">.
-  const m = /<section class="c-blog">[\s\S]*?<p class="c-blog-lede">[\s\S]*?<\/p>\s*<div>([\s\S]*?)<\/div>\s*<\/section>/.exec(html);
+  // Prefer the wrapped entries div (post-template), fall back to legacy layout.
+  let m = /<div class="c-blog-entries">([\s\S]*?)<\/div>\s*<\/section>/.exec(html);
+  if (!m) m = /<section class="c-blog">[\s\S]*?<p class="c-blog-lede">[\s\S]*?<\/p>\s*<div>([\s\S]*?)<\/div>\s*<\/section>/.exec(html);
   if (!m) return [];
   const body = m[1];
 
   const entries = [];
   let currentYear = null;
   // Capture leading spaces so we can dedent preserved blocks to column 0.
-  const rowRe = /( *)(<summary class="c-blog-year">(\d{4})[\s\S]*?<\/summary>|<div class="c-blog-year">(\d{4})<\/div>|<a class="c-post-row" href="posts\/([^"]+)\.html">[\s\S]*?<\/a>)/g;
+  const rowRe = /( *)(<summary class="c-blog-year">(\d{4})[\s\S]*?<\/summary>|<div class="c-blog-year">(\d{4})<\/div>|<a class="c-post-row"[^>]*href="posts\/([^"]+)\.html"[^>]*>[\s\S]*?<\/a>)/g;
   let match;
   while ((match = rowRe.exec(body)) !== null) {
     const indentStr = match[1];
@@ -211,14 +295,16 @@ function parseExistingEntries(html) {
       const dateM = /<div class="c-post-date">([A-Za-z]+)\s+(\d{1,2})<\/div>/.exec(payload);
       const titleM = /<h2 class="c-post-h">([\s\S]*?)<\/h2>/.exec(payload);
       const descM = /<p class="c-post-ex">([\s\S]*?)<\/p>/.exec(payload);
+      const tagsM = /data-tags="([^"]*)"/.exec(payload);
       if (!dateM || currentYear == null) continue;
       const monthIdx = MONTHS_SHORT.findIndex(mm => mm.toLowerCase() === dateM[1].toLowerCase());
       if (monthIdx < 0) continue;
       entries.push({
         slug,
         date: new Date(Date.UTC(currentYear, monthIdx, +dateM[2])),
-        title: titleM ? unescapeHtml(titleM[1]) : slug,
+        title: titleM ? unescapeHtml(titleM[1]).replace(/<[^>]+>/g, "").trim() : slug,
         description: descM ? unescapeHtml(descM[1]) : "",
+        tags: tagsM ? tagsM[1].split(",").map(s => s.trim()).filter(Boolean) : [],
         block: dedent(indentStr + payload),
       });
     }
@@ -234,12 +320,16 @@ function dedent(block) {
 }
 
 function buildNewEntryBlock(p) {
-  return `<a class="c-post-row" href="posts/${p.slug}.html">
+  const tagsAttr = p.tags && p.tags.length ? ` data-tags="${escapeHtml(p.tags.join(","))}"` : "";
+  const tagsRow = p.tags && p.tags.length
+    ? `\n  <div class="c-post-tags">${p.tags.map(t => `<span class="c-post-tag">${escapeHtml(t)}</span>`).join("")}</div>`
+    : "";
+  return `<a class="c-post-row" href="posts/${p.slug}.html"${tagsAttr}>
   <div class="c-post-head">
     <h2 class="c-post-h">${escapeHtml(p.title)}</h2>
     <div class="c-post-date">${dateShort(p.date)}</div>
   </div>
-  <p class="c-post-ex">${escapeHtml(p.description)}</p>
+  <p class="c-post-ex">${escapeHtml(p.description)}</p>${tagsRow}
 </a>`;
 }
 
@@ -258,16 +348,20 @@ function mergePosts(mdPosts) {
       date: p.date,
       title: p.title,
       description: p.description,
+      tags: p.tags || [],
       block: buildNewEntryBlock(p),
     });
   }
   return [...bySlug.values()].sort((a, b) => b.date - a.date);
 }
 
-function renderBlogIndex(merged) {
+function renderEntriesGroupedByYear(entries, postsPrefix) {
+  const rewriteHrefs = block => postsPrefix
+    ? block.replace(/href="posts\//g, `href="${postsPrefix}posts/`)
+    : block;
   const lines = [];
   let currentYear = null;
-  for (const e of merged) {
+  for (const e of entries) {
     const y = d_year(e.date);
     if (y !== currentYear) {
       if (currentYear !== null) {
@@ -279,16 +373,166 @@ function renderBlogIndex(merged) {
       lines.push("");
       currentYear = y;
     }
-    lines.push(indent(e.block, "  "));
+    lines.push(indent(rewriteHrefs(e.block), "  "));
     lines.push("");
   }
   while (lines.length && lines[lines.length - 1] === "") lines.pop();
   if (currentYear !== null) lines.push("</details>");
+  return lines.join("\n");
+}
 
-  const entries = indent(lines.join("\n"), "          ");
+function renderTagFilters(allTags, currentTag, paths) {
+  if (!allTags.length) return "";
+  const chips = [];
+  if (currentTag) {
+    chips.push(`<a class="c-blog-filter" href="${paths.blog}">All</a>`);
+  } else {
+    chips.push(`<span class="c-blog-filter is-active">All</span>`);
+  }
+  for (const t of allTags) {
+    const slug = tagSlug(t);
+    const active = currentTag && tagSlug(currentTag) === slug;
+    if (active) {
+      chips.push(`<span class="c-blog-filter is-active">${escapeHtml(t)}</span>`);
+    } else {
+      chips.push(`<a class="c-blog-filter" href="${paths.tagPrefix}tags/${slug}.html">${escapeHtml(t)}</a>`);
+    }
+  }
+  return `<div class="c-blog-filters"><span class="c-blog-filters-label">Filter</span>${chips.join("")}</div>`;
+}
+
+function renderBlogPage({ entries, allTags, outPath, paths, page, currentTag }) {
+  const grouped = renderEntriesGroupedByYear(entries, paths.postsPrefix);
+  const tagFilters = renderTagFilters(allTags, currentTag, paths);
+
   const tmpl = readFileSync(join(TEMPLATES, "blog.html"), "utf8");
-  writeFileSync(join(ROOT, "blog.html"), tmpl.replace("{{entries}}", entries));
+  const out = tmpl
+    .replaceAll("{{page_title}}", escapeHtml(page.title))
+    .replaceAll("{{page_desc}}", escapeHtml(page.desc))
+    .replaceAll("{{h1}}", page.h1)
+    .replaceAll("{{lede}}", page.lede)
+    .replaceAll("{{home_path}}", paths.home)
+    .replaceAll("{{blog_path}}", paths.blog)
+    .replaceAll("{{css_path}}", paths.css)
+    .replaceAll("{{feed_path}}", paths.feed)
+    .replaceAll("{{script_path}}", paths.script)
+    .replaceAll("{{favicon_path}}", paths.favicon)
+    .replace("{{tag_filters}}", tagFilters ? indent(tagFilters, "        ") : "")
+    .replace("{{entries}}", indent(grouped, "          "));
+
+  writeFileSync(outPath, out);
+}
+
+function renderBlogIndex(merged, allTags) {
+  renderBlogPage({
+    entries: merged,
+    allTags,
+    outPath: join(ROOT, "blog.html"),
+    paths: {
+      home: "index.html", blog: "blog.html",
+      css: "styles.css", feed: "feed.xml", script: "script.js",
+      favicon: "/favicon.svg", tagPrefix: "", postsPrefix: "",
+    },
+    page: {
+      title: "Blog",
+      desc: "Writing about tech, life, and the things I learn along the way.",
+      h1: 'The <span class="c-hl">notebook</span>',
+      lede: "Writing about tech, life, and what I learn along the way.",
+    },
+    currentTag: null,
+  });
   console.log(`  wrote blog.html (${merged.length} posts)`);
+}
+
+function renderTagPages(merged, allTags) {
+  if (!existsSync(TAGS_DIR)) mkdirSync(TAGS_DIR);
+  // Clean stale tag files.
+  for (const f of readdirSync(TAGS_DIR)) {
+    if (f.endsWith(".html")) rmSync(join(TAGS_DIR, f));
+  }
+  for (const t of allTags) {
+    const slug = tagSlug(t);
+    const matching = merged.filter(e => (e.tags || []).some(x => tagSlug(x) === slug));
+    if (!matching.length) continue;
+    renderBlogPage({
+      entries: matching,
+      allTags,
+      outPath: join(TAGS_DIR, `${slug}.html`),
+      paths: {
+        home: "../index.html", blog: "../blog.html",
+        css: "../styles.css", feed: "../feed.xml", script: "../script.js",
+        favicon: "/favicon.svg", tagPrefix: "../", postsPrefix: "../",
+      },
+      page: {
+        title: `Tagged: ${t}`,
+        desc: `Posts tagged ${t}.`,
+        h1: `Tagged: <span class="c-hl">${escapeHtml(t)}</span>`,
+        lede: `${matching.length} ${matching.length === 1 ? "post" : "posts"} tagged "${escapeHtml(t)}".`,
+      },
+      currentTag: t,
+    });
+    console.log(`  wrote tags/${slug}.html (${matching.length} posts)`);
+  }
+}
+
+// --- enrich existing post HTML files (favicon, reading time, tags) ---------
+// Idempotent: scans posts/*.html and patches in the favicon link, reading-time
+// suffix, and tag chips inferred from blog.html's data-tags. This way the
+// HTML-authored posts (no markdown source) stay in sync with the build.
+
+function enrichPostHtml(htmlPath, tagsForSlug) {
+  let html = readFileSync(htmlPath, "utf8");
+  const before = html;
+
+  // 1) Favicon link
+  if (!/rel="icon"/.test(html)) {
+    html = html.replace(
+      /(\n)(\s*)<link rel="stylesheet" href="\.\.\/styles\.css" \/>/,
+      `$1$2<link rel="icon" type="image/svg+xml" href="/favicon.svg" />\n$2<link rel="stylesheet" href="../styles.css" />`
+    );
+  }
+
+  // 2) Reading time — append "· N min read" to the postpage-meta line
+  const bodyMatch = /<div class="c-postpage-body">([\s\S]*?)<div class="c-postpage-foot">/.exec(html);
+  if (bodyMatch) {
+    const minutes = readingTimeMinutes(bodyMatch[1]);
+    html = html.replace(
+      /<div class="c-postpage-meta">([\s\S]*?)<\/div>/,
+      (m, content) => {
+        if (/min read/.test(content)) return m;
+        return `<div class="c-postpage-meta">${content.trim()} &middot; ${minutes} min read</div>`;
+      }
+    );
+  }
+
+  // 3) Tag chips — strip any prior c-postpage-tags block, then re-insert from
+  //    the canonical list in blog.html.
+  html = html.replace(/\n\s*<div class="c-postpage-tags">[\s\S]*?<\/div>(?=\s*<h1)/, "");
+  if (tagsForSlug && tagsForSlug.length) {
+    const chips = tagsForSlug.map(t =>
+      `<a class="c-postpage-tag" href="/tags/${tagSlug(t)}.html">${escapeHtml(t)}</a>`
+    ).join("");
+    const insert = `\n        <div class="c-postpage-tags">${chips}</div>`;
+    html = html.replace(
+      /(<div class="c-postpage-meta">[\s\S]*?<\/div>)(\s*<h1)/,
+      `$1${insert}$2`
+    );
+  }
+
+  if (html !== before) {
+    writeFileSync(htmlPath, html);
+    console.log(`  patched ${basename(htmlPath)}`);
+  }
+}
+
+function enrichExistingPosts(merged) {
+  const tagBySlug = new Map(merged.map(e => [e.slug, e.tags || []]));
+  if (!existsSync(POSTS_HTML)) return;
+  for (const f of readdirSync(POSTS_HTML)) {
+    if (!f.endsWith(".html")) continue;
+    const slug = basename(f, ".html");
+    enrichPostHtml(join(POSTS_HTML, f), tagBySlug.get(slug) || []);
+  }
 }
 
 // --- feed.xml --------------------------------------------------------------
@@ -349,15 +593,30 @@ function scaffoldNewPost(title) {
 title: ${title}
 date: ${iso}
 description: One-sentence summary shown on the blog index and as meta description.
+tags: []
 ---
 
 Write your post in markdown here.
+
+Footnotes work like Pandoc: a reference [^id] in the text and a definition
+\`[^id]: text\` on its own line at the end of the file.
 `;
   writeFileSync(dst, body);
   console.log(`Created posts-md/${slug}.md`);
 }
 
 // --- main ------------------------------------------------------------------
+
+function collectAllTags(merged) {
+  const set = new Map(); // preserve display casing of first occurrence
+  for (const e of merged) {
+    for (const t of (e.tags || [])) {
+      const slug = tagSlug(t);
+      if (!set.has(slug)) set.set(slug, t);
+    }
+  }
+  return [...set.values()].sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()));
+}
 
 function main() {
   const [cmd, ...rest] = process.argv.slice(2);
@@ -375,7 +634,10 @@ function main() {
   }
 
   const merged = mergePosts(mdPosts);
-  renderBlogIndex(merged);
+  const allTags = collectAllTags(merged);
+  renderBlogIndex(merged, allTags);
+  renderTagPages(merged, allTags);
+  enrichExistingPosts(merged);
   renderRssFeed(merged);
 }
 
