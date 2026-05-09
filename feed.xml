@@ -1,18 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Parth Saraswat</title>
     <link>https://psaraswat.com/</link>
     <description>Writing about tech, life, and the things I learn along the way.</description>
     <language>en-us</language>
     <atom:link href="https://psaraswat.com/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Thu, 07 May 2026 01:27:54 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2026 03:24:13 GMT</lastBuildDate>
     <item>
       <title>Looking Forward to 2023</title>
       <link>https://psaraswat.com/posts/looking-forward-to-2023.html</link>
       <guid isPermaLink="true">https://psaraswat.com/posts/looking-forward-to-2023.html</guid>
       <pubDate>Sun, 08 Jan 2023 00:00:00 GMT</pubDate>
       <description>Three areas of focus, concrete goals, and the day-to-day changes I want to make this year.</description>
+      <content:encoded><![CDATA[<h2>It&rsquo;s one year from now. December 2023. The goals and habits you were hoping to achieve and build during the year didn&rsquo;t happen. What is the most likely reason you failed?</h2>
+
+          <img class="c-hero" src="https://psaraswat.com/posts/images/looking-forward-to-2023/header.png" alt="DALL-E generated header" />
+
+          <p>For me? Easy &mdash; I probably failed because of a lack of focus, too much time wasted on the internet, and it&rsquo;s likely my planning sucked.</p>
+
+          <p>To make sure I don&rsquo;t make those mistakes, I want to crystallize 3 things for myself:</p>
+
+          <ol style="margin: 0 0 20px 24px;">
+            <li>What I will focus on in 2023</li>
+            <li>Some concrete goals</li>
+            <li>Day-to-day changes I want to make</li>
+          </ol>
+
+          <h2>Areas of Focus</h2>
+          <p>I like having narrow fields of focus &mdash; if you&rsquo;re focused on too many things, are you focused on anything at all?</p>
+
+          <p>Here are my 3 areas of focus for 2023:</p>
+
+          <h2>🏋🏻‍♀️ Health</h2>
+          <p>My health is okay, but historically, I have never thrown myself fully into improving it proactively. This year, I want to err on the side of being overly obsessed with how I feel and how much effort I put into my health.</p>
+
+          <h2>🧑🏻‍💻 Career</h2>
+          <p>The only carry-forward area from last year &mdash; I like working on my career as if it was just another side-project. I&rsquo;m fortunate enough to have a job which gives me a generous amount of autonomy, and this year, the aim is to ensure I make the most of the opportunities I get.</p>
+          <p>After all, if I don&rsquo;t do it, it won&rsquo;t happen.</p>
+
+          <h2>✍🏻 Writing</h2>
+          <p>In 2022, I largely ignored my role as a content producer for this website. There was one (ONE!) new blog post, and a poorly maintained tech blog that saw no activity after one (ONE!) very fun to write post. In 2023, writing takes a front seat. I love it, and it teaches me a lot. More content on the website!</p>
+
+          <h2>Concrete goals</h2>
+          <p>No &lsquo;planning for the next year&rsquo; post is complete without a set of some concrete goals. Here are (some of) mine:</p>
+
+          <h2>🥅 India trip:</h2>
+          <p>COVID and visa complications meant I haven&rsquo;t visited India since 2019. This year, we go!</p>
+
+          <h2>🥅 Driver&rsquo;s license:</h2>
+          <p>I do not have a driver&rsquo;s license, but I&rsquo;m working on it! I now have a permit and have begun practicing. The goal is to give my behind-the-wheel test sometime in Q2, and finally get this weight off my back.</p>
+
+          <h2>🥅 50 total pieces of content:</h2>
+          <p>Given that Frndship Time makes &gt;30 pieces of content every year, if I am able to push out 20 posts on the website this year, this seems like a reasonable goal. 50 is a nice round number, and it&rsquo;d be a nice milestone.</p>
+
+          <h2>What do I change day-to-day?</h2>
+          <p>All this big picture thinking is great, but I want to make sure it isn&rsquo;t just words.</p>
+
+          <p>I need to change some parts of how I operate day-to-day to make sure I follow through on my intentions.</p>
+
+          <p>Here&rsquo;s a list of changes that will have the biggest impact on my wellbeing next year:</p>
+
+          <ol style="margin: 0 0 20px 24px;">
+            <li><strong>No more infinity pools:</strong> &ldquo;I want my attention back,&rdquo; and I spent far too much of 2022 wasting away on the internet. For next year, I want to step away entirely from websites that end up offering bite-sized content with no end in sight. This leads me to the next change&hellip;</li>
+            <li><strong>Consume more longform content</strong>: podcasts, long articles, audiobooks, books, and good TV shows are so much more enjoyable than a series of YouTube videos. They&rsquo;re better thought out, are long enough that I need to be intentional about having them in my schedule, and much more rewarding.</li>
+            <li><strong>More diligent planning:</strong> I&rsquo;m not a good planner. Inaccurate estimations of how much I can do, and not spending enough time deciding how I&rsquo;m going to complete long and complex projects really holds me back. I&rsquo;m actively thinking about this and planning my months, weeks, and days better this year. A big shoutout to Things, Day One, and Linear &mdash; apps that make my life much more manageable.</li>
+            <li><strong>Do more of what I enjoy:</strong> Leaving behind all the infinity pools frees up a lot of time, and I want to spend it doing things I actually enjoy. Gaming, sports, writing, cooking, more social events &mdash; everything is fair game.</li>
+            <li><strong>Explore:</strong> This is different from the rest. For the last year, I&rsquo;ve had my nose close to the ground and not tried to explore other things that I might enjoy. For 2022, this was a great decision, but I know there is more out there &mdash; I don&rsquo;t know how I will do this in 2023, but I like having it on the front of my mind.</li>
+          </ol>
+
+          <p>And that&rsquo;s it! Onto 2023 &mdash; and here&rsquo;s a question for you:</p>
+
+          <h2>It&rsquo;s one year from now. December 2023. The goals and habits you were hoping to achieve and build during the year didn&rsquo;t happen. What is the most likely reason you failed?</h2>]]></content:encoded>
     </item>
     <item>
       <title>2022 Recap and Reflections</title>
@@ -20,6 +79,356 @@
       <guid isPermaLink="true">https://psaraswat.com/posts/2022-recap-and-reflections.html</guid>
       <pubDate>Thu, 22 Dec 2022 00:00:00 GMT</pubDate>
       <description>A year of travel, podcasting, and personal growth — with procrastination as the biggest obstacle.</description>
+      <content:encoded><![CDATA[<p>The year is almost over, and Christmas is near! Here&rsquo;s a highlight reel of everything I did this year, some reflections on how I fared in my life&rsquo;s &lsquo;categories&rsquo;, and some miscellaneous thoughts going forward into 2023.</p>
+
+          <p>This year was incredible in many ways, and disappointing in others. I learned more about myself and travelled more than I ever did before. Personally, there was a lot of progress, yet a lot left on the table.</p>
+
+          <p>The sheer volume of things I <em>want</em> to do is so high &mdash; and I&rsquo;m learning to let that be exciting rather than disappointing.</p>
+
+          <h2>Recap</h2>
+          <p><em>Month-by-month highlights featuring what I did, where I went, and memorable moments.</em></p>
+
+          <h2>January 🏠</h2>
+          <ul style="margin: 0 0 20px 24px;">
+            <li>Moved into my new apartment</li>
+            <li>Saw Hasan Minhaj in Sacramento</li>
+          </ul>
+          <div class="c-photo-grid">
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_0660.jpg" alt="January" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_0674.jpg" alt="January" />
+          </div>
+
+          <h2>February 🎙🍷</h2>
+          <ul style="margin: 0 0 20px 24px;">
+            <li>Launched Frndship Time Season 2</li>
+            <li>Went wine tasting in Napa</li>
+            <li>Went to Joshua Tree</li>
+          </ul>
+          <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_0821.jpg" alt="February" />
+
+          <h2>March 🎸</h2>
+          <ul style="margin: 0 0 20px 24px;">
+            <li>Saw John Mayer!</li>
+          </ul>
+          <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_1157.jpg" alt="March" />
+
+          <h2>April ☕️</h2>
+          <ul style="margin: 0 0 20px 24px;">
+            <li>Got my espresso machine. I love coffee!</li>
+            <li>Saw Tom Segura live!</li>
+            <li>Apple Pay-ed at a wishing fountain</li>
+            <li>Got a Stream Deck</li>
+          </ul>
+          <div class="c-photo-grid">
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_1762.jpg" alt="April" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_1701.jpg" alt="April" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_1687.jpg" alt="April" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_1612.jpg" alt="April" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_1589.jpg" alt="April" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_1552.JPG" alt="April" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_1345.jpg" alt="April" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_1330.jpg" alt="April" />
+          </div>
+          <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_1242.jpg" alt="April" />
+
+          <h2>May 🏌️‍♂️</h2>
+          <ul style="margin: 0 0 20px 24px;">
+            <li>Top Golf + good coffee!</li>
+            <li>Got a Nintendo Switch, played Mario Odyssey</li>
+          </ul>
+          <div class="c-photo-grid">
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_2044.jpg" alt="May" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_1726.jpg" alt="May" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_1975.JPG" alt="May" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_1955.JPG" alt="May" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_1947.jpg" alt="May" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_1848.jpg" alt="May" />
+          </div>
+
+          <h2>June ☀️</h2>
+          <ul style="margin: 0 0 20px 24px;">
+            <li>San Diego summer trip</li>
+          </ul>
+          <div class="c-photo-grid">
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_2205.jpg" alt="June" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/67087436698.JPG" alt="June" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_2399.jpg" alt="June" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_2120.jpg" alt="June" />
+          </div>
+
+          <h2>July ⚾️</h2>
+          <ul style="margin: 0 0 20px 24px;">
+            <li>Finished playing Hollow Knight</li>
+            <li>Saw my first ever baseball game</li>
+          </ul>
+          <div class="c-photo-grid">
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_2574.jpg" alt="July" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_2147.jpg" alt="July" />
+          </div>
+
+          <h2>August 💼</h2>
+          <ul style="margin: 0 0 20px 24px;">
+            <li>First ever business trip - spent 2 weeks in Boston</li>
+          </ul>
+          <div class="c-photo-grid">
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_2730.jpg" alt="August" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_2644.JPG" alt="August" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_2636.jpg" alt="August" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_2603.jpg" alt="August" />
+          </div>
+
+          <h2>September 🏙</h2>
+          <ul style="margin: 0 0 20px 24px;">
+            <li>Week-long Chicago trip</li>
+            <li>Visited the biggest Starbucks Reserve in the world</li>
+            <li>Built my custom keyboard</li>
+          </ul>
+          <div class="c-photo-grid">
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/67807824259.jpg" alt="September" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_3377.jpg" alt="September" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_3348.jpg" alt="September" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_3327.jpg" alt="September" />
+          </div>
+          <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_3185.jpg" alt="September" />
+
+          <h2>October 🏔 🪔 👻</h2>
+          <ul style="margin: 0 0 20px 24px;">
+            <li>Parents visited from India</li>
+            <li>Went to Yosemite and Tahoe</li>
+            <li>Grilled all the food for a big party</li>
+            <li>Diwali!</li>
+            <li>Halloween parties</li>
+          </ul>
+          <div class="c-photo-grid">
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_3522.JPG" alt="October" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_3544.jpg" alt="October" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_3573.jpg" alt="October" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_3586.jpg" alt="October" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_3841.jpg" alt="October" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_3828.jpg" alt="October" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_3742.jpg" alt="October" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_3725.jpg" alt="October" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_3705.jpg" alt="October" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_3629.jpg" alt="October" />
+          </div>
+
+          <h2>November</h2>
+          <ul style="margin: 0 0 20px 24px;">
+            <li>Went to a candlelight Taylor Swift string concert</li>
+            <li>Finished Hades</li>
+            <li>Friendsgiving</li>
+            <li>Wrapped up Season 2 of Frndship Time</li>
+          </ul>
+          <div class="c-photo-grid">
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_4467.jpg" alt="November" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_4432.jpg" alt="November" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_3976.jpg" alt="November" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_4306.jpg" alt="November" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_4473.jpg" alt="November" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_4489.jpg" alt="November" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_2873.jpg" alt="November" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_4413.jpg" alt="November" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_4401.jpg" alt="November" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_4536.jpg" alt="November" />
+          </div>
+          <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_4538.jpg" alt="November" />
+
+          <h2>December</h2>
+          <ul style="margin: 0 0 20px 24px;">
+            <li>Trip to LA</li>
+            <li>Happy birthday Parth!</li>
+            <li>WORLD CUP 2022!</li>
+            <li>Christmas celebrations</li>
+            <li>Got my driving permit</li>
+            <li>Friends visited SF</li>
+          </ul>
+          <div class="c-photo-grid">
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_4946.jpg" alt="December" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_4884.jpg" alt="December" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_4814.jpg" alt="December" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_4793.jpg" alt="December" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_4552.jpeg" alt="December" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_5253.jpg" alt="December" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_5196.jpg" alt="December" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_5176.jpg" alt="December" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_5452.jpg" alt="December" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_5431.JPG" alt="December" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_5426.jpg" alt="December" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_5420.jpg" alt="December" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_4585.jpg" alt="December" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_5342.JPG" alt="December" />
+          </div>
+
+          <h2>Reflections</h2>
+          <p><em>For each &lsquo;role&rsquo; in my life, what was the plan for the year? What actually happened? What went right and what went wrong?</em></p>
+
+          <h2>Podcast Cohost 🎙</h2>
+          <p><strong>What was the plan?</strong></p>
+          <ul style="margin: 0 0 20px 24px;">
+            <li>Do better episodes, focus on community, make weekly episodes</li>
+          </ul>
+
+          <p><strong>What happened?</strong></p>
+          <ul style="margin: 0 0 20px 24px;">
+            <li>Made weekly episodes.</li>
+            <li>They were higher quality, but could have been even more had I put in more effort.</li>
+            <li>Laziness held me back from really having a smash hit S2.</li>
+            <li>Nevertheless, had a good S2!</li>
+          </ul>
+
+          <p><strong>What went right?</strong></p>
+          <ul style="margin: 0 0 20px 24px;">
+            <li>Weekly episodes, higher quality in general</li>
+            <li>Still just as fun, not a chore</li>
+          </ul>
+
+          <p><strong>What went wrong?</strong></p>
+          <ul style="margin: 0 0 20px 24px;">
+            <li>Did not foresee how much work high-production episodes and guest eps can be, I was not committed enough to see them all the way through.</li>
+            <li>For some reason expected the entire year to be uniformly busy. This was not the case, some months were much busier, so we should have gathered our rosebuds while we could.</li>
+          </ul>
+
+          <p>Ratik and I talked about our year in podcasting on the season&rsquo;s finale.</p>
+          <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/FT_S2_Finale.png" alt="Frndship Time Season 2 Finale" />
+
+          <h2>Health 🏃🏻‍♂️</h2>
+          <p><strong>What was the plan?</strong></p>
+          <p>Stronger habits, consistent eating well and physique improvements</p>
+
+          <p><strong>What happened?</strong></p>
+          <p>Very on-off in the gym. Not great with nutrition. When things were good they were good, but big issues getting back in the habit after taking a break.</p>
+
+          <p><strong>What went right?</strong></p>
+          <ul style="margin: 0 0 20px 24px;">
+            <li>When things were consistent, everything felt good</li>
+            <li>Learnt that mornings are great for workouts with my schedule</li>
+            <li>Started stretching routines mid-year and got in some stretching everyday consistently</li>
+          </ul>
+
+          <p><strong>What went wrong?</strong></p>
+          <ul style="margin: 0 0 20px 24px;">
+            <li>Not getting back to the gym after breaks.</li>
+            <li>Not tracking meals, weight, lacking consistency.</li>
+            <li>Nutrition was the toughest, would succumb to laziness and skip meals/eat out whenever I wasn&rsquo;t prepped enough</li>
+          </ul>
+
+          <h2>Website ✍🏻</h2>
+          <p><strong>What was the plan?</strong></p>
+          <ul style="margin: 0 0 20px 24px;">
+            <li>Write blog posts consistently</li>
+            <li>Play with paywalls, memberships, etc.</li>
+          </ul>
+
+          <p><strong>What happened?</strong></p>
+          <ul style="margin: 0 0 20px 24px;">
+            <li>Upgraded to new website design</li>
+            <li>Wrote 0 (ZERO!) personal blog posts</li>
+            <li>Started a Technical Blog. Wrote once and enjoyed it.</li>
+            <li>Realized personal blog is more of a &lsquo;fun&rsquo; project where I do not want to chase a &lsquo;target number&rsquo; for posts. I still do enjoy it and want to do it.</li>
+            <li>Realized I&rsquo;m not obsessed enough with writing posts even though I enjoy it, mainly because all my time gets sipped up by other things (I watch too much YouTube, and would like my attention back)</li>
+          </ul>
+
+          <p><strong>What went right?</strong></p>
+          <ul style="margin: 0 0 20px 24px;">
+            <li>Spending the time and effort required to porting into a new website</li>
+            <li>Tech blog kick off</li>
+            <li>Public Journal format and posts</li>
+          </ul>
+
+          <p><strong>What went wrong?</strong></p>
+          <ul style="margin: 0 0 20px 24px;">
+            <li>Great plans for Tech Blog were not followed through</li>
+            <li>Tech blog works closely and has big effect on career learning. Not doing it is bad - didn&rsquo;t do it because sinking time into YouTube</li>
+          </ul>
+
+          <h2>Finances 💸</h2>
+          <p><strong>What was the plan?</strong></p>
+          <ul style="margin: 0 0 20px 24px;">
+            <li>Increase income from main source of income</li>
+            <li>Know your expenditure power - exact budget and planned expenditures</li>
+            <li>Grow the money you already have</li>
+            <li>More income sources</li>
+          </ul>
+
+          <p><strong>What happened?</strong></p>
+          <ul style="margin: 0 0 20px 24px;">
+            <li>Did increase income</li>
+            <li>Set up recurring investments</li>
+            <li>Got a credit card and started building credit</li>
+            <li>Got Mint, Copilot, set up budgets, did not monitor or follow</li>
+            <li>Did not look into expanding portfolio - just &lsquo;set it and forgot it&rsquo;. Just did some really laid back saving</li>
+            <li>Realized there is much to learn. It is an ongoing process, and I need to stop thinking of person finance as a project that can be finished or solved. The nature of this work is ongoing.</li>
+          </ul>
+
+          <p><strong>What went right?</strong></p>
+          <ul style="margin: 0 0 20px 24px;">
+            <li>Setting up first steps (credit card, recurring investments, Copilot for budgeting)</li>
+          </ul>
+
+          <p><strong>What went wrong?</strong></p>
+          <ul style="margin: 0 0 20px 24px;">
+            <li>Treated things like a project, not as simply doing this because it&rsquo;s good for me</li>
+            <li>Did not follow through after the bare minimum</li>
+            <li>Lack of effort. No plans/brainstorming/any effort towards additional income streams</li>
+          </ul>
+
+          <h2>Relationships ❣️</h2>
+          <p><strong>What was the plan?</strong></p>
+          <p>No goals, but wanted to be better about keeping in touch. Show more appreciation to the people I love.</p>
+
+          <p><strong>What happened?</strong></p>
+          <ul style="margin: 0 0 20px 24px;">
+            <li>I wasn&rsquo;t great about this throughout the year, but coming towards the end, I put in a lot more effort into calling old friends regularly and checking up on other friends</li>
+            <li>I feel good about this towards the end of the year</li>
+            <li>Even if I wasn&rsquo;t thrilled in the beginning, the end is really promising and something I want to carry forward into next year</li>
+          </ul>
+
+          <p><strong>What went right?</strong></p>
+          <ul style="margin: 0 0 20px 24px;">
+            <li>Having constant reminders to talk to people, reaching out over text and recurring phone call reminders</li>
+          </ul>
+
+          <h2>Miscellaneous thoughts</h2>
+
+          <h2>What worked day-to-day</h2>
+          <p><strong>Being in SF 🌆</strong></p>
+          <p>I loved being in a city where I could go outdoors, explore food and activities, and meet interesting people. There is a lot to do here on any given weekend, and the weather makes it possible to do it throughout the year.</p>
+          <div class="c-photo-grid">
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_5643.jpg" alt="SF" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_5605.jpg" alt="SF" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_5593.jpg" alt="SF" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_5549.jpg" alt="SF" />
+          </div>
+
+          <p><strong>Having a &lsquo;year theme&rsquo; 🥳</strong></p>
+          <p>In 2021, I realized I was doing too much, and none of it particularly well. For 2022, I decided to narrow down my focus. Podcasting, career thinking, friends and relationships would be front-of-mind, and the website, music, etc would be on the back seat. The desired effect did happen - I poured in a lot of work into the podcast and my career, and at the end of the year I feel much more satisfied with how those went as compared to everything I (willingly) neglected.</p>
+
+          <p><strong>Day theming 📅</strong></p>
+          <p>Deciding in advance what &lsquo;part of my life&rsquo; I would be spending the free time of my days on was brilliant. There is less need of planning, and everything important gets attention through the week.</p>
+
+          <p><strong>Pouring time into friends 👯‍♀️</strong></p>
+          <p>I was more &lsquo;present focused&rsquo; this year. Given the choice between a night with friends or working on my side projects, I always chose the social event. Looking back, I am glad I did this - I now have a circle of friends in the city with whom to do things, and with whom to learn and grow.</p>
+          <div class="c-photo-grid">
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_5667.jpg" alt="Friends" />
+            <img src="https://psaraswat.com/posts/images/2022-recap-and-reflections/IMG_5649.jpg" alt="Friends" />
+          </div>
+
+          <h2>What was bad day-to-day</h2>
+          <p><strong>YouTube &amp; Procrastination 📺</strong></p>
+          <p>I watch a LOT of YouTube and procrastinate on Reddit more than I&rsquo;d like to admit. It&rsquo;s&hellip; a problem.</p>
+          <p>From watching meaningless content and procrastinating to taking away time from the things I really want to do, this habit is the #1 culprit behind all the potential I left on the table in 2022.</p>
+
+          <p><strong>Lack of Effort 💤</strong></p>
+          <p>There is so much I want to do. The possibilities are endless, and if I wanted, I could fill up my entire life with meaningful things that I <em>want</em> to do. Alas, I&rsquo;m lazy and procrastinate too much. This meant not enough effort went into doing important things.</p>
+
+          <h2>Closing Thoughts</h2>
+          <p>In 2022, there was forward progress, but so much left on the table. This is because of no other reason except procrastination.</p>
+
+          <p>As for trips and &lsquo;living in the present&rsquo;, this year was incredible. 5-6 trips, lots of parties, events, and on a social level, one of the best years of my life.</p>
+
+          <p>There is so much I want to do and the possibility of so much that excites me. There is no way I can incorporate all of it into my life, but the good feeling is that <em>I can never run out of things I want to do.</em></p>
+
+          <p>Onto 2023!</p>]]></content:encoded>
     </item>
     <item>
       <title>Refactoring and Clean Code</title>
@@ -27,6 +436,292 @@
       <guid isPermaLink="true">https://psaraswat.com/posts/refactoring-and-clean-code.html</guid>
       <pubDate>Thu, 30 Jun 2022 00:00:00 GMT</pubDate>
       <description>Method composition, data organization, and simplifying conditionals — everything I learned about refactoring.</description>
+      <content:encoded><![CDATA[<h2>Everything I Learned</h2>
+
+          <p><strong>What is refactoring?</strong></p>
+
+          <p>Refactoring is a process of improving the readability, modifiability and ease of debug of existing code. It is not about adding new functionality. Refactoring transforms a mess into clean code and simple design.</p>
+
+          <p>Here are some of the basic categories of refactoring techniques:</p>
+
+          <img src="https://psaraswat.com/posts/images/refactoring-and-clean-code/refactoring-techniques.png" alt="Refactoring techniques diagram" />
+
+          <h2>Quick summary of each category</h2>
+
+          <p><strong>Method composition:</strong></p>
+
+          <p>Much of refactoring is dedicated to how we write methods. In most cases, &ldquo;excessively long functions are the root of evil&rdquo;. All techniques in this category aim to streamline methods, improve readability, remove duplication, and increase ease of future modifications.</p>
+
+          <p><em>Favorite techniques:</em></p>
+
+          <ol style="margin: 0 0 20px 24px;">
+            <li><strong>Extract method</strong>
+              <ul>
+                <li>The more lines found in a method, the harder it&rsquo;s to figure out what the method does. This is the main reason for this refactoring.</li>
+                <li>Besides eliminating rough edges in your code, extracting methods is also a step in more readable code. It reduces duplication and isolates parts of the code for easier debugging.</li>
+              </ul>
+            </li>
+          </ol>
+
+          <div class="c-code-pair">
+            <div>
+              <span class="c-code-label">Before</span>
+              <figure class="c-code">
+                <div class="c-code-bar">
+                  <span class="c-code-lang">python</span>
+                  <span class="c-code-file">before-extract-method.py</span>
+                </div>
+<pre><code><span class="ln">1</span><span class="tok-k">def</span> <span class="tok-fn">printOwing</span><span class="tok-p">(</span>self<span class="tok-p">):</span>
+<span class="ln">2</span>    self.<span class="tok-fn">printBanner</span><span class="tok-p">()</span>
+<span class="ln">3</span>
+<span class="ln">4</span>    <span class="tok-c"># print details</span>
+<span class="ln">5</span>    <span class="tok-fn">print</span><span class="tok-p">(</span><span class="tok-s">"name:"</span>, self.name<span class="tok-p">)</span>
+<span class="ln">6</span>    <span class="tok-fn">print</span><span class="tok-p">(</span><span class="tok-s">"amount:"</span>, self.<span class="tok-fn">getOutstanding</span><span class="tok-p">())</span>
+</code></pre>
+              </figure>
+            </div>
+            <div>
+              <span class="c-code-label is-after">After</span>
+              <figure class="c-code">
+                <div class="c-code-bar">
+                  <span class="c-code-lang">python</span>
+                  <span class="c-code-file">after-extract-method.py</span>
+                </div>
+<pre><code><span class="ln">1</span><span class="tok-k">def</span> <span class="tok-fn">printOwing</span><span class="tok-p">(</span>self<span class="tok-p">):</span>
+<span class="ln">2</span>    self.<span class="tok-fn">printBanner</span><span class="tok-p">()</span>
+<span class="ln">3</span>    self.<span class="tok-fn">printDetails</span><span class="tok-p">(</span>self.<span class="tok-fn">getOutstanding</span><span class="tok-p">())</span>
+<span class="ln">4</span>
+<span class="ln">5</span><span class="tok-k">def</span> <span class="tok-fn">printDetails</span><span class="tok-p">(</span>self, outstanding<span class="tok-p">):</span>
+<span class="ln">6</span>    <span class="tok-fn">print</span><span class="tok-p">(</span><span class="tok-s">"name:"</span>, self.name<span class="tok-p">)</span>
+<span class="ln">7</span>    <span class="tok-fn">print</span><span class="tok-p">(</span><span class="tok-s">"amount:"</span>, outstanding<span class="tok-p">)</span>
+</code></pre>
+              </figure>
+            </div>
+          </div>
+
+          <p><strong>Data organization</strong></p>
+
+          <p>All of code is about data and the operations you perform on it. It is possible to write functional code without thinking too hard about the data you are handling. The techniques in this category help with &ldquo;replacing primitive data types with rich class functionality&rdquo;. Pieces of data that should be looked at together become members of a class rather than independent primitives. Proper data organization and method composition alone can bring major improvements in your code.</p>
+
+          <p><em>Favorite techniques:</em></p>
+
+          <ol style="margin: 0 0 20px 24px;">
+            <li><strong>Replace Data Value with Object</strong>
+              <ul>
+                <li>With replacement of a data value with an object, we have a primitive field (number, string, etc.) that&rsquo;s no longer so simple due to growth of the program and now has associated data and behaviors. On the one hand, there&rsquo;s nothing scary about these fields in and of themselves. However, this fields-and-behaviors family can be present in several classes simultaneously, creating duplicate code.</li>
+                <li>Therefore, for all this we create a new class and move both the field and the related data and behaviors to it.</li>
+              </ul>
+            </li>
+          </ol>
+
+          <div class="c-fig-pair">
+            <figure>
+              <img src="https://psaraswat.com/posts/images/refactoring-and-clean-code/replace-data-before.png" alt="Order class with primitive customer field" />
+              <figcaption>Before</figcaption>
+            </figure>
+            <figure>
+              <img src="https://psaraswat.com/posts/images/refactoring-and-clean-code/replace-data-after.png" alt="Order class with associated Customer class" />
+              <figcaption class="is-after">After</figcaption>
+            </figure>
+          </div>
+
+          <p><strong>Simplifying conditionals</strong></p>
+
+          <p>Conditionals have a tendency to get more complicated over time. In my experience, trying to untangle a conditional can be a frustrating experience. The techniques in this category help you write conditionals that are easier to follow, more expressive and robust.</p>
+
+          <p><em>Favorite techniques:</em></p>
+
+          <ol style="margin: 0 0 20px 24px;">
+            <li><strong>Replace Nested Conditional with Guard Clauses</strong>
+              <ul>
+                <li>When you have a group of nested conditionals and it&rsquo;s hard to determine the normal flow of code execution, this refactoring comes in handy.</li>
+                <li>We isolate all the special checks and edge cases into separate clauses and place them before the main checks.</li>
+              </ul>
+            </li>
+          </ol>
+
+          <div class="c-code-pair">
+            <div>
+              <span class="c-code-label">Before</span>
+              <figure class="c-code">
+                <div class="c-code-bar">
+                  <span class="c-code-lang">cpp</span>
+                  <span class="c-code-file">before-replace-nested-cond-w-guard-clauses.cpp</span>
+                </div>
+<pre><code><span class="ln"> 1</span><span class="tok-k">public</span> <span class="tok-k">double</span> <span class="tok-fn">GetPayAmount</span><span class="tok-p">()</span>
+<span class="ln"> 2</span><span class="tok-p">{</span>
+<span class="ln"> 3</span>  <span class="tok-k">double</span> result<span class="tok-p">;</span>
+<span class="ln"> 4</span>
+<span class="ln"> 5</span>  <span class="tok-k">if</span> <span class="tok-p">(</span>isDead<span class="tok-p">)</span>
+<span class="ln"> 6</span>  <span class="tok-p">{</span>
+<span class="ln"> 7</span>    result <span class="tok-p">=</span> <span class="tok-fn">DeadAmount</span><span class="tok-p">();</span>
+<span class="ln"> 8</span>  <span class="tok-p">}</span>
+<span class="ln"> 9</span>  <span class="tok-k">else</span>
+<span class="ln">10</span>  <span class="tok-p">{</span>
+<span class="ln">11</span>    <span class="tok-k">if</span> <span class="tok-p">(</span>isSeparated<span class="tok-p">)</span>
+<span class="ln">12</span>    <span class="tok-p">{</span>
+<span class="ln">13</span>      result <span class="tok-p">=</span> <span class="tok-fn">SeparatedAmount</span><span class="tok-p">();</span>
+<span class="ln">14</span>    <span class="tok-p">}</span>
+<span class="ln">15</span>    <span class="tok-k">else</span>
+<span class="ln">16</span>    <span class="tok-p">{</span>
+<span class="ln">17</span>      <span class="tok-k">if</span> <span class="tok-p">(</span>isRetired<span class="tok-p">)</span>
+<span class="ln">18</span>      <span class="tok-p">{</span>
+<span class="ln">19</span>        result <span class="tok-p">=</span> <span class="tok-fn">RetiredAmount</span><span class="tok-p">();</span>
+<span class="ln">20</span>      <span class="tok-p">}</span>
+<span class="ln">21</span>      <span class="tok-k">else</span>
+<span class="ln">22</span>      <span class="tok-p">{</span>
+<span class="ln">23</span>        result <span class="tok-p">=</span> <span class="tok-fn">NormalPayAmount</span><span class="tok-p">();</span>
+<span class="ln">24</span>      <span class="tok-p">}</span>
+<span class="ln">25</span>    <span class="tok-p">}</span>
+<span class="ln">26</span>  <span class="tok-p">}</span>
+<span class="ln">27</span>
+<span class="ln">28</span>  <span class="tok-k">return</span> result<span class="tok-p">;</span>
+<span class="ln">29</span><span class="tok-p">}</span>
+</code></pre>
+              </figure>
+            </div>
+            <div>
+              <span class="c-code-label is-after">After</span>
+              <figure class="c-code">
+                <div class="c-code-bar">
+                  <span class="c-code-lang">cpp</span>
+                  <span class="c-code-file">after-replace-nested-cond-w-guard-clauses.cpp</span>
+                </div>
+<pre><code><span class="ln"> 1</span><span class="tok-k">public</span> <span class="tok-k">double</span> <span class="tok-fn">GetPayAmount</span><span class="tok-p">()</span>
+<span class="ln"> 2</span><span class="tok-p">{</span>
+<span class="ln"> 3</span>  <span class="tok-k">if</span> <span class="tok-p">(</span>isDead<span class="tok-p">)</span>
+<span class="ln"> 4</span>  <span class="tok-p">{</span>
+<span class="ln"> 5</span>    <span class="tok-k">return</span> <span class="tok-fn">DeadAmount</span><span class="tok-p">();</span>
+<span class="ln"> 6</span>  <span class="tok-p">}</span>
+<span class="ln"> 7</span>  <span class="tok-k">if</span> <span class="tok-p">(</span>isSeparated<span class="tok-p">)</span>
+<span class="ln"> 8</span>  <span class="tok-p">{</span>
+<span class="ln"> 9</span>    <span class="tok-k">return</span> <span class="tok-fn">SeparatedAmount</span><span class="tok-p">();</span>
+<span class="ln">10</span>  <span class="tok-p">}</span>
+<span class="ln">11</span>  <span class="tok-k">if</span> <span class="tok-p">(</span>isRetired<span class="tok-p">)</span>
+<span class="ln">12</span>  <span class="tok-p">{</span>
+<span class="ln">13</span>    <span class="tok-k">return</span> <span class="tok-fn">RetiredAmount</span><span class="tok-p">();</span>
+<span class="ln">14</span>  <span class="tok-p">}</span>
+<span class="ln">15</span>  <span class="tok-k">return</span> <span class="tok-fn">NormalPayAmount</span><span class="tok-p">();</span>
+<span class="ln">16</span><span class="tok-p">}</span>
+</code></pre>
+              </figure>
+            </div>
+          </div>
+
+          <ol start="2" style="margin: 0 0 20px 24px;">
+            <li><strong>Introduce Assertion</strong>
+              <ul>
+                <li>In the case where certain conditions must be true for a portion of code to work correctly, this refactoring technique comes in handy. We replace all our assumptions with specific assertion checks.</li>
+              </ul>
+            </li>
+          </ol>
+
+          <div class="c-code-pair">
+            <div>
+              <span class="c-code-label">Before</span>
+              <figure class="c-code">
+                <div class="c-code-bar">
+                  <span class="c-code-lang">python</span>
+                  <span class="c-code-file">before-introduce-assertion.py</span>
+                </div>
+<pre><code><span class="ln">1</span><span class="tok-k">def</span> <span class="tok-fn">getExpenseLimit</span><span class="tok-p">(</span>self<span class="tok-p">):</span>
+<span class="ln">2</span>    <span class="tok-c"># Should have either expense limit or</span>
+<span class="ln">3</span>    <span class="tok-c"># a primary project.</span>
+<span class="ln">4</span>    <span class="tok-k">return</span> self.expenseLimit <span class="tok-k">if</span> self.expenseLimit <span class="tok-p">!=</span> NULL_EXPENSE <span class="tok-k">else</span> \
+<span class="ln">5</span>        self.primaryProject.<span class="tok-fn">getMemberExpenseLimit</span><span class="tok-p">()</span>
+</code></pre>
+              </figure>
+            </div>
+            <div>
+              <span class="c-code-label is-after">After</span>
+              <figure class="c-code">
+                <div class="c-code-bar">
+                  <span class="c-code-lang">python</span>
+                  <span class="c-code-file">after-introduce-assertion.py</span>
+                </div>
+<pre><code><span class="ln">1</span><span class="tok-k">def</span> <span class="tok-fn">getExpenseLimit</span><span class="tok-p">(</span>self<span class="tok-p">):</span>
+<span class="ln">2</span>    <span class="tok-k">assert</span> <span class="tok-p">(</span>self.expenseLimit <span class="tok-p">!=</span> NULL_EXPENSE<span class="tok-p">)</span> <span class="tok-k">or</span> <span class="tok-p">(</span>self.primaryProject <span class="tok-k">is not</span> <span class="tok-n">None</span><span class="tok-p">)</span>
+<span class="ln">3</span>
+<span class="ln">4</span>    <span class="tok-k">return</span> self.expenseLimit <span class="tok-k">if</span> <span class="tok-p">(</span>self.expenseLimit <span class="tok-p">!=</span> NULL_EXPENSE<span class="tok-p">)</span> <span class="tok-k">else</span> \
+<span class="ln">5</span>        self.primaryProject.<span class="tok-fn">getMemberExpenseLimit</span><span class="tok-p">()</span>
+</code></pre>
+              </figure>
+            </div>
+          </div>
+
+          <h2>My experience</h2>
+
+          <p>I want to talk about my experience from 3 different angles. How my behavior changed, how I look at coding differently now, and the best practices I&rsquo;m taking forward with myself.</p>
+
+          <ol style="margin: 0 0 20px 24px;">
+            <li><strong>How my behavior changed</strong>
+              <ul>
+                <li>Almost everything I learned made me respect OOP concepts more.</li>
+                <li>I started using multiple files more, I used classes, data structures and functions more intentionally and &ldquo;really <em>thought</em> about what code should look&rdquo; like before jumping into the mechanical side of coding.</li>
+                <li>Once code was refactored, it reduces the cognitive effort required from a future reader/owner. This made me a lot more productive - I was spending much less time and mental effort trying to figure out what code was doing. It was all in front of me.</li>
+              </ul>
+            </li>
+            <li><strong>How I look at coding differently now</strong>
+              <ul>
+                <li>Coding became fun again.</li>
+                <li>Over time, I have learnt that I enjoy making things. Podcasts, music, blog posts, or new features. I enjoy making high-quality things even more. I could feel a tangible improvement in my code quality and code health. I enjoyed looking at and writing new code once I refactored it or wrote it more intentionally.</li>
+                <li>&ldquo;Thinking, planning and implementing code at the same time is a great feeling.&rdquo; As I started writing more and more code, my process evolved. My current process is to think about what I&rsquo;m coding using quick drawings on my whiteboard, then type out some pseudocode, and finally move pieces of the pseudocode around and write syntactically correct and complete code. The whole process leaves me more energized - I always feel like I&rsquo;m in control. Bugs are caught quickly and easily. Harsh boundaries between different modules and methods take out any frustrations I would have felt from working with spaghetti code.</li>
+                <li>I have realized that writing code <em>is</em> an art and <em>is</em> about style. For example, consider the trade-off you need to make when writing function calls upon function calls. More functions and boundaries lead to more expressive code (which is good!) but might cause the reader to jump around different parts of a file in order to get to a particular function definition (which is not good). Performance aside, I will always prefer to write more functions in order to write more expressive code. I trust that readers and modern IDEs will make code navigation easy. That is <em>my</em> style. Someone else might write less functions, which makes the end result less expressive but slightly easier to navigate. That would be <em>their</em> style. Writing code <em>is</em> about style.</li>
+              </ul>
+            </li>
+            <li><strong>Best practices</strong>
+              <ol style="margin: 8px 0 0 24px;">
+                <li>Code can keep improving, settle for good enough
+                  <ul>
+                    <li>Your code can almost always be improved. Settle for &lsquo;good enough&rsquo; and move on.</li>
+                    <li>You need to move to other things, and constantly cleaning up old code is not an option. Once you think a piece of code is expressive, easily modifiable, understandable, and will be easy to debug in the future, move on. This brings me to my next best practice&hellip;</li>
+                  </ul>
+                </li>
+                <li>Keep a wishlist
+                  <ul>
+                    <li>I keep coming across code that frustrates me. I keep a track of such code and return to it when I have some downtime or I feel like cleaning up code.</li>
+                  </ul>
+                </li>
+                <li>For best results, know your editor well.
+                  <ul>
+                    <li>The quicker you are able to implement the changes you want, the quicker you can move. You do not want the tool to become a source of friction between you and clean code.</li>
+                  </ul>
+                </li>
+                <li>There are 2 golden rules to keep writing clean code without getting lost in the details:
+                  <ol style="margin: 8px 0 0 24px;">
+                    <li><strong>The broken windows rule</strong>
+                      <ul>
+                        <li>Don&rsquo;t leave any &lsquo;broken windows&rsquo; in your code. Broken windows are messy pieces in an otherwise clean file. If someone (you included) looks at a &lsquo;broken window&rsquo; in code, you&rsquo;re more likely to feel okay with making a further mess.</li>
+                        <li>On the other hand, if you see a well formatted, well written file, you simply do not want to be the one who adds the first bit of mess into the clean file. Don&rsquo;t leave broken windows in your code, and maintenance becomes natural.</li>
+                      </ul>
+                    </li>
+                    <li><strong>The campsite rule</strong>
+                      <ul>
+                        <li>Always leave the campsite cleaner than you found it. If you make any change to a file, make sure you&rsquo;re leaving it in a healthier, cleaner state than you last found it. Even if the change is as small as deleting old commented out code or adding proper formatting, constant cleaning up can add up to big results.</li>
+                      </ul>
+                    </li>
+                  </ol>
+                </li>
+              </ol>
+            </li>
+          </ol>
+
+          <h2>Follow ups</h2>
+
+          <p>I want to make refactoring a habit. All my follow ups circle around this objective.</p>
+
+          <ol style="margin: 0 0 20px 24px;">
+            <li>Keep a running &lsquo;Refactoring Opportunities&rsquo; list
+              <ul>
+                <li>I have a Notion page where I track code I&rsquo;d like to clean up. I keep a track of what the current problem is, my initial ideas on how I&rsquo;d change it, as well as the refactoring techniques I see myself using. I return to this list once/week and work on one of the entries in the list.</li>
+              </ul>
+            </li>
+            <li>Share everything I learn
+              <ul>
+                <li>If I make a constant effort to share a change I made, I&rsquo;m likely to hear other people&rsquo;s opinions on it. More dialogue = more learning!</li>
+              </ul>
+            </li>
+          </ol>]]></content:encoded>
     </item>
     <item>
       <title>How I Edit Podcast Episodes</title>
@@ -34,6 +729,91 @@
       <guid isPermaLink="true">https://psaraswat.com/posts/how-i-edit-podcast-episodes.html</guid>
       <pubDate>Mon, 10 May 2021 00:00:00 GMT</pubDate>
       <description>A streamlined Logic Pro workflow that cuts editing time from 4–5 hours down to under 2.5.</description>
+      <content:encoded><![CDATA[<img class="c-hero" src="https://psaraswat.com/posts/images/how-i-edit-podcast-episodes/thumb.png" alt="Header" />
+
+          <h2>Article Body</h2>
+          <p>I help produce a weekly podcast, and we have released about 19 total episodes. My podcast editing process has slowly developed and now I feel quick and comfortable editing up an episode in 1.5-2.5 hours as opposed to the 4-5 hours it used to take me in the beginning. This workflow is also far less frustrating and the end result is much better.</p>
+
+          <p>This post outlines my current editing process, take from it what you will!</p>
+
+          <h2>Some background:</h2>
+          <ul style="margin: 0 0 20px 24px;">
+            <li>I use <strong>Logic Pro X</strong>, but this workflow is adaptable to any audio editing software you wish to use.</li>
+            <li>Here is the starting point: Ratik and I record individual tracks on our ends and send them to each other&hellip;</li>
+          </ul>
+
+          <p>&hellip;and the edit begins. Let&rsquo;s go over it step-by-step and look at some tips and tricks I use.</p>
+
+          <h2>Step-by-step process</h2>
+          <p><em>TLDR: Sync up the individual tracks, cut silences, listen through and split the episode into sections, clean up the sections, add the finishing touches, and you&rsquo;re done.</em></p>
+
+          <h2>1. Syncing</h2>
+          <p>There are 2 main tracks (one for me, one for Ratik). In order to sync them up, we simply record some claps to both the tracks and use that to sync them up. Easy.</p>
+          <img src="https://psaraswat.com/posts/images/how-i-edit-podcast-episodes/1.jpg" alt="Syncing" />
+
+          <h2>2. Cut silences</h2>
+          <p>Each track has silent portions (for example, when I am talking, Ratik&rsquo;s track is silent).</p>
+
+          <p>Even though it <em>looks</em> like there is no audio in flat waveforms, there is always some undesirable room noise, and it&rsquo;s probably best to get rid of these sections from the track. Logic has a wonderful little tool for silence removal that I use all the time. You can do this step manually, but almost every audio editor will have some tool to help you do this. The default shortcut for removing silences from a track is Ctrl-X.</p>
+
+          <p>That&rsquo;s preprocessing done! Let&rsquo;s start cutting.</p>
+          <img src="https://psaraswat.com/posts/images/how-i-edit-podcast-episodes/2.jpg" alt="Cut silences" />
+
+          <h2>3. Listen through and split into sections</h2>
+          <p>I like to listen through the entire episode and use markers to split the episode into logical (pun unintended) sections. This way, I can work on small sections at a time without getting overwhelmed, and I&rsquo;m able to see if there are any glaring flow issues.</p>
+
+          <p>Here&rsquo;s some things to keep in mind:</p>
+
+          <ul style="margin: 0 0 20px 24px;">
+            <li>Listening through the entire episode can be slow, so increase the playback speed! I use Varispeed to do this. More on this in the &lsquo;tips&rsquo; section.</li>
+            <li>Once the sections are split up, I color each of them differently so I always have a visual indication of how much of the section I still have to edit. Here&rsquo;s an example:</li>
+          </ul>
+          <img src="https://psaraswat.com/posts/images/how-i-edit-podcast-episodes/3.png" alt="Sections" />
+
+          <h2>4. Clean up sections</h2>
+          <p>Now that the episode is split up, I jump into each section and &lsquo;clean it up&rsquo;. This involves removing any unwanted material, cutting out any misspeaks, and if required, making things a little more &lsquo;snappy&rsquo;. A lot of this is by feel. You will develop your own feel the more you edit.</p>
+
+          <p>This part of the process is the longest. Depending on how the recording session was, this can be easy or a bit of a chore. More on this later too.</p>
+          <img src="https://psaraswat.com/posts/images/how-i-edit-podcast-episodes/4.jpg" alt="Clean up" />
+
+          <h2>5. Finishing touches: audio FX, theme tune, outro</h2>
+          <p>Almost done. Before the episode can be shipped, I add in the intro jingle and outro music. Each track also gets a chain of FX (or plug-ins, whatever you want to call them) to make the audio sound <em>extra crispy</em>.</p>
+
+          <p>And that&rsquo;s it! A fully edited episode. Time to export and upload.</p>
+          <img src="https://psaraswat.com/posts/images/how-i-edit-podcast-episodes/5.png" alt="Finishing touches" />
+
+          <h2>Additional Tips and Tricks:</h2>
+
+          <h2>Varispeed</h2>
+          <p>Varispeed is a Logic tool that allows you to playback your project at higher (or lower) speeds. Very useful when listening through. I listen through the raw episode at 2x speed and keep it there when cleaning up my sections. A lifesaver. Your DAW likely has a similar tool.</p>
+
+          <h2>Templated projects</h2>
+          <p>In step 5 above, I spoke about adding in the jingle and channel FX. These are repeated and the same for every episode, so I simply made a templated project file with the individual channel settings applied and the jingle already in there. Why do more work when fewer work do trick?</p>
+
+          <h2>Keyboard shortcuts</h2>
+          <p>My favorite part. Learning how to move around Logic and use your most used features using shortcuts will change your life. Here are some of the main keyboard shortcuts I use:</p>
+
+          <ul style="margin: 0 0 20px 24px;">
+            <li><strong>Zoom and movement</strong> &mdash; Zooming into your timeline horizontally and vertically is something you will do all the time. Moving horizontally is also something you will do all the time. These are baked in by default.</li>
+            <li><strong>Varispeed: turning on and off</strong> &mdash; There isn&rsquo;t a default shortcut for this, but I added one in.</li>
+            <li><strong>Go to next/previous marker</strong> &mdash; Again, a custom shortcut. I use this to jump between markers while editing. I am speed.</li>
+          </ul>
+
+          <h2>Chapters</h2>
+          <p>Shoutout to Ratik for this one. Podcasts can be long and having &lsquo;chapters&rsquo; really helps make a long episode more digestable. Here&rsquo;s an example of the chapters in episode 17 of Frndship Time.</p>
+
+          <p>This is how I add chapters to each episode. You&rsquo;re adding markers anyway, might as well take the small additional step and finish the job.</p>
+
+          <h2>Some notes on recording</h2>
+          <p>Like anything else, the better your input material is, the easier it is to have a great end product. If your raw recording session was good, you need very little work to make a great episode. The editing process becomes much shorter and simpler. I call these episodes &lsquo;sushi episodes&rsquo;.</p>
+
+          <p>Thanks for reading! If you have any questions, suggestions, or tips, let me know! See you later.</p>
+
+          <p><em>See you next week for a new post.</em></p>
+
+          <p><em>Thanks for reading! You can always email me to chat about this post - or anything else.</em></p>
+
+          <p><strong><em>As is true for any advice or counsel you ever receive: Y.M.M.V! Your mileage may vary. Some advice can be a vice. Feel free to take what you can use, and leave the rest. There are no rules.</em></strong></p>]]></content:encoded>
     </item>
     <item>
       <title>A New Approach to The Blog</title>
@@ -41,6 +821,54 @@
       <guid isPermaLink="true">https://psaraswat.com/posts/a-new-approach-to-the-blog.html</guid>
       <pubDate>Thu, 22 Apr 2021 00:00:00 GMT</pubDate>
       <description>Shorter guides, daily updates, and a “document don’t create” philosophy for consistency.</description>
+      <content:encoded><![CDATA[<p>I&rsquo;ve been writing blog posts for just under a year now. In that time, I&rsquo;ve written 12 posts, and have enjoyed writing each one. The goal was to put out at least 1 post a week, and last I checked, 12 posts in 11 months is not the same as one post per week.</p>
+
+          <p>I also wanted my website to hold some technical, musical, and other &lsquo;skill based&rsquo; guides and tutorials, but I haven&rsquo;t done that either.</p>
+
+          <p>So, there&rsquo;s two issues that I need to fix here:</p>
+
+          <ol style="margin: 0 0 20px 24px;">
+            <li>A lack of consistency in posting</li>
+            <li>A lack of new genres of content (guides and tutorials)</li>
+          </ol>
+
+          <p>I have tried to solve these problems in the past by trying a few things:</p>
+
+          <ul style="margin: 0 0 20px 24px;">
+            <li>I tried to build accountability by adding &lsquo;see you next week!&rsquo; at the end of each post, but I ignored it each time (..hah, no excuses on that one)</li>
+            <li>Simply trying harder and trying to write posts even when I didn&rsquo;t want to</li>
+          </ul>
+
+          <p>Safe to say, neither of those approaches worked, and I need a newer, healthier approach to do this. This post is all about the approach I&rsquo;m using to be more consistent and introduce more content to the website.</p>
+
+          <p>The main reason why I&rsquo;ve lacked consistency over the past year is that the kind of posts I was writing just took a lot of <em>time</em>. For posts like What do I do With My Life? and Getting Ready to Start a Career, the more I thought about them and mulled them over, the better the posts turned out. None of these posts would have been what they were had I just given them one week each. These types of posts take time, and I cannot expect to make posts like those every week. The solution then, is two fold:</p>
+
+          <ol style="margin: 0 0 20px 24px;">
+            <li><strong>More genres of posts!</strong>
+              <p>I&rsquo;ve wanted to make tech and skill based guides, which would take much less time to make. In addition, this also solve my &lsquo;lack of skill-based documentation&rsquo; problem.</p>
+              <p>In addition, some weekly summaries of my <strong>daily updates</strong> can also be a great way to crystallize learning and put it across in a sharable way.</p>
+              <p>If I add that kind of content and put out &lsquo;classic&rsquo; posts (like this, this, and this one) once a month, a majority of my problems would be solved</p>
+            </li>
+            <li><strong>A newer strategy to &lsquo;making&rsquo; content</strong>
+              <p><em>&lsquo;Document, don&rsquo;t create&rsquo;:</em> Creating something new takes time and effort because you build things up from scratch. On the other side, if I simply document the things I&rsquo;m learning and interesting conversations I have, content will create itself.</p>
+              <p>As an example, I have been journaling for the last year and a half, and if I go back and pick up pieces from different entries, I could coalesce them into a new post with minimal effort.</p>
+              <p>In fact, this strategy is the exact reason why Frndship Time (a podcast I started with my friend) is so consistent. We release <em>at least</em> 1 episode every week. The secret is that none of it feels like work. Ratik (the cohost) and I record our general conversations, do some minimal editing, and send the episodes out every week. In fact, we discussed this exact strategy on episode 2 of the podcast. Check it out:</p>
+            </li>
+          </ol>
+
+          <p>This is all good in theory, but only time will tell whether I will be able to pull it off. If things go according to plan, I should be averaging more than 1 post a week, which is much more than what I was trying to do earlier, but with the new strategy, I am more optimistic this time.</p>
+
+          <p>Finally, accountability: each month, I&rsquo;ll put out a &lsquo;What you can expect this month&rsquo; post on the website. This will include all the posts I have planned out for the month, in addition to approximate release dates. I have to plan this out anyway, might as well turn it into a post. I&rsquo;m already doing the &lsquo;document, don&rsquo;t create&rsquo; thing.</p>
+
+          <p>Okay, here&rsquo;s the TLDR: expect more content. Expect different content. How I organize the tech/skill guides and the &lsquo;classic&rsquo; posts is a bridge that we will cross when we get to it.</p>
+
+          <p>Thanks for reading, and I&rsquo;ll see you next week!</p>
+
+          <p><em>See you next week for a new post.</em></p>
+
+          <p><em>Thanks for reading! You can always email me to chat about this post - or anything else.</em></p>
+
+          <p><strong><em>As is true for any advice or counsel you ever receive: Y.M.M.V! Your mileage may vary. Some advice can be a vice. Feel free to take what you can use, and leave the rest. There are no rules.</em></strong></p>]]></content:encoded>
     </item>
     <item>
       <title>Quantity vs Quality</title>
@@ -48,6 +876,47 @@
       <guid isPermaLink="true">https://psaraswat.com/posts/quantity-vs-quality.html</guid>
       <pubDate>Tue, 12 Jan 2021 00:00:00 GMT</pubDate>
       <description>Why a beginner creator should prioritize consistent output over perfection — practice and feedback come first.</description>
+      <content:encoded><![CDATA[<img class="c-hero" src="https://psaraswat.com/posts/images/quantity-vs-quality/header.jpeg" alt="Header" />
+
+          <p>I&rsquo;ve been making content online for almost all of my adult life. I started when I was 14/15 and I&rsquo;m still trying my hand at it. Eventually, the classic quantity vs quality question was bound to come up.</p>
+
+          <p>The classic, copout answer to this question is simple (and, I repeat, a copout): you need both! You need a balance! This is obvious, but I wanted to take a deeper dive at my personal situation and find an answer that works for me right now.</p>
+
+          <p>I believe there is an actual winner. This (short) post is all about why I choose to prioritise quantity in the short term while prioritising quality in the long run.</p>
+
+          <p>There are obvious arguments for both. There are success stories for creators who have focused on quantity (see: KhanAcademy, 5minCrafts, etc), and there are successful creators who have focused on quality (Kurzgesagt, CGP Grey, etc).</p>
+
+          <p>There is no question that both these approaches work and have their advantages. Let&rsquo;s take a closer look at the advantages of focusing on quantity.</p>
+
+          <img src="https://psaraswat.com/posts/images/quantity-vs-quality/ill1.jpeg" alt="Illustration 1" />
+
+          <p>The more stuff you put out there, the more feedback you get, the more opportunities you have to improve your work. You also start generating a catalog of work. Quantity also gives you more opportunities to make things, which gives you more chance for practice. If I had focused the past 7 months on writing one big, grand blog post, there would be no chance of practice. It&rsquo;s just constantly trying to get the best out of one piece of work. At the end of the day, you might not even end up putting the piece out there because it doesn&rsquo;t &lsquo;hold up to your expectations&rsquo;. Isn&rsquo;t it better, then, to focus your energy on making many imperfect things? Does shipping beat perfection?</p>
+
+          <img src="https://psaraswat.com/posts/images/quantity-vs-quality/ill2.jpeg" alt="Illustration 2" />
+
+          <p>On the other hand, quality has its own pros. If you create something extraordinary, there is a much higher chance that you&rsquo;ll catch a &lsquo;big break&rsquo;, whatever that is. Your video/blog/podcast/music might go viral, suddenly garnering attention and critical acclaim.</p>
+
+          <p>The question is, which pros do you choose?</p>
+
+          <p>If I consider my particular situation, I am a beginner or enthusiast at everything that I do. My music skills are nascent, I haven&rsquo;t had any real practice with video production, the podcast I launched earlier this year is my first step into the world of audio. At this &lsquo;beginner&rsquo; stage, focusing on quantity will benefit me a lot more than focusing on quality. There is a reason why Frndship Time episodes are weekly. There is a reason why these blog posts (ideally) come out every week.</p>
+
+          <p>At this point, focusing on quality makes no sense. I simply do not possess the skills to make something extraordinary. Only with more creation, more practice, and more experience can I begin to pour my resources into focusing on quality. More practice and feedback also <em>guarantee that I will get better</em> at these skills.</p>
+
+          <img src="https://psaraswat.com/posts/images/quantity-vs-quality/ill3.jpeg" alt="Illustration 3" />
+
+          <p>I am not blind to the advantages of focusing on quality, though. The satisfaction and long term reward of creating something of the highest possible quality are unquestionable. The question then, is this: is there an approach that will allow me to get the best of both worlds? I&rsquo;m glad you asked (you didn&rsquo;t ask&hellip; but here&rsquo;s what I think anyway)!</p>
+
+          <p>For the past few weeks, I&rsquo;ve been focusing on creating regular, &lsquo;decent&rsquo; quality content while also working on a couple of &lsquo;high quality&rsquo; projects in the background.</p>
+
+          <p>For example, when it comes to content creation, Frndship Time and this blog are regular bits of content. I also (try to) make some new music every week. At the same time, I&rsquo;ve been working on slightly more ambitious projects in the background. This allows me to reap the benefits of constant, quantity focused content creation while also being able to make quality focused content without the pressure that comes with just focusing on one project at a time.</p>
+
+          <p>Here&rsquo;s the takeaway: when it comes to the quantity vs quality debate, just like anything else, there is no answer, only tradeoffs. You make a decision based on your current situation and priorities. Right now, I&rsquo;m leaning towards quantity, but quality is always in my peripheral vision.</p>
+
+          <p><em>See you next week for a new post.</em></p>
+
+          <p><em>Thanks for reading! You can always email me to chat about this post - or anything else.</em></p>
+
+          <p><strong><em>As is true for any advice or counsel you ever receive: Y.M.M.V! Your mileage may vary. Some advice can be a vice. Feel free to take what you can use, and leave the rest. There are no rules.</em></strong></p>]]></content:encoded>
     </item>
     <item>
       <title>What I Learnt from Blogging</title>
@@ -55,6 +924,55 @@
       <guid isPermaLink="true">https://psaraswat.com/posts/what-i-learnt-from-blogging.html</guid>
       <pubDate>Tue, 05 Jan 2021 00:00:00 GMT</pubDate>
       <description>Starting a blog reveals unexpected benefits — human connection and solidarity beyond the original intent.</description>
+      <content:encoded><![CDATA[<p>I started blogging in May 2020. I did not have a particular goal in mind, and I started without any expectations. In fact, I thought I already knew everything I could learn from blogging before I even started.</p>
+
+          <img src="https://psaraswat.com/posts/images/what-i-learnt-from-blogging/ill1.jpeg" alt="Illustration 1" />
+
+          <p>Here we are in January 2021. Having actually &lsquo;opened up the box&rsquo; by writing ten posts, I&rsquo;ve learnt so much more from blogging than I first expected. This is much closer to reality:</p>
+
+          <img src="https://psaraswat.com/posts/images/what-i-learnt-from-blogging/ill2.jpeg" alt="Illustration 2" />
+
+          <p>This is a quick post about everything I have learn from blogging for the past 7 months, and hopefully by the end of it, I can convince you to <em>just</em> <em>get started</em> with that one side project you&rsquo;ve been meaning to start for a while. You know what I&rsquo;m talking about. <em>That</em> project. Anyhoo, let&rsquo;s take a trip back to May 2020, when I wrote my first post&hellip;</p>
+
+          <p>&hellip;the &lsquo;blog&rsquo; started as I was about to graduate from Cornell. Putting two and two together, I put together a piece about my time in Ithaca. The post was about everything I had learnt, my experience with imposter syndrome and how it had changed me. The <em>intention</em> of the piece was simple: document my experience. It wasn&rsquo;t meant to do anything other than act as a time capsule of my time as a Master&rsquo;s student. However, writing the post had another unintended effect: offering solidarity! As the post went out, reader responses started coming in. A few readers reached out sharing how they also dealt with similar circumstances. This was the first of many experiences where a blog post&rsquo;s <em>effect</em> was different (and much more fulfilling) from the <em>intention</em> of the post.</p>
+
+          <p>This is not to say that the original intention was lost. Over time, the post did act as a fantastic way of storing ideas and thoughts for the long term. Who knew writing = documentation?!</p>
+
+          <p>Next, I wrote about a framework I&rsquo;d been using to learn new skills every week. A nerdy and neat idea in my head, my intention with this post was to simply start populating the blog. For all intents and purposes, this post was supposed to fly under the radar. Looks like the post missed the memo on that one. Almost every email I&rsquo;ve received from a reader has spoken about how they&rsquo;ve used the framework from this post for their personal use. Again, the eventual effects of the post were wildly different from the intent (in the nicest way).</p>
+
+          <p>The key theme after these two posts is that you <em>don&rsquo;t have any control over what the effects of your work will be</em>. All you can do is make things and put them out there. Whatever follows is out of your hands.</p>
+
+          <img src="https://psaraswat.com/posts/images/what-i-learnt-from-blogging/ill3.jpeg" alt="Illustration 3" />
+
+          <p>Fast forward to July 2020, when I was getting ready to start my first job. Again, made sense to put all my thoughts about this into a post. At this point, I was getting better at writing posts. I had (unintentionally) developed a process for writing blog posts. Every post since this one has been a little easier, and has felt like a little less work each time. Here&rsquo;s the takeaway: if you keep doing something, it will get easier. You will get better. It&rsquo;s almost as if practice&hellip; makes you better??? Again, who knew.</p>
+
+          <p>Another sidenote: writing is so much more than putting words to paper! My 3rd post was the first time I experimented with new techniques. I added illustrations and more personality to the posts. Personality, storytelling and analogies are all things that turn a piece of work from an &lsquo;information dump&rsquo; into something human. This is a takeaway that has helped me make my other projects better too. I would never have guessed that writing blog posts would help me in such a way. Finally, the biggest unintended (super positive) effect of this post was one of human connection &ndash; it led to conversations I wouldn&rsquo;t have had otherwise. Readers reached out with stories that mirrored mine. I spoke to people about their experiences, what advice they had for me and vice versa. <em>Solidarity is a powerful thing.</em></p>
+
+          <p>Fueled by these conversations and now aware of the power of solidarity, I wrote <a href="https://psaraswat.com/general/2020/08/11/what-do-i-do.html">&lsquo;What do I do With My Life?&rsquo;</a>. This was a post written to anyone feeling anxious about not knowing what they want to do with their lives. This post is by far my favorite out of everything I&rsquo;ve written yet. It was a culmination of everything I had learnt so far. Namely: 1. solidarity is powerful, 2. how to follow a writing process to get from a tiny idea into a coherent blog post, and most of all &ndash; 3. personality and storytelling are what separate human work from information dumps. The effects of the post went far beyond anything I could have imagined. It generated the most reader responses, and each response was personal and heartfelt. This was the post that made me realise the most important lesson so far: your work has power. What started off as a simple idea in my head was now acting as a gateway for people to start talking about how they were changing their outlooks on their personal goals and lives. <em>Your work has power!</em></p>
+
+          <p>Over the next few weeks, I wrote more &lsquo;information dump&rsquo; posts. First, I wrote about my writing process (meta, I know). Then, about how I was keeping in touch with friends during the 2020 coronavirus pandemic. Finally, I put together a <a href="https://psaraswat.com/general/2020/10/23/masters.html">&lsquo;getting started&rsquo; guide for people preparing to apply to graduate programs in the US</a>. These posts did not have the powerful interpersonal and deep effects that previous posts did, but they drove value in a different way. They act as amazing FAQs. Every time I&rsquo;ve gotten a question about my experience with applications or whenever I&rsquo;m asked about how I write my blog posts, I simply reply with a link to the relevant blog post. <em>Information dumps are useful!</em></p>
+
+          <p>That brings us to today, to this particular post. This post was supposed to be a simple listicle with quick bullet points about everything I&rsquo;d learnt from blogging. However, as I began writing, I realized there was a lot more to talk about than a simple list of things I&rsquo;d learnt. Essentially, you don&rsquo;t know what a post will be until you start writing it. This final lesson can be generalized to anything you do: to figure out step 2, you need to take step 1. You don&rsquo;t need to have all the details of a project figured out before you get started. Jump in and work things out as you go. <em>Just</em> <em>get started!</em></p>
+
+          <p>After 7 months and 10 posts (quite a bad post/time ratio to be honest), here&rsquo;s everything I&rsquo;ve learnt about blogging condensed into a nutshell:</p>
+
+          <p>The most important thing is to get started. Sweat the details later, get started today. You cannot control what the effects of your work will be. Focus on creating solidarity with your work, throw your personality into everything you do, and always remember: your work has power.</p>
+
+          <p>So that&rsquo;s everything I&rsquo;ve learnt so far. Here&rsquo;s a venn diagram of things I <em>expected</em> to learn and things I actually learnt.</p>
+
+          <img src="https://psaraswat.com/posts/images/what-i-learnt-from-blogging/ill4.jpeg" alt="Venn diagram" />
+
+          <p>Let&rsquo;s come back to the boxes analogy from earlier in this post:</p>
+
+          <img src="https://psaraswat.com/posts/images/what-i-learnt-from-blogging/ill5.jpeg" alt="Boxes analogy" />
+
+          <p>That&rsquo;s the ultimate takeaway here: you don&rsquo;t know what&rsquo;s in the box unless you actually look in the box. So &lsquo;open the box&rsquo; of whatever project you&rsquo;ve been meaning to start. In other words, just start, and start today. Let me know if you do!</p>
+
+          <p><em>See you next week for a new post.</em></p>
+
+          <p><em>Thanks for reading! You can always email me to chat about this post - or anything else.</em></p>
+
+          <p><strong><em>As is true for any advice or counsel you ever receive: Y.M.M.V! Your mileage may vary. Some advice can be a vice. Feel free to take what you can use, and leave the rest. There are no rules.</em></strong></p>]]></content:encoded>
     </item>
     <item>
       <title>How to Approach Side Projects</title>
@@ -62,6 +980,94 @@
       <guid isPermaLink="true">https://psaraswat.com/posts/how-to-approach-side-projects.html</guid>
       <pubDate>Fri, 13 Nov 2020 00:00:00 GMT</pubDate>
       <description>Three steps to side-project success: understand the idea, define what done means, and execute with clarity.</description>
+      <content:encoded><![CDATA[<p>Almost everyone has great ideas for side projects. Over the past 3-4 years, I have had numerous good ideas, but have only started on a fraction of them, finished even fewer, and been happy with maybe 1 or 2 out of 20. This post is an attempt at crystallizing what I&rsquo;ve learnt about making it easier to start on your side project ideas, making it more likely that you finish them, and how you can actually be happy with the end product. If you&rsquo;ve been meaning to start on a side project for a while, maybe you can find some value in this!</p>
+
+          <p>At the heart of it, any side project is a 3-step process:</p>
+
+          <ol style="margin: 0 0 20px 24px;">
+            <li>Understand what you&rsquo;re making/doing</li>
+            <li>Specify what constitutes a finished project</li>
+            <li>Implement your idea</li>
+          </ol>
+
+          <p>I&rsquo;m going to use 3 side projects to elaborate on each of those steps. The 3 projects are a music and video project that took under an hour to make, a semester long technical project, and an ongoing project: this website! Let&rsquo;s get started.</p>
+
+          <h2>1. Understanding what you&rsquo;re making</h2>
+          <p>This step is all about putting your abstract idea into words. You&rsquo;re trying to answer the question <em>&ldquo;what am I making?&rdquo;</em>. The goal is to add more clarity to your idea. I suggest putting this into writing. There have been multiple situations where I had an idea that made sense to me in my head but looked questionable when put onto paper. At this step, there is no need to be overly specific. Just answer the &ldquo;what am I making&rdquo; question. Here&rsquo;s how I did it for 3 of my projects:</p>
+
+          <ol style="margin: 0 0 20px 24px;">
+            <li>Tiny music project: a random video with some original piece of acoustic music</li>
+            <li>Branch predictor project: functional level models of 2/3 branch predictors in C++</li>
+            <li>Personal website: a website that can be a home to all my work and also act as a blog</li>
+          </ol>
+
+          <h2>2. Specification:</h2>
+          <p>You have an idea of what you&rsquo;re making. Now, specify details before you get started. Answer the question: <em>&lsquo;what constitutes a finished project?&rsquo;</em>. The goal here is to remove any vague descriptions and set concrete expectations from the project. I like to be as objective as possible here. &lsquo;Specification&rsquo; calls for specificity (wow). Be specific! For my projects, I like to make a list of outcomes that need to be done to call the project &lsquo;finished&rsquo;. Here are some of my lists:</p>
+
+          <ol style="margin: 0 0 20px 24px;">
+            <li>Tiny music project:
+              <ul>
+                <li>A chord progression</li>
+                <li>A video</li>
+              </ul>
+            </li>
+            <li>Branch predictor project:
+              <ul>
+                <li>1-level predictor functional level model</li>
+                <li>2-level predictor functional level model</li>
+                <li>Binary instrumentation tool</li>
+                <li>Everything parameterized and extensible</li>
+              </ul>
+            </li>
+            <li>Personal website: a website that can be a home to all my work and also act as a blog
+              <ul>
+                <li>A main home/landing page that holds links to all my work</li>
+                <li>A blog page with hero image support</li>
+                <li>A first post with a vision for the website</li>
+              </ul>
+            </li>
+          </ol>
+
+          <p>The point of making these specifications is so you know <em>exactly</em> what you&rsquo;re trying to build. In my experience this step also makes it more likely that you will be happy with your finished project, but your mileage may vary.</p>
+
+          <h2>3. Implementation</h2>
+          <p>You now have an exact idea of what your project involves. Time to work on it! You&rsquo;re looking to answer the <em>&lsquo;how do I make this&rsquo;</em> question and then follow through. The goal is to start working on your project, deal with problems, and keep going until you finish. In my experience this step is made infinitely easier when I do steps 1 and 2 well. Otherwise, the lack of clarity is demotivating.</p>
+
+          <p>This is also about 80% of the total work of the project, and involves dealing with problems that you don&rsquo;t foresee. For example, here are problems that came up when I implemented my projects:</p>
+
+          <ol style="margin: 0 0 20px 24px;">
+            <li>Tiny music project:
+              <ul>
+                <li>I&rsquo;m very new to writing my own music. I got stuck many times and changed up the progression at least 3 times until I had something I was happy with.</li>
+                <li>I had some technical difficulties with recording as my mic just stopped working. Did not see that coming.</li>
+              </ul>
+            </li>
+            <li>Branch predictor project: functional level models of 2/3 branch predictors in C++
+              <ul>
+                <li>There were parts of the code that required C++ tricks I hadn&rsquo;t worked with before. Reinterpret casting, compiling Intel&rsquo;s pintools, issues with huge Makefiles and writing and debugging code.</li>
+              </ul>
+            </li>
+            <li>Personal website:
+              <ul>
+                <li>This was my first time being exposed to any sort of web development. Setting up and learning Jekyll was a big task.</li>
+                <li>I also ran into issues with GitHub pages</li>
+              </ul>
+            </li>
+          </ol>
+
+          <p>And that&rsquo;s mostly it! Here&rsquo;s some final things to note:</p>
+
+          <p>It&rsquo;s okay to abandon projects if you don&rsquo;t think they&rsquo;re working, but abandoning something because it&rsquo;s too much work just doesn&rsquo;t feel right (I&rsquo;ve been guilty of this a lot: my YouTube channel still is a good idea in my head, but just too much work so I don&rsquo;t get around to it).</p>
+
+          <p>The whole process is iterative! During implementation you may realise your spec needs to change a little bit. Do it! If you think something is too difficult and needs to be made easier so you can finish it, that&rsquo;s a great call.</p>
+
+          <p>At the end of the day, side projects are voluntary. I abandon side projects if I stop enjoying the process and &lsquo;finishing the project&rsquo; is the only motivator.</p>
+
+          <p>There are so many more details that I wanted to talk about in this post, but there just isn&rsquo;t any room. If you want to talk about any of your side projects or if you have an approach that works well for you, let me know! I&rsquo;m always willing to talk.</p>
+
+          <p><em>See you next week for a new post!</em></p>
+
+          <p><em>Thanks for reading! You can always email me to chat about this post - or anything else.</em></p>]]></content:encoded>
     </item>
     <item>
       <title>Contextual Book Recommendations 2020</title>
@@ -69,6 +1075,59 @@
       <guid isPermaLink="true">https://psaraswat.com/posts/contextual-book-recommendations-2020.html</guid>
       <pubDate>Sun, 01 Nov 2020 00:00:00 GMT</pubDate>
       <description>Eight curated book picks tailored to different life situations and moods throughout the year.</description>
+      <content:encoded><![CDATA[<p>Most book recommendations are along the lines of <em>&lsquo;If you liked (book 1), you will like (book 2)&rsquo;</em> or <em>&lsquo;this was a very well written book&rsquo;</em>. This is a perfectly good way to recommend books, but I also think the books people enjoy reading depends on what sort of mood/state of life they are in. In that spirit, here are my 8 contextual book recommendations for this year! I&rsquo;ve also tried to grab my favorite snips from the books so you can sample them as you read this post. Happy reading for the rest of the year! Let&rsquo;s get started.</p>
+
+          <h2>If you do any kind of creative work &amp; have a couple of hours to kill, read <a href="https://www.goodreads.com/book/show/18290401-show-your-work">Show Your Work by Austin Kleon</a></h2>
+
+          <blockquote>An alternative, if you will, to self-promotion. I&rsquo;m going to try to teach you how to think about your work as a never-ending process, how to share your process in a way that attracts people who might be interested in what you do, and how to deal with the ups and downs of putting yourself and your work out in the world.</blockquote>
+
+          <p>I picked up this book on a Wednesday at 3pm and couldn&rsquo;t out it away until I was done 2 hours later. This will change how you view your creative work and how you share it.</p>
+
+          <h2>If you&rsquo;re looking to read real, interesting, heart warming behind-the-scenes stories from the biggest businesses in the world, read&hellip;</h2>
+
+          <h2>&hellip;<a href="https://www.goodreads.com/book/show/44525305-the-ride-of-a-lifetime">Ride of a Lifetime by Bob Iger</a></h2>
+
+          <blockquote>Don&rsquo;t let ambition get ahead of opportunity. By fixating on a future job or project, you become impatient with where you are. You don&rsquo;t tend enough to the responsibilities you do have, and so ambition can become counterproductive. It&rsquo;s important to know how to find the balance&mdash;do the job you have well; be patient; look for opportunities to pitch in and expand and grow; and make yourself one of the people, through attitude and energy and focus, whom your bosses feel they have to turn to when an opportunity arises.</blockquote>
+
+          <p>Can&rsquo;t say enough nice things about the stories from this book. This isn&rsquo;t a book about a business or advice, it&rsquo;s a lot more valuable than that.</p>
+
+          <h2>&hellip;or <a href="https://www.goodreads.com/book/show/27220736-shoe-dog">Shoe Dog by Phil Knight</a></h2>
+
+          <blockquote>Just before getting on the plane home we signed deals with two Chinese factories, and officially became the first American shoemaker in twenty-five years to be allowed to do business in China. It seems wrong to call it &ldquo;business.&rdquo; It seems wrong to throw all those hectic days and sleepless nights, all those magnificent triumphs and desperate struggles, under that bland, generic banner: business. What we were doing felt like so much more. Each new day brought fifty new problems, fifty tough decisions that needed to be made, right now, and we were always acutely aware that one rash move, one wrong decision could be the end. The margin for error was forever getting narrower, while the stakes were forever creeping higher&mdash;and none of us wavered in the belief that &ldquo;stakes&rdquo; didn&rsquo;t mean &ldquo;money.&rdquo; For some, I realize, business is the all-out pursuit of profits, period, full stop, but for us business was no more about making money than being human is about making blood. Yes, the human body needs blood. It needs to manufacture red and white cells and platelets and redistribute them evenly, smoothly, to all the right places, on time, or else. But that day-to-day business of the human body isn&rsquo;t our mission as human beings. It&rsquo;s a basic process that enables our higher aims, and life always strives to transcend the basic processes of living&mdash;and at some point in the late 1970s, I did, too. I redefined winning, expanded it beyond my original definition of not losing, of merely staying alive. That was no longer enough to sustain me, or my company. We wanted, as all great businesses do, to create, to contribute, and we dared to say so aloud. When you make something, when you improve something, when you deliver something, when you add some new thing or service to the lives of strangers, making them happier, or healthier, or safer, or better, and when you do it all crisply and efficiently, smartly, the way everything should be done but so seldom is&mdash;you&rsquo;re participating more fully in the whole grand human drama. More than simply alive, you&rsquo;re helping others to live more fully, and if that&rsquo;s business, all right, call me a businessman.</blockquote>
+
+          <p>Possibly the one book that I would recommend you read no matter what. I struggled to pick one single highlight to include from this book, but the one above only does partial justice to the story of how Nike came to be.</p>
+
+          <h2>If you have just graduated from college/if you&rsquo;re starting a new job/if you&rsquo;re generally confused about the &lsquo;<a href="https://psaraswat.com/general/2020/08/11/what-do-i-do.html">what do I do with my life</a>&rsquo; question, read <a href="https://www.goodreads.com/book/show/26046333-designing-your-life">Designing Your Life by Bill Burnett and Dave Evans</a></h2>
+
+          <blockquote>We all know how to worry about our lives. Analyze our lives. Even speculate about our lives. Worry, analysis, and speculation are not our best discovery tools, and most of us have, at one time or another, gotten incredibly lost and confused using them. They tend to keep us spinning in circles and spending weeks, months, or years sitting on that couch (or at a desk, or in a relationship) trying to figure out what to do next. It&rsquo;s as if life were this great big DIY project, but only a select few actually got the instruction manual. This is not designing your life. This is obsessing about your life. We&rsquo;re here to change that.</blockquote>
+
+          <p>Even if you already have most of the insights this book talks about, some of the exercises and insights will be new to you.</p>
+
+          <h2>If you&rsquo;re in the mood for a fuzzy, cute, romantic-comedy, read&hellip;</h2>
+
+          <h2>&hellip;<a href="https://www.goodreads.com/book/show/16181775-the-rosie-project">The Rosie Project by Don Tillman</a></h2>
+
+          <blockquote>Amazing. She retains a professor of genetics, an alien of extraordinary abilities, to help find her father, she travels for a week, spending almost every minute of the waking day with him, yet when she wants the answer to a question on genetics, she goes to the Internet.</blockquote>
+
+          <h2>&hellip;or <a href="https://www.goodreads.com/book/show/31434883-eleanor-oliphant-is-completely-fine">Eleanor Oliphant is Completely Fine by Gail Honeyman</a></h2>
+
+          <blockquote>Eleanor, I said to myself, sometimes you&rsquo;re too quick to judge people. There are all kinds of reasons why they might not look like the kind of person you&rsquo;d want to sit next to on a bus, but you can&rsquo;t sum someone up in a ten-second glance. That&rsquo;s simply not enough time. The way you try not to sit next to fat people, for example. There&rsquo;s nothing wrong with being overweight, is there? They could be eating because they&rsquo;re sad, the same way you used to drink vodka. They could have had parents who never taught them how to cook or eat healthily. They could be disabled and unable to exercise, or else they could have an illness that contributes to weight gain despite their best efforts. You just don&rsquo;t know, Eleanor, I said to myself.</blockquote>
+
+          <p>There are 2 kinds of people on this planet. People who enjoy the warm, fuzzy feeling that good romantic comedies give them, and liars. These books are just as good as they are advertised to be. Recommend!</p>
+
+          <h2>If you&rsquo;re in any engineering job (especially software engineering) OR if you&rsquo;re simply trying to change how you think about problems and solutions, read <a href="https://www.goodreads.com/book/show/3063393-pragmatic-thinking-and-learning">Pragmatic Thinking and Learning by Andy Hunt</a></h2>
+
+          <p>This book is different when compared to the others on this list. Written a lot more in a textbook-style format, this isn&rsquo;t a book you binge or read passively. This is a book you have on your bookshelf and keep going back to until you&rsquo;re able to internalize everything it talks about. I have a bunch of unfinished notes from this book if you prefer to get a taster for what it&rsquo;s actually like. <a href="mailto:parthswat@gmail.com">Email me</a> if you&rsquo;d like a pdf of the notes!</p>
+
+          <h2>If you&rsquo;re not the happiest about your day-to-day habits and want a no-nonsense self-help book, read <a href="https://www.goodreads.com/book/show/40121378-atomic-habits">Atomic Habits by James Clear</a></h2>
+
+          <blockquote>You do not rise to the level of your goals. You fall to the level of your system</blockquote>
+
+          <p>The only real self-help book that I would recommend you read. Again, like any other self help book, this could have been much shorter, but James Clear keeps everthing concise and straight to the point. One of my favorites this year.</p>
+
+          <p>I hope you find some value in these recommendations. If you have any books that you would like to put on this list, <a href="mailto:parthswat@gmail.com">let me know</a>! As the recommendations keep coming in, I will include them below. Just make them contextual! For example, <strong><em>&ldquo;if you &lt; mood or life event or other context &gt;, you should read &lt; book name &gt;&rdquo;</em></strong>. I look forward to adding your recommendations in!</p>
+
+          <p>Happy reading!</p>]]></content:encoded>
     </item>
     <item>
       <title>Applying to Grad Schools in The US: a primer</title>
@@ -76,6 +1135,154 @@
       <guid isPermaLink="true">https://psaraswat.com/posts/applying-to-grad-schools-in-the-us-a-primer.html</guid>
       <pubDate>Fri, 23 Oct 2020 00:00:00 GMT</pubDate>
       <description>A four-step guide: standardized tests, university selection, application prep, and submission deadlines.</description>
+      <content:encoded><![CDATA[<img class="c-hero" src="https://psaraswat.com/posts/images/applying-to-grad-schools-in-the-us-a-primer/header.png" alt="Header" />
+
+          <p>Applying to the US for a Master&rsquo;s degree in a STEM major can be daunting. It isn&rsquo;t that there is a lack of information, but the opposite. The internet is flooded with information about this - all of which seems relevant. The process can be overwhelming and stressful. This post is meant to be a (very) gentle introduction to anyone considering further studies after finishing their undergraduate courses. It will walk you through the very basics and point you to resources that I found useful back when I was applying. Let&rsquo;s get started!</p>
+
+          <p>There are <strong>4 main steps</strong> to the application process</p>
+
+          <ol style="margin: 0 0 20px 24px;">
+            <li>Give 2 exams</li>
+            <li>Decide where you want to apply</li>
+            <li>Prepare your application</li>
+            <li>Apply!</li>
+          </ol>
+
+          <p>Let&rsquo;s break down each step.</p>
+
+          <h2>1. Give 2 exams:</h2>
+          <p>You have probably heard of the GRE and the TOEFL. Almost all US universities require you to give these tests as part of your application.</p>
+
+          <h2>What are these Tests?</h2>
+          <p>Here&rsquo;s a quick summary:</p>
+
+          <p>The GRE (or <strong>G</strong>raduate <strong>R</strong>ecord <strong>E</strong>xamination) is a standardized test that is often required when you&rsquo;re looking to apply to graduate programs in the US (or other countries too). It covers basic high school math and verbal reasoning. In other words, math and English.</p>
+
+          <p>The TOEFL (or <strong>T</strong>est <strong>o</strong>f <strong>E</strong>nglish as a <strong>F</strong>oreign <strong>L</strong>anguage) is a standardized test to measure the English language ability of non-native speakers. It gauges whether or not you have the English language skills (speaking, listening, reading, writing) required to be eligible to study at US (and other) universities.</p>
+
+          <p>99% of the time, you will be required to give both exams as part of your application and the scores you receive will have a direct impact on your application, so it&rsquo;s really important that you do well on these exams! Here&rsquo;s the thing about these exams: you can give them without really knowing <em>the exact program or courses</em> you want to study when you apply. The implication here is that you can give these tests early on without having decided on where you want to apply, and without worrying about the rest of your application.</p>
+
+          <h2>Some logistics to consider</h2>
+          <p><strong>Cost (as of October 2020):</strong></p>
+
+          <ul style="margin: 0 0 20px 24px;">
+            <li>TOEFL: <strong>$180</strong></li>
+            <li>GRE: <strong>$160</strong></li>
+          </ul>
+
+          <p>Your scores are <strong>valid for 5 (GRE) and 2 (TOEFL) years.</strong> This means you can give these tests whenever you have the time to prepare, and use the scores a few years later.</p>
+
+          <p>A &lsquo;good score&rsquo; for the GRE depends on where you choose to apply and to what program. Higher ranked universities will ask for higher scores. Some people prepare for a 1-2 months, some prepare for much longer. There is no single right way. Assess your personal situation and choose what works for you.</p>
+
+          <p>These are standardized tests. That means with a good preparation strategy and abundant practice, you will do well!</p>
+
+          <p>The only advice I would give is to give a mock GRE exam (linked below) before you start any sort of preparation. That will give you a sense of the exam and establish a baseline performance level. From there, you can prepare and see your score improve.</p>
+
+          <p>There is a world of resources on how to prepare for the GRE and TOEFL. Don&rsquo;t get overwhelmed! Pick a strategy you can execute and you will be okay.</p>
+
+          <p><strong>Further resources:</strong></p>
+
+          <ol style="margin: 0 0 20px 24px;">
+            <li><a href="https://www.ets.org/gre">Official GRE website (find the mock GRE exam here)</a></li>
+            <li><a href="https://www.princetonreview.com/grad-school-advice/how-to-prepare-for-gre">GRE preparation guide</a></li>
+          </ol>
+
+          <p>Now that you&rsquo;ve given the 2 tests, it&rsquo;s time to consider where you want to apply for graduate school&hellip;</p>
+
+          <h2>2. Decide where you want to apply</h2>
+          <p>This entire step requires you to answer one question before you get started:</p>
+
+          <p><strong><em>What do you want to study?</em></strong></p>
+
+          <p>Answering this question is very important, it will guide your decisions on where you end up applying. Here are certain things you should keep in mind when deciding on your final list of universities:</p>
+
+          <h2>Courses offered</h2>
+          <p>Once you know what you want to study, you can use that information to decide which courses you will want to study, and you can check whether a particular university offers those courses and what the reputation of the course is.</p>
+
+          <h2>Cost</h2>
+          <p>Some universities have higher tuition costs than others. Particular universities may offer better chances of financial aid. Some cities are more expensive to live in than others. Find out what these numbers look like and make an informed decision.</p>
+
+          <h2>Rankings</h2>
+          <p>Here&rsquo;s some advice: if you&rsquo;re applying to multiple universities (you should), consider splitting them up into 3 &lsquo;tiers&rsquo;. Apply to a few colleges that are your &lsquo;ambitious&rsquo; choices. These are your dream schools. Apply to a few that are &lsquo;mid tier&rsquo; &ndash; these will offer higher acceptance rates and you will have a better chance of getting in. Apply to at least one &lsquo;safe&rsquo; choice &ndash; a college you are almost certain you will get into.</p>
+
+          <h2>Personal experiences</h2>
+          <p>It&rsquo;s always good to consider the personal experiences of the alumni of a particular college. Try to use LinkedIn or ask your friends if they know anyone who has been to a college and ask them about their experience. This can help you in making a better decision!</p>
+
+          <p>In a nutshell: apply to multiple universities, consider &lsquo;tiering&rsquo; your choices, and focus on the courses offered, total cost, and rankings to put together a list. Remember, <strong>college websites are your friends!</strong> Colleges put up a lot of information on their websites including costs, course listings, and sometimes even expected GRE/TOEFL scores.</p>
+
+          <p><strong>Further resources:</strong></p>
+
+          <ol style="margin: 0 0 20px 24px;">
+            <li><a href="https://www.usnews.com/best-graduate-schools/top-engineering-schools/eng-rankings">USNews</a> is a great resource for university rankings</li>
+          </ol>
+
+          <p>Time for step 3&hellip;</p>
+
+          <h2>3. Prepare your application</h2>
+          <p>A &lsquo;complete&rsquo; application includes your test scores, a statement of purpose, a few letters of recommendation, a resume, and some documentation (mainly your undergraduate transcripts and provisional degree). So far, we&rsquo;ve looked at the exams you need to give and how to decide where to apply for colleges. The next step is to complete the rest of your application. Here&rsquo;s some quick information on the statement of purpose and letters of recommendation:</p>
+
+          <h2>Statement of Purpose (SoP):</h2>
+          <p>The SoP is a brief essay that answers a few questions: why do you want to study at a particular university? Why are you a good fit for that program? Why is the program a good fit for you? How are you qualified for what the program demands?</p>
+
+          <p><strong>Here are some starting tips to keep in mind:</strong></p>
+
+          <ol style="margin: 0 0 20px 24px;">
+            <li>you are telling a story, not writing a series of events</li>
+            <li>you&rsquo;re telling them why you want to study what you&rsquo;re applying for and</li>
+            <li>why they&rsquo;re a good fit for you and vice versa</li>
+            <li>you&rsquo;re trying to make the case that you are really passionate about what you&rsquo;re going into</li>
+            <li>talk about specifics &ndash; why their university? Why that program? What do you know that&rsquo;ll help you there &ndash; what do you want to learn that they teach there? Any professor whose work matches what you want to learn?</li>
+          </ol>
+
+          <p><strong>You want to include:</strong></p>
+
+          <ol style="margin: 0 0 20px 24px;">
+            <li>your goals in the short and long term</li>
+            <li>what you want to gain from the degree and how you plan on using it</li>
+            <li>evidence of your past successes: GPA, publications, projects deployed, etc.</li>
+          </ol>
+
+          <p><a href="https://www.essayedge.com/blog/statement-of-purpose-format/">This</a> may be a good resource if you&rsquo;re looking for a format to get started with.</p>
+
+          <p><a href="https://www.prepscholar.com/gre/blog/graduate-school-statement-of-purpose-sample/">Here</a> are some samples that I used.</p>
+
+          <p>Just keep in mind that there is no &lsquo;correct&rsquo; way to write an SoP. These are good guidelines, but if you feel your story is better told in a different format or structure, do that! Most importantly, keep writing and changing things rather than trying to get the first draft perfect. Iteration is your friend!</p>
+
+          <h2>Letters of Recommendation (LoRs)</h2>
+          <p>These are letters that your professors (or work supervisors) will write endorsing you as a deserving candidate for a place at the university where you&rsquo;re applying to.</p>
+
+          <p><strong>Here&rsquo;s some things to keep in mind:</strong></p>
+
+          <ol style="margin: 0 0 20px 24px;">
+            <li>When you ask your professors (or supervisors) to write you an LoR, express what you think they should highlight. Express your expectations!</li>
+            <li>Keep in mind that as you apply, your professors (or supervisors) will have to submit these letters on their end. Therefore, it&rsquo;s important that you keep in touch with your professors because you may have to remind them to subit the LoRs in case they forget.</li>
+          </ol>
+
+          <h2>Transcripts and provisional degree:</h2>
+          <p>You don&rsquo;t really need to do much here, just find out how you can get your transcripts and provisional degree from your college and have it sent over to wherever you are applying. Some colleges accept these documents sent to them via your college&rsquo;s email ID, some require physical copies, check what the college is looking for!</p>
+
+          <h2>Resume:</h2>
+          <p>You will likely need to send in a resume as part of your application. Keep in mind that you are <em>also</em> sending in an SoP, so if there is any information that you would like to cover that you did not include in the SoP, this may be a good place to do it!</p>
+
+          <p>So there it is. A complete application. You now have your SoP, LoRs, you have your documentation ready and you have your standardized test scores. You have also decided where you want to apply. That leaves you with only one thing to do&hellip;</p>
+
+          <h2>4. Apply!</h2>
+          <p>The most important thing when applying in to figure out when the application deadline is for the programs you are applying to. Make sure you know exactly when those are! Again, college websites have this information readily available.</p>
+
+          <p>The first application you fill out may take an hour or so as you get used to the process, but everything from there onwards should be quick and straightforward.</p>
+
+          <p>So there it is! A gentle introduction to applying to universities in the US. You will eventually realize that this is just the tip of the iceberg. There are so many more moving parts: how long do you study for the GRE? What about visa logistics? Should my SoP be different for each college I apply to (yes, but also a little bit of no)? These are questions that need to be answered, but hopefully now you don&rsquo;t get overwhelmed about the entire process. It&rsquo;s really just 4 basic steps!</p>
+
+          <ol style="margin: 0 0 20px 24px;">
+            <li>Give 2 exams</li>
+            <li>Decide where you want to apply</li>
+            <li>Prepare your application</li>
+            <li>Apply!</li>
+          </ol>
+
+          <p>If you have any further questions, quick Google searches will get you a long way. For anything that Google cannot answer, I&rsquo;d be willing to help. <a href="mailto:parthswat@gmail.com">Contact me here!</a></p>
+
+          <p>Happy applying!</p>]]></content:encoded>
     </item>
     <item>
       <title>The Best Way to Keep in Touch (Digitally)</title>
@@ -83,6 +1290,37 @@
       <guid isPermaLink="true">https://psaraswat.com/posts/the-best-way-to-keep-in-touch-digitally.html</guid>
       <pubDate>Wed, 23 Sep 2020 00:00:00 GMT</pubDate>
       <description>Discord removes friction from digital communication by emulating real-life interaction through audio and shared activities.</description>
+      <content:encoded><![CDATA[<p>Do I even need to mention why keeping in touch digitally is more important than ever today? With people moving across globes for education and work, being good at keeping in touch has been important even before the pandemic.</p>
+
+          <p>There is a running joke among my friends about my ineptitude at keeping in touch. It may be an understatement to say that I was notoriously bad at keeping in touch. I&rsquo;m not the best at texting back, and my ability to set up and commit to phone calls is&hellip; sigh. All of these are exact reasons why you should listen to me! I&rsquo;ve made mistakes and experimented with different ways to keep in touch digitally and (I think) I finally have something that works very well.</p>
+
+          <p>This post is about things that make keeping in touch easier and how Discord has helped me immensely. The only reason I&rsquo;m writing this post is because of how excited I&rsquo;ve been about this app recently so most of it is likely to be&hellip; garbage fanfare about an app. Right up my alley. Let&rsquo;s jump into it.</p>
+
+          <p>When it comes to keeping in touch digitally, the default ways are texting and calling. These serve the purpose but are overall poor options. Texting is inefficient and annoying &ndash; it&rsquo;s completely asynchronous and you can never really tell someone&rsquo;s tone through texts. Highly dissatisfying. Calls fix some of this, but they have their issues. Calls (if you aren&rsquo;t good with them) need to be set up and when they happen they&rsquo;re almost always&hellip; not great. They&rsquo;re okay, but not <em>great</em>.</p>
+
+          <p>The problem with both of these options (texting and calling) is that <em>we try to do digital communication in a way that is nothing like real life interaction.</em></p>
+
+          <blockquote><em>We try to do digital communication in a way that is nothing like real life interaction.</em> Bad idea.</blockquote>
+
+          <p>Enter Discord. Discord almost perfectly emulates real life interaction. But&hellip; what even is Discord?</p>
+
+          <p>On the surface, Discord is &ldquo;chat for gamers and a place for communities to interact&rdquo;. Self explanatory but also jargon-y.</p>
+
+          <p>Think of Discord as a (digital) town. The way towns have houses, Discord has <em>servers</em>. Say it with me now: servers are like houses. The way houses have occupants and rooms, each Discord server has members and channels. The rooms (audio channels) are where the magic happens. In real life, you can tell who is sitting in a room, you can walk in &amp; start talking to anyone inside. This is exactly how audio channels work in Discord. They&rsquo;re rooms you can enter with one click. <em>One click</em> being the key words here: no scheduling required! No wondering whether someone is free! No friction! This is a huge deal for bad keeper-in-touchers like myself. This lack of friction also means you&rsquo;re much more likely to consistently talk to people day after day. In other words, this makes it easier to <em>keep</em> in touch :)</p>
+
+          <p>Finally, in real life, conversations are rarely the only thing happening in social interaction. A lot of our conversations happen while we watch movies or play games. By combining Discord with Netflix Party and online board games (<a href="http://codenames.game/">here&rsquo;s my favorite</a>), you can emulate this really well.</p>
+
+          <p>To recap, Discord emulates real life interaction by doing three things:</p>
+
+          <ol style="margin: 0 0 20px 24px;">
+            <li>removes friction between the &lsquo;wanting to talk to someone&rsquo; and actually being able to talk to them</li>
+            <li>makes it possible to <em>keep</em> in touch by making things so easy and natural</li>
+            <li>allows for you to talk to people while you do a third thing (movies, board games, etc)</li>
+          </ol>
+
+          <p>I&rsquo;m only scratching the surface of what Discord is capable of. A few weeks ago, I used an audio channel in <a href="https://discord.gg/xqskunM">my server</a> to hold a live event about writing processes. I&rsquo;m planning to do more stuff like this! Come let me know whatever you want to talk about! :)</p>
+
+          <p>This post was never meant to be a post about how to keep in touch better in general &ndash; I&rsquo;m the last person who should be talking about this, but I hope you got something of value from this and maybe even give Discord a try. Thanks for reading this quick post!</p>]]></content:encoded>
     </item>
     <item>
       <title>My Writing Process</title>
@@ -90,6 +1328,61 @@
       <guid isPermaLink="true">https://psaraswat.com/posts/my-writing-process.html</guid>
       <pubDate>Tue, 11 Aug 2020 00:00:00 GMT</pubDate>
       <description>A five-step approach to turning abstract ideas into polished blog posts through progressive structuring.</description>
+      <content:encoded><![CDATA[<img class="c-hero" src="https://psaraswat.com/posts/images/my-writing-process/header.png" alt="Header" />
+
+          <h2>My Writing Process</h2>
+          <p>Writing blog posts / YouTube videos / anything creative can be a frustrating process. There is a lot of friction which can cause severe discouragement which leads to people stopping (trust me, I gave up doing YouTube videos because I just didn&rsquo;t have a fun time making them anymore &mdash; and this was mostly down to the writing process). Over time, though, I&rsquo;ve come up with a writing process that helps me avoid these roadblocks. It helps me take an idea and turn it into a 1000+ word post without getting overwhelmed. My goal with this post is to walk you through this process in the hopes that you find some value in it and it helps you in your writing.</p>
+
+          <p>In a nutshell, my process takes an abstract idea, slowly adds context and structure until I end up with something I&rsquo;m happy with.</p>
+
+          <p>The 5 steps I go through are the following:</p>
+
+          <ol style="margin: 0 0 20px 24px;">
+            <li><strong>Idea conception</strong> (come up with ideas and remember them)</li>
+            <li><strong>Mind dump</strong> (flesh out ideas)</li>
+            <li><strong>Mind mapping</strong> (create links between your concepts so they make logical sense)</li>
+            <li><strong>Outline</strong> (create structure in a written form)</li>
+            <li><strong>Final post</strong> (editing and filling in the gaps)</li>
+          </ol>
+
+          <p>Let&rsquo;s do a deep dive into each step:</p>
+
+          <h2>1. Idea conception:</h2>
+          <p>I don&rsquo;t think any of us have our best ideas when we sit down and actively try to come up with them. In my experience, ideas for posts/videos/podcasts come and go at all times throughout the day when I&rsquo;m travelling, showering, talking to someone or reading.</p>
+
+          <p>The key here is to record all your ideas and build an archive in a notes app or notebook. It&rsquo;s much easier to keep writing when you have an &lsquo;idea bank&rsquo; than it is to come up with a new idea from scratch every time &ndash; this way you never start from a blank sheet.</p>
+
+          <p>At this point, all you have is an idea. It&rsquo;s time to populate it with some concepts and things you want to talk about.</p>
+
+          <h2>2. Mind dump:</h2>
+          <p>Once I pick an idea from my idea bank, I spend a few minutes listing out all the things I want to talk about in the post. I don&rsquo;t worry about the structure or how things link together at this point. This is a simple mind dump. As an example, here&rsquo;s my mind dump for this post:</p>
+
+          <img src="https://psaraswat.com/posts/images/my-writing-process/dump.jpg" alt="Mind dump" />
+
+          <p>Now that the idea has been populated with a few solid points of discussion, it&rsquo;s time to create links between these points. Hello step 3!</p>
+
+          <h2>3. Mind mapping:</h2>
+          <p>Time to add some sort of structure! A mind map is a great way to do this. I put down all my ideas and see how they link to each other. Here&rsquo;s what the mind map for this post looked like (I know the scan quality sucks&hellip; blame CamScanner):</p>
+
+          <img src="https://psaraswat.com/posts/images/my-writing-process/mindmap.jpg" alt="Mind map" />
+
+          <h2>4. Outline:</h2>
+          <p>The post now has ideas and links between them, but it is still far from complete. Outlining is all about taking your mind-map and giving it procedural structure. I like to use a whiteboard and a classic intro-body-conclusion split. Here&rsquo;s a whiteboard outline of my last post. It&rsquo;s&hellip; messy to say the least.</p>
+
+          <img src="https://psaraswat.com/posts/images/my-writing-process/outline.jpg" alt="Outline" />
+
+          <p>A lot more can be said about what makes a good introduction and a good body, but I am in the very early stages of learning. At the end of this step, 90% of the work is done. The only thing that remains now is to write out the post in complete paragraphs and sentences. Enter step 5&hellip;</p>
+
+          <h2>5. Final post:</h2>
+          <p>I usually spend the least amount of time in this step (I get impatient). There is a lot of value in doing this slowly, though &mdash; you pay more attention to &lsquo;cutting the fat&rsquo; out of your post and you end up with something much more cohesive. One of my favorite quotes about writing:</p>
+
+          <blockquote>&ldquo;I didn&rsquo;t have time to write a short letter, so I wrote a long one instead.&rdquo; &ndash; Mark Twain</blockquote>
+
+          <p>Editing turns a post from &lsquo;good&rsquo; to great. Again, I&rsquo;m guilty of not doing this well. It helps to have someone else read through the post and help you cut down and polish your language (can you help me with this? <a href="mailto:parthswat@gmail.com">Please help!</a>). When I can&rsquo;t get a hold of people to vet my language, I just use an online editor. It isn&rsquo;t great, but it helps.</p>
+
+          <p>And that&rsquo;s it! The post is done! If there are any illustrations or images, they go in now. Happy publishing!</p>
+
+          <p>My process is probably too extensive and unnecessary, but I don&rsquo;t have a natural knack for writing and a set process helps. The entire process starts with a small idea to which I iteratively add context and structure until I end up with something I&rsquo;m happy with. Please remember that writing is a highly subjective process &ndash; what works for me may not work for you. Regardless, the idea of slowly building out a post in tiny increments (thank you, iterative development!) works really well for me.</p>]]></content:encoded>
     </item>
     <item>
       <title>What do I do With My Life?</title>
@@ -97,6 +1390,52 @@
       <guid isPermaLink="true">https://psaraswat.com/posts/what-do-i-do-with-my-life.html</guid>
       <pubDate>Tue, 11 Aug 2020 00:00:00 GMT</pubDate>
       <description>Uncertainty about your future is normal — experiment to learn about yourself before making major decisions.</description>
+      <content:encoded><![CDATA[<p>One of the most common problems I have seen college students face is the anxiety and fear that comes with not knowing what it is that they want to do with their lives. For some reason, we are expected to know exactly what we want to do with our lives early on, and use this knowledge to motivate our decisions. When we don&rsquo;t have this certainty, there is a sense of dread and anxiety that takes over. It seems like everyone else around you has the answer to this elusive question and you&rsquo;re the only one who is clueless. If this sounds familiar, you are not alone! In fact, not knowing the answer to this question <em>is the norm</em>.</p>
+
+          <p>Having experienced this problem first-hand and having spoken to other people who have felt the same way, I want to use this post to make a case for why uncertainty is okay. Not only this, but also why it is best to approach this situation with a mindset of curiosity and experimentation rather than allow it to bring us anxiety and a sense of dread.</p>
+
+          <p>The paradox of making big life choices early on in our lives is that we are required to make high stakes decisions at a time when we know very little about ourselves. We are poorly equipped to make these choices, and that&rsquo;s what breeds the anxiety.</p>
+
+          <img src="https://psaraswat.com/posts/images/what-do-i-do-with-my-life/g1.png" alt="Graph 1" />
+
+          <p>Ideally, we want to be making these decisions when we know a lot more about ourselves. There are 2 ways to do this:</p>
+
+          <ol style="margin: 0 0 20px 24px;">
+            <li><strong>make these decisions much later</strong>: Unfortunately, this is impractical for obvious reasons. This brings us to option #2&hellip;</li>
+            <li><strong>learn more about yourself right now</strong>:</li>
+          </ol>
+
+          <img src="https://psaraswat.com/posts/images/what-do-i-do-with-my-life/g2.png" alt="Graph 2" />
+
+          <p>An ideal situation! If you can learn more about yourself and arm yourself with the intel needed to make a string of well-informed decisions, that will be the end of painful ambiguity and cluelessness.</p>
+
+          <img src="https://psaraswat.com/posts/images/what-do-i-do-with-my-life/g3.png" alt="Graph 3" />
+
+          <p>The question naturally arises: how does one go from the conventional situation to the ideal one? I&rsquo;m glad you asked! Allow me to explain using an overly general, poorly illustrated, no-one-asked-for-this, unnecessary analogy. Welcome to the Life Choices Ice Cream Parlor!</p>
+
+          <img src="https://psaraswat.com/posts/images/what-do-i-do-with-my-life/ill1.png" alt="Ice cream parlor" />
+
+          <p>Let&rsquo;s say you walk into an ice cream parlor with one goal - buy a huge, huge bucket of ice cream that will last you several years. Here&rsquo;s the catch: you don&rsquo;t know how any of these flavors taste.</p>
+
+          <p>Picking one at random seems like a bad idea, what if you buy a bucket of &ldquo;Web Designer&rdquo; ice cream and hate it?</p>
+
+          <p>Instead, a much better idea is to ask for tasters. Experiment! Try some &ldquo;Data Science&rdquo; ice cream. Ask for a taste of the &ldquo;Distributed Computing&rdquo; special. Take a deep dive into the &ldquo;Introduction to Econometrics&rdquo; sundae. As you try more of these flavors, you begin to develop a sense of what you like, and equally importantly, what you <em>don&rsquo;t</em> like. What this translates to in real life is getting &lsquo;tasters&rsquo; of your options. These tasters are in the form of courses, independent projects, online research, and reaching out to people who have been working in the field you are considering.</p>
+
+          <img src="https://psaraswat.com/posts/images/what-do-i-do-with-my-life/ill2.png" alt="Tasters" />
+
+          <p>By asking for these &lsquo;tasters&rsquo;, you learn a lot more about yourself. Your likes, your dislikes, your interests, and a lot more. The end result is, you walk out with a tub of ice cream you know you will enjoy.</p>
+
+          <blockquote>&ldquo;Let go of certainty. The opposite isn&rsquo;t uncertainty. It&rsquo;s openness, curiosity and a willingness to embrace paradox, rather than choose up sides.&rdquo;<br><br><em>-</em> <strong><em>Tony Schwartz</em></strong></blockquote>
+
+          <p>When I graduated with my Bachelor&rsquo;s degree in 2019, I thought I was going to walk out with a tub of Embedded Systems ice cream. Instead, after taking a great Computer Architecture course during grad school, I realized I enjoyed it a lot more. Had I not taken this course, I wouldn&rsquo;t have known what I was missing out on. This also leads to an equally important side point that I failed to see as a college freshman: &ldquo;What do I do with my life&rdquo; is a flawed question! It assumes that adulthood is this monolithic, long, monotonous journey containing one single activity or job, but it isn&rsquo;t! If Julia Child can be an extraordinary chef while also being a US spy (this is true), you can do different things too! I am a hardware engineer by day and musician + writer by night. Let go of any fear that you are &lsquo;locked in&rsquo; to your choices.</p>
+
+          <p>At the end of the day, if you find yourself feeling anxious about not knowing what you want to do and not knowing how to make the decision, please remember that you are not alone! This is the norm, and I&rsquo;m a big fan of experimenting and broadening my horizons before I make a decision. Study broadly and without fear, and you will end up with multiple flavors of ice creams - all of which you know you enjoy.</p>
+
+          <p><em>See you next week for a new post.</em></p>
+
+          <p><em>Thanks for reading! You can always</em> <a href="mailto:parthswat@gmail.com"><em>email me</em></a> <em>to chat about this post - or anything else.</em></p>
+
+          <p><strong><em>As is true for any advice or counsel you ever receive: Y.M.M.V! Your mileage may vary. Some advice can be a vice. Feel free to take what you can use, and leave the rest. There are no rules.</em></strong></p>]]></content:encoded>
     </item>
     <item>
       <title>Getting Ready To Start A Career</title>
@@ -104,6 +1443,59 @@
       <guid isPermaLink="true">https://psaraswat.com/posts/getting-ready-to-start-a-career.html</guid>
       <pubDate>Wed, 01 Jul 2020 00:00:00 GMT</pubDate>
       <description>Transitioning from structured education to a career means shifting from goal-oriented to behavior-oriented thinking.</description>
+      <content:encoded><![CDATA[<img class="c-hero" src="https://psaraswat.com/posts/images/getting-ready-to-start-a-career/thumb.png" alt="Header" />
+
+          <p>I recently graduated from a Master&rsquo;s program. This signals the end of my formal education (for now?)! At this age, most of my friends are also finishing up college and getting ready to enter the workforce. Given this trend of transitioning from formal education into beginning our careers, most of our conversations center around how starting a career is going to be different when compared to formal education. This is a post about what I think the key differences are between the worlds of formal education and career development, and how I plan on changing my approach to stay afloat.</p>
+
+          <p><strong><em>Disclaimer</em></strong>: <em>I&rsquo;m the least qualified person to be talking about this. This post is entirely speculative and I&rsquo;m sure things don&rsquo;t actually work this way. I just wanted to put my thoughts out there.</em></p>
+
+          <p>The way I see it, formal education is like being plopped into a river. You go where the river takes you. This is perfectly fine, because at the age where you enter formal education, you probably are not intelligent enough to make your own decisions. You probably aren&rsquo;t intelligent enough to tell the difference between a spoonful of food headed your way and an airplane either (if you are a 2 year old who can do this, please <a href="mailto:parthswat@gmail.com">contact me</a>).</p>
+
+          <img src="https://psaraswat.com/posts/images/getting-ready-to-start-a-career/ill1.png" alt="Illustration 1" />
+
+          <p>This isn&rsquo;t to say that you never get to make your own decisions: every now and then there will be a fork in the river, and you will need to make a decision. Think of situations where you had to decide what you wanted to go to college for, or when you had to declare your major. Although these are decisions you are making, they only lead you into another stream in the river, where you, once again, <em>follow the flow</em>.</p>
+
+          <img src="https://psaraswat.com/posts/images/getting-ready-to-start-a-career/ill2.png" alt="Illustration 2" />
+
+          <p>The situation so far can be summarised this way: there was always an end goal in mind, (example: getting a degree, scoring an internship, etc) and you followed the flow of a river to get there. The river is the &lsquo;template&rsquo; or a set of proven steps you could follow to achieve said goal.</p>
+
+          <p>Now that formal education is over, the situation is different. It&rsquo;s as if the river has led me out to a massive open field. There is no real flow, I can go where I want, I can do what I like, and I have the power to make all my decisions.</p>
+
+          <img src="https://psaraswat.com/posts/images/getting-ready-to-start-a-career/ill3.png" alt="Illustration 3" />
+
+          <p>I am not used to being in such a situation, and I&rsquo;m beginning to realise that I now have to think critically about how I will approach this open field. In order to do this, I first need to understand the key differences between this situation and a <em>go with the flow</em> situation I was in until a month ago.</p>
+
+          <p>So, how is this situation different?</p>
+
+          <p><strong>1. This is a long-haul thing</strong></p>
+
+          <p>Formal education lasts around 21-22 years, but is actually broken down into many 4-5 year blocks (primary school, high school, college). It&rsquo;s a structured system. A career path, on the other hand, is (on average) a ~30 year stretch. The key takeaway here is that your &lsquo;end goal&rsquo; will keep changing and shifting. Maybe after a year of being a mechanical engineer you realise that you enjoy management. Your goalposts will keep changing as you change, and as you learn more about yourself and the industry you&rsquo;re in.</p>
+
+          <p><strong>2. You are in <em>full</em> control</strong></p>
+
+          <p>Outside of ensuring your financial security, you now have very few obligations. You can choose to switch careers, you can choose to turn down a promotion, you could even choose to start your own company. The possibilities are endless, and this seems like an overwhelming amount of control,</p>
+
+          <p>Those are&hellip; major differences. How do I change my approach to deal with these characteristics?</p>
+
+          <p>Starting with the fact that this is a long-haul situation, I have 2 thoughts.</p>
+
+          <p>First, given that the end goal isn&rsquo;t going to be fixed, it might be a good idea to switch from a goal-oriented mindset to a behavior-oriented one. Here&rsquo;s what that means: there is nothing wrong in setting a <em>goal</em> of scoring a promotion, but maybe after 6 months at the job I may realise that I simply do not want to continue working in the current team. Instead, setting the <em>intention</em> of learning as much as possible from the people and industry around me makes much more sense. A few months down the line, I will gain skills, experience, and I will be in a much better position to set a goal.</p>
+
+          <p>Secondly, it&rsquo;s probably a good idea to get comfortable with uncertainty. As I start a job, I know very little about the industry, the work, and whether I will enjoy it. I don&rsquo;t want to be making any decisions at this stage. It makes much more sense to wait, get some more intel, and make decisions further down the line.</p>
+
+          <p>Next, the overwhelming amount of control. Yeesh. You can walk wherever you want in the open field that is career development. You can lock yourself into a job and rise up the ladder, you could sample many things and decide what you enjoy best, you could say &lsquo;to hell with it&rsquo; and start your own venture. Having so much control and zero &lsquo;default flow&rsquo; means it&rsquo;s really important to be intentional. The field is huge, and you want to know <em>why</em> you are heading in a certain direction rather than wander around aimlessly.</p>
+
+          <p>I also want to experiment. When I first joined Cornell, I came in with the intention of studying Embedded Systems. I thought I knew exactly what I wanted and I didn&rsquo;t think I could enjoy anything more. I was (wait for it) wrong. I ended up taking a couple of courses in computer architecture that completely changed my mind. Embedded Systems never stood a chance. Point being, you don&rsquo;t know what you really want until you&rsquo;ve tried several things. Career development is a long road, and I do not wish to tie myself down until I&rsquo;ve had the chance to experiment with options.</p>
+
+          <p>The idea is to try something, get feedback (from yourself and people around you), adjust course, and try again. The biggest thing I will do now is ask for advice. From friends who have been in this situation before, from people I will have the chance to work with, and of course, from my parents.</p>
+
+          <p>So, where does this leave us?</p>
+
+          <p>I&rsquo;d like to state again that this is purely speculative. I have no idea what I&rsquo;m talking about, and these are just thoughts. I will be taking my own advice on learning and getting constant feedback and changing how I perceive career development and my approach. This is just my initial mindset as I start my career, and things will change, but in my opinion, this is a good way to begin.</p>
+
+          <p><em>Let me know if you think this sounds familiar to you or if you think things are different (I am 100% sure that they are). Do you think I am over simplifying/over complicating the situation? I certainly think I am. Let me know!</em></p>
+
+          <p><em>This post is inspired by Tim Urban&rsquo;s post about career paths.</em></p>]]></content:encoded>
     </item>
   </channel>
 </rss>
