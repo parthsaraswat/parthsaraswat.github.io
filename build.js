@@ -566,20 +566,41 @@ function plainText(s) {
     .trim();
 }
 
+// Extract the rendered body of a post and rewrite relative URLs to absolute
+// so feed readers can resolve images and links outside the site origin.
+function extractPostBodyForFeed(slug) {
+  const path = join(POSTS_HTML, `${slug}.html`);
+  if (!existsSync(path)) return "";
+  const html = readFileSync(path, "utf8");
+  const m = /<div class="c-postpage-body">([\s\S]*?)<\/div>\s*<div class="c-postpage-foot">/.exec(html);
+  if (!m) return "";
+  const postBase = `${SITE_URL}/posts/`;
+  return m[1]
+    // src/href starting with "images/..." are relative to /posts/
+    .replace(/(\s(?:src|href)=")(images\/)/g, (_, attr, p) => `${attr}${postBase}${p}`)
+    // root-relative paths like "/tags/foo.html"
+    .replace(/(\s(?:src|href)=")\/(?!\/)/g, (_, attr) => `${attr}${SITE_URL}/`)
+    .trim();
+}
+
 function renderRssFeed(merged) {
   const items = merged.map(e => {
     const url = `${SITE_URL}/posts/${e.slug}.html`;
+    const body = extractPostBodyForFeed(e.slug);
+    const contentTag = body
+      ? `\n      <content:encoded><![CDATA[${body.replace(/\]\]>/g, "]]]]><![CDATA[>")}]]></content:encoded>`
+      : "";
     return `    <item>
       <title>${escapeHtml(plainText(e.title))}</title>
       <link>${url}</link>
       <guid isPermaLink="true">${url}</guid>
       <pubDate>${e.date.toUTCString()}</pubDate>
-      <description>${escapeHtml(plainText(e.description))}</description>
+      <description>${escapeHtml(plainText(e.description))}</description>${contentTag}
     </item>`;
   }).join("\n");
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>${escapeHtml(SITE_TITLE)}</title>
     <link>${SITE_URL}/</link>
